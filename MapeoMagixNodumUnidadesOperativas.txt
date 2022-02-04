@@ -1,0 +1,470 @@
+CENTRO_COSTO_MGX_COD_AGRUPACION	CENTRO_COSTO_MGX_DESC_AREA	DESCR_CORTA
+126	DEPARTAMENTO DE FORMACI�N HUMAN�STICA                                                               	DFH
+127	FACULTAD DE CIENCIAS EMPRESARIALES                                                                  	FCE       
+128	FACULTAD DE DERECHO                                                                                 	FD
+129	FACULTAD DE CIENCIAS HUMANAS                                                                        	FCH       
+130	FACULTAD DE INGENIERIA Y TECNOLOG�AS                                                                	FIT       
+131	FACULTAD DE PSICOLOG�A                                                                              	FPSIC
+132	FACULTAD DE ODONTOLOG�A                                                                             	FOD       
+133	DIRECCI�N DE RELACIONES INSTITUCIONALES Y COMUNICACIONES                                            	DIRSECCOM
+134	SEDE PUNTA DEL ESTE- MALDONADO                                                                      	PESTE     
+135	SEDE LITORAL NORTE - PAYSAND�                                                                       	PDU
+136	SEDE LITORAL NORTE - SALTO                                                                          	SALTO     
+137	ASESOR�A LEGAL                                                                                      	ASSLEGAL
+138	BIBLIOTECA Y ARCHIVO                                                                                	BIBLIOTECA
+139	SECRETARIA SEDE CENTRO                                                                              	CDP
+140	DIRECCI�N ADMINISTRATIVA Y FINANCIERA                                                               	DAF       
+142	DIRECCI�N DE PLANTA F�SICA                                                                          	DPF       
+143	DIRECCI�N DE RECURSOS HUMANOS                                                                       	DIRGESTHUM
+144	FACULTAD DE ENFERMER�A Y TECNOLOG�AS DE LA SALUD                                                    	FETS
+145	GENERALES                                                                                           	Generales 
+146	CENTRO DE DESARROLLO PROFESIONAL                                                                    	CDP
+147	SEDES MONTEVIDEO                                                                                    	MDEO
+148	RECTOR�A                                                                                            	Rector�a  
+149	REGISTRO ACAD�MICO                                                                                  	ORA
+151	SEDE TACUAREMB�                                                                                     	TBO
+152	VICERRECTOR�A DEL MEDIO UNIVERSITARIO                                                               	VMU
+153	VICERRECTOR�A ACAD�MICA                                                                             	VRAC
+154	VICERRECTOR�A ADMINISTRATIVA                                                                        	VRAD      
+155	IDIOMAS                                                                                             	Idiomas
+156	ISEDE                                                                                               	ISEDE
+157	SERVICIO DE ATENCI�N AL AULA                                                                        	SAA
+158	ASESOR�A EN SISTEMAS DE INFORMACI�N                                                                 	DSI       
+159	SECRETARIA DE PLANEAMIENTO Y AN�LISIS INSTITUCIONAL                                                 	SEPLANI
+160	DEPARTAMENTO DE FORMACI�N HUMAN�STICA                                                               	DFH
+161	FACULTAD DE CIENCIAS EMPRESARIALES                                                                  	FCE       
+162	FACULTAD DE DERECHO                                                                                 	FD
+163	FACULTAD DE CIENCIAS HUMANAS                                                                        	FCH       
+164	FACULTAD DE INGENIERIA Y TECNOLOG�AS                                                                	FIT       
+165	FACULTAD DE PSICOLOG�A                                                                              	FPSIC
+166	FACULTAD DE ODONTOLOG�A                                                                             	FOD       
+167	DIRECCI�N DE RELACIONES INSTITUCIONALES Y COMUNICACIONES                                            	DIRSECCOM
+168	SEDE PUNTA DEL ESTE- MALDONADO                                                                      	PESTE     
+169	SEDE LITORAL NORTE - PAYSAND�                                                                       	PDU
+170	SEDE LITORAL NORTE - SALTO                                                                          	SALTO     
+171	ASESOR�A LEGAL                                                                                      	ASSLEGAL
+172	BIBLIOTECA Y ARCHIVO                                                                                	BIBLIOTECA
+173	SECRETARIA SEDE CENTRO                                                                              	CDP
+174	DIRECCI�N ADMINISTRATIVA Y FINANCIERA                                                               	DAF       
+176	DIRECCI�N DE PLANTA F�SICA                                                                          	DPF       
+177	DIRECCI�N DE RECURSOS HUMANOS                                                                       	DIRGESTHUM
+178	FACULTAD DE ENFERMER�A Y TECNOLOG�AS DE LA SALUD                                                    	FETS
+179	GENERALES                                                                                           	Generales 
+180	CENTRO DE DESARROLLO PROFESIONAL                                                                    	CDP
+181	SEDES MONTEVIDEO                                                                                    	MDEO
+182	RECTOR�A                                                                                            	Rector�a  
+183	REGISTRO ACAD�MICO                                                                                  	ORA
+185	SEDE TACUAREMB�                                                                                     	TBO
+186	VICERRECTOR�A DEL MEDIO UNIVERSITARIO                                                               	VMU
+187	VICERRECTOR�A ACAD�MICA                                                                             	VRAC
+188	VICERRECTOR�A ADMINISTRATIVA                                                                        	VRAD      
+189	IDIOMAS                                                                                             	Idiomas
+190	ISEDE                                                                                               	ISEDE
+191	SERVICIO DE ATENCI�N AL AULA                                                                        	SAA
+192	ASESOR�A EN SISTEMAS DE INFORMACI�N                                                                 	DSI       
+193	SECRETARIA DE PLANEAMIENTO Y AN�LISIS INSTITUCIONAL                                                 	SEPLANI
+194	VMU-DEPARTAMENTO DE FORMACI�N HUMAN�STICA                                                           	DFH
+195	FACULTAD DE CIENCIAS EMPRESARIALES                                                                  	FCE       
+196	FACULTAD DE DERECHO                                                                                 	FD
+197	FACULTAD DE CIENCIAS HUMANAS                                                                        	FCH       
+198	FACULTAD DE INGENIERIA Y TECNOLOG�AS                                                                	FIT       
+199	FACULTAD DE PSICOLOG�A                                                                              	FPSIC
+200	FACULTAD DE ODONTOLOG�A                                                                             	FOD       
+201	DIRECCI�N DE RELACIONES INSTITUCIONALES Y COMUNICACIONES                                            	DIRSECCOM
+202	SEDE PUNTA DEL ESTE- MALDONADO                                                                      	PESTE     
+204	SEDE LITORAL NORTE - SALTO                                                                          	SALTO     
+205	ASESOR�A LEGAL                                                                                      	ASSLEGAL
+206	BIBLIOTECA Y ARCHIVO                                                                                	BIBLIOTECA
+207	SECRETARIA SEDE CENTRO                                                                              	CDP
+208	DIRECCI�N ADMINISTRATIVA Y FINANCIERA                                                               	DAF       
+210	DIRECCI�N DE PLANTA F�SICA                                                                          	DPF       
+211	DIRECCI�N DE RECURSOS HUMANOS                                                                       	DIRGESTHUM
+212	FACULTAD DE ENFERMER�A Y TECNOLOG�AS DE LA SALUD                                                    	FETS
+213	GENERALES                                                                                           	Generales 
+214	CENTRO DE DESARROLLO PROFESIONAL                                                                    	CDP
+215	SEDES MONTEVIDEO                                                                                    	MDEO
+216	RECTOR�A                                                                                            	Rector�a  
+217	REGISTRO ACAD�MICO                                                                                  	ORA
+219	SEDE TACUAREMB�                                                                                     	TBO
+220	VICERRECTOR�A DEL MEDIO UNIVERSITARIO                                                               	VMU
+221	VICERRECTOR�A ACAD�MICA                                                                             	VRAC
+222	VICERRECTORIA DE GESTION ECONOMICA Y DESARROLLO                                                     	VGED
+223	IDIOMAS                                                                                             	Idiomas
+224	ISEDE                                                                                               	ISEDE
+225	SERVICIO DE ATENCI�N AL AULA                                                                        	SAA
+226	DIRECCI�N DE SISTEMAS                                                                               	ASSSISTINF
+227	SECRETARIA DE INFORMACION ESTRATEGICA Y CALIDAD                                                     	SIEC
+228	VMU-DEPARTAMENTO DE FORMACI�N HUMAN�STICA                                                           	DFH
+229	FACULTAD DE CIENCIAS EMPRESARIALES                                                                  	FCE       
+230	FACULTAD DE DERECHO                                                                                 	FD
+231	FACULTAD DE CIENCIAS HUMANAS                                                                        	FCH       
+232	FACULTAD DE INGENIERIA Y TECNOLOG�AS                                                                	FIT       
+233	FACULTAD DE PSICOLOG�A                                                                              	FPSIC
+234	FACULTAD DE ODONTOLOG�A                                                                             	FOD       
+235	DRIC-SECRETAR�A DE ADMISI�N                                                                         	DRIC
+236	SEDE PUNTA DEL ESTE- MALDONADO                                                                      	PESTE     
+238	SEDE LITORAL NORTE - SALTO                                                                          	SALTO     
+239	SECRETAR�A DE ASUNTOS JUR�DICOS                                                                     	JURIDICA
+240	SISTEMAS DE BIBLIOTECA                                                                              	BIBLIOTECA
+241	SECRETARIA SEDE CENTRO                                                                              	CDP
+242	DIRECCI�N ADMINISTRATIVA Y FINANCIERA                                                               	DAF       
+243	DIRECCI�N DE PLANTA F�SICA                                                                          	DPF       
+244	DIRECCI�N DE GESTI�N HUMANA                                                                         	DGH       
+245	FACULTAD DE ENFERMER�A Y TECNOLOG�AS DE LA SALUD                                                    	FETS
+246	GENERALES                                                                                           	Generales 
+247	CENTRO DE DESARROLLO T�CNICO PROFESIONAL                                                            	CDTP
+248	SEDES MONTEVIDEO                                                                                    	MDEO
+249	RECTOR�A                                                                                            	Rector�a  
+250	REGISTRO ACAD�MICO                                                                                  	ORA
+251	SEDE TACUAREMB�                                                                                     	TBO
+252	VICERRECTOR�A DEL MEDIO UNIVERSITARIO                                                               	VMU
+253	VICERRECTOR�A ACAD�MICA                                                                             	VRAC
+254	VICERRECTORIA DE GESTION ECONOMICA Y DESARROLLO                                                     	VGED
+255	CENTRO DE IDIOMAS                                                                                   	DPING     
+256	ESCUELA DE NEGOCIOS                                                                                 	ESCNEG
+258	DIRECCI�N DE SISTEMAS DE INFORMACI�N                                                                	DSI       
+259	SECRETARIA DE INFORMACION ESTRATEGICA Y CALIDAD                                                     	SIEC
+260	DRIC-SECRETAR�A DE COMUNICACI�N INSTITUCIONAL                                                       	DRIC
+261	DRIC-SECRETAR�A DE RELACIONES INSTITUCIONALES                                                       	DRIC
+262	VMU-DEPARTAMENTO DE FORMACI�N HUMAN�STICA                                                           	DFH
+263	FACULTAD DE CIENCIAS EMPRESARIALES                                                                  	FCE       
+264	FACULTAD DE DERECHO                                                                                 	FD
+265	FACULTAD DE CIENCIAS HUMANAS                                                                        	FCH       
+266	FACULTAD DE INGENIERIA Y TECNOLOG�AS                                                                	FIT       
+267	FACULTAD DE PSICOLOG�A                                                                              	FPSIC
+268	FACULTAD DE ODONTOLOG�A                                                                             	FOD       
+269	DRIC-SECRETAR�A DE ADMISI�N                                                                         	DRIC
+270	SEDE PUNTA DEL ESTE- MALDONADO                                                                      	PESTE     
+272	SEDE LITORAL NORTE - SALTO                                                                          	SALTO     
+273	SECRETAR�A DE ASUNTOS JUR�DICOS                                                                     	JURIDICA
+274	SISTEMAS DE BIBLIOTECA                                                                              	BIBLIOTECA
+276	DIRECCI�N ADMINISTRATIVA Y FINANCIERA                                                               	DAF       
+277	DIRECCI�N DE PLANTA F�SICA                                                                          	DPF       
+278	DIRECCI�N DE GESTI�N HUMANA                                                                         	DGH       
+279	FACULTAD DE ENFERMER�A Y TECNOLOG�AS DE LA SALUD                                                    	FETS
+280	GENERALES                                                                                           	Generales 
+281	CENTRO DE DESARROLLO T�CNICO PROFESIONAL                                                            	CDTP
+282	SEDES MONTEVIDEO                                                                                    	MDEO
+283	RECTOR�A                                                                                            	Rector�a  
+284	REGISTRO ACAD�MICO                                                                                  	ORA
+286	VICERRECTOR�A DEL MEDIO UNIVERSITARIO                                                               	VMU
+287	VICERRECTOR�A ACAD�MICA                                                                             	VRAC
+288	VICERRECTORIA DE GESTION ECONOMICA Y DESARROLLO                                                     	VGED
+289	CENTRO DE IDIOMAS                                                                                   	DPING     
+290	ESCUELA DE NEGOCIOS                                                                                 	ESCNEG
+292	DIRECCI�N DE SISTEMAS DE INFORMACI�N                                                                	DSI       
+293	SECRETARIA DE INFORMACION ESTRATEGICA Y CALIDAD                                                     	SIEC
+294	DRIC-SECRETAR�A DE COMUNICACI�N INSTITUCIONAL                                                       	DRIC
+295	DRIC-SECRETAR�A DE RELACIONES INSTITUCIONALES                                                       	DRIC
+296	DRIC-SECRETAR�A DE PROMOCI�N                                                                        	DRIC
+297	DRIC-DIRECCI�N DE COMUNICACI�N INSTITUCIONAL                                                        	DCI
+298	VMU-DEPARTAMENTO DE FORMACI�N HUMAN�STICA                                                           	DFH
+299	FACULTAD DE CIENCIAS EMPRESARIALES                                                                  	FCE       
+300	FACULTAD DE DERECHO                                                                                 	FD
+301	FACULTAD DE CIENCIAS HUMANAS                                                                        	FCH       
+302	FACULTAD DE INGENIERIA Y TECNOLOG�AS                                                                	FIT       
+303	FACULTAD DE PSICOLOG�A                                                                              	FPSIC
+304	FACULTAD DE ODONTOLOG�A                                                                             	FOD       
+305	DRIC-SECRETAR�A DE ADMISI�N                                                                         	DRIC
+306	SEDE PUNTA DEL ESTE- MALDONADO                                                                      	PESTE     
+307	DRIC-SECRETAR�A DE PROMOCI�N                                                                        	DRIC
+308	SEDE LITORAL NORTE - SALTO                                                                          	SALTO     
+309	SECRETAR�A DE ASUNTOS JUR�DICOS                                                                     	JURIDICA
+310	SISTEMAS DE BIBLIOTECA                                                                              	BIBLIOTECA
+311	DRIC-DIRECCI�N DE COMUNICACI�N INSTITUCIONAL                                                        	DCI
+312	DIRECCI�N ADMINISTRATIVA Y FINANCIERA                                                               	DAF       
+313	DIRECCI�N DE PLANTA F�SICA                                                                          	DPF       
+314	DIRECCI�N DE GESTI�N HUMANA                                                                         	DGH       
+315	FACULTAD DE ENFERMER�A Y TECNOLOG�AS DE LA SALUD                                                    	FETS
+316	GENERALES                                                                                           	Generales 
+317	CENTRO DE DESARROLLO T�CNICO PROFESIONAL                                                            	CDTP
+318	SEDES MONTEVIDEO                                                                                    	MDEO
+319	RECTOR�A                                                                                            	Rector�a  
+320	REGISTRO ACAD�MICO                                                                                  	ORA
+321	VICERRECTOR�A DEL MEDIO UNIVERSITARIO                                                               	VMU
+322	VICERRECTOR�A ACAD�MICA                                                                             	VRAC
+323	VICERRECTORIA DE GESTION ECONOMICA Y DESARROLLO                                                     	VGED
+324	CENTRO DE IDIOMAS                                                                                   	DPING     
+325	ESCUELA DE NEGOCIOS                                                                                 	ESCNEG
+326	DIRECCI�N DE SISTEMAS DE INFORMACI�N                                                                	DSI       
+327	SECRETARIA DE INFORMACION ESTRATEGICA Y CALIDAD                                                     	SIEC
+328	DRIC-SECRETAR�A DE COMUNICACI�N                                                                     	DRIC
+329	DRIC-SECRETAR�A DE RELACIONES INSTITUCIONALES                                                       	DRIC
+330	SERVICIO DE ATENCI�N ESTUDIANTIL                                                                    	SAE
+331	DEPARTAMENTO DE FORMACI�N HUMAN�STICA                                                               	DFH
+332	FACULTAD DE CIENCIAS EMPRESARIALES                                                                  	FCE       
+333	FACULTAD DE DERECHO                                                                                 	FD
+334	FACULTAD DE CIENCIAS HUMANAS                                                                        	FCH       
+335	FACULTAD DE INGENIERIA Y TECNOLOG�AS                                                                	FIT       
+336	FACULTAD DE PSICOLOG�A                                                                              	FPSIC
+337	FACULTAD DE ODONTOLOG�A                                                                             	FOD       
+338	DCI-SECRETAR�A DE ADMISI�N                                                                          	DCI
+339	SEDE PUNTA DEL ESTE- MALDONADO                                                                      	PESTE     
+340	DCI-SECRETAR�A DE PROMOCI�N                                                                         	DCI
+341	SEDE LITORAL NORTE - SALTO                                                                          	SALTO     
+342	SECRETAR�A DE ASUNTOS JUR�DICOS                                                                     	JURIDICA
+343	SISTEMAS DE BIBLIOTECA                                                                              	BIBLIOTECA
+344	DCI-DIRECCI�N DE COMUNICACI�N INSTITUCIONAL                                                         	DCI
+345	DIRECCI�N ADMINISTRATIVA Y FINANCIERA                                                               	DAF       
+346	DIRECCI�N DE PLANTA F�SICA                                                                          	DPF       
+347	DIRECCI�N DE GESTI�N HUMANA                                                                         	DGH       
+348	FACULTAD DE ENFERMER�A Y TECNOLOG�AS DE LA SALUD                                                    	FETS
+349	GENERALES                                                                                           	Generales 
+350	CENTRO DE DESARROLLO T�CNICO PROFESIONAL                                                            	CDTP
+351	SEDES MONTEVIDEO                                                                                    	MDEO
+352	RECTOR�A                                                                                            	Rector�a  
+353	REGISTRO ACAD�MICO                                                                                  	ORA
+354	DIRECCI�N DE ASUNTOS ESTUDIANTILES                                                                  	DAE       
+355	VII Y VPA (EX-VRAC)                                                                                 	VRAC
+356	VICERRECTOR�A DE GESTI�N ECON�MICA Y DESARROLLO                                                     	VGED
+357	CENTRO DE IDIOMAS                                                                                   	DPING     
+358	ESCUELA DE NEGOCIOS                                                                                 	ESCNEG
+359	DIRECCI�N DE SISTEMAS DE INFORMACI�N                                                                	DSI       
+360	SECRETARIA DE INFORMACION ESTRAT�GICA Y CALIDAD                                                     	SIEC
+361	DCI-SECRETAR�A DE COMUNICACI�N                                                                      	DCI       
+362	DIRECCI�N DE ASUNTOS INTERNACIONALES Y ALUMNI                                                       	INTERESTL
+363	SERVICIO DE ATENCI�N ESTUDIANTIL                                                                    	SAE
+364	VICERRECTOR�A DE LA COMUNIDAD UNIVERSITARIA                                                         	VCU
+366	FACULTAD DE CIENCIAS EMPRESARIALES                                                                  	FCE       
+367	FACULTAD DE DERECHO                                                                                 	FD
+368	FACULTAD DE CIENCIAS HUMANAS                                                                        	FCH       
+369	FACULTAD DE INGENIERIA Y TECNOLOG�AS                                                                	FIT       
+370	FACULTAD DE PSICOLOG�A                                                                              	FPSIC
+371	FACULTAD DE ODONTOLOG�A                                                                             	FOD       
+372	DCI-SECRETAR�A DE ADMISI�N                                                                          	DCI
+373	SEDE PUNTA DEL ESTE- MALDONADO                                                                      	PESTE     
+374	DCI-SECRETAR�A DE PROMOCI�N                                                                         	DCI
+375	SEDE LITORAL NORTE - SALTO                                                                          	SALTO     
+376	SECRETAR�A DE ASUNTOS JUR�DICOS                                                                     	JURIDICA
+377	SISTEMAS DE BIBLIOTECA                                                                              	BIBLIOTECA
+378	DCI-DIRECCI�N DE COMUNICACI�N INSTITUCIONAL                                                         	DCI
+379	DIRECCI�N ADMINISTRATIVA Y FINANCIERA                                                               	DAF       
+380	DIRECCI�N DE PLANTA F�SICA                                                                          	DPF       
+381	DIRECCI�N DE GESTI�N HUMANA                                                                         	DGH       
+382	FACULTAD DE ENFERMER�A Y TECNOLOG�AS DE LA SALUD                                                    	FETS
+383	GENERALES                                                                                           	Generales 
+384	CENTRO DE DESARROLLO T�CNICO PROFESIONAL                                                            	CDTP
+385	SEDES MONTEVIDEO                                                                                    	MDEO
+386	RECTOR�A                                                                                            	Rector�a  
+387	REGISTRO ACAD�MICO                                                                                  	ORA
+388	DIRECCI�N DE ASUNTOS ESTUDIANTILES                                                                  	DAE       
+390	VICERRECTOR�A ADMINISTRATIVA                                                                        	VRAD      
+391	CENTRO DE IDIOMAS                                                                                   	DPING     
+392	ESCUELA DE NEGOCIOS                                                                                 	ESCNEG
+393	DIRECCI�N DE SISTEMAS DE INFORMACI�N                                                                	DSI       
+395	DCI-SECRETAR�A DE COMUNICACI�N                                                                      	DCI       
+396	DIRECCI�N DE ASUNTOS INTERNACIONALES Y ALUMNI                                                       	INTERESTL
+397	SERVICIO DE ATENCI�N ESTUDIANTIL                                                                    	SAE
+398	VICERRECTOR�A DE LA COMUNIDAD UNIVERSITARIA                                                         	VCU
+399	VICERRECTOR�A DE PROGRAMAS ACAD�MICOS                                                               	VPA       
+400	VICERRECTOR�A DE INVESTIGACI�N E INNOVACI�N                                                         	VII
+401	VII-DEPARTAMENTOS, INSTITUTOS Y CENTROS                                                             	VII-deptos
+402	CENTRO DE EDUCACI�N CONTINUA                                                                        	CEC       
+403	FACULTAD DE CIENCIAS EMPRESARIALES                                                                  	FCE       
+404	FACULTAD DE DERECHO                                                                                 	FD
+405	FACULTAD DE CIENCIAS HUMANAS                                                                        	FCH       
+406	FACULTAD DE INGENIERIA Y TECNOLOG�AS                                                                	FIT       
+408	FACULTAD DE ODONTOLOG�A                                                                             	FOD       
+409	DCI-SECRETAR�A DE COMUNICACI�N INTERNA                                                              	DCI
+410	CAMPUS PUNTA DEL ESTE                                                                               	PESTE     
+411	DCI-SECRETAR�A DE PROMOCI�N                                                                         	DCI
+412	CAMPUS SALTO                                                                                        	SALTO     
+413	SECRETAR�A DE ASUNTOS JUR�DICOS                                                                     	JURIDICA
+414	SISTEMAS DE BIBLIOTECA                                                                              	BIBLIOTECA
+415	DCI-DIRECCI�N DE COMUNICACI�N INSTITUCIONAL                                                         	DCI
+416	DIRECCI�N ADMINISTRATIVA Y FINANCIERA                                                               	DAF       
+417	DIRECCI�N DE PLANTA F�SICA                                                                          	DPF       
+418	DIRECCI�N DE GESTI�N HUMANA                                                                         	DGH       
+420	GENERALES                                                                                           	Generales 
+421	CENTRO DE DESARROLLO T�CNICO PROFESIONAL                                                            	CDTP
+422	SEDES MONTEVIDEO                                                                                    	MDEO
+423	RECTOR�A                                                                                            	Rector�a  
+424	OFICINA DE TITULACI�N                                                                               	TITULACION
+425	DIRECCI�N DE ASUNTOS ESTUDIANTILES                                                                  	DAE       
+426	VICERRECTOR�A ADMINISTRATIVA                                                                        	VRAD      
+427	CENTRO DE IDIOMAS                                                                                   	DPING     
+428	UCU BUSINESS SCHOOL                                                                                 	UCUBS     
+429	DIRECCI�N DE SISTEMAS DE INFORMACI�N                                                                	DSI       
+430	DCI-SECRETAR�A PUBLICIDAD Y PRODUCCI�N                                                              	DCI
+431	DIRECCI�N DE ASUNTOS INTERNACIONALES Y ALUMNI                                                       	INTERESTL
+433	VICERRECTOR�A DE LA COMUNIDAD UNIVERSITARIA                                                         	VCU
+434	VICERRECTOR�A DE PROGRAMAS ACAD�MICOS                                                               	VPA       
+435	VICERRECTOR�A DE INVESTIGACI�N E INNOVACI�N                                                         	VII
+436	VII-DEPARTAMENTOS, INSTITUTOS Y CENTROS                                                             	VII-deptos
+437	CENTRO DE EDUCACI�N CONTINUA                                                                        	CEC       
+438	BEDEL�A                                                                                             	Bedel�a   
+439	FACULTAD DE CIENCIAS DE LA SALUD                                                                    	FCS       
+440	ESCUELA DE POSTGRADOS                                                                               	EPG       
+441	DCI-SECRETAR�A DE CONTENIDOS Y PRENSA                                                               	DCI
+443	FACULTAD DE CIENCIAS EMPRESARIALES                                                                  	FCE       
+444	FACULTAD DE DERECHO                                                                                 	FD
+445	FACULTAD DE CIENCIAS HUMANAS                                                                        	FCH       
+446	FACULTAD DE INGENIERIA Y TECNOLOG�AS                                                                	FIT       
+448	FACULTAD DE ODONTOLOG�A                                                                             	FOD       
+450	CAMPUS PUNTA DEL ESTE                                                                               	PESTE     
+452	CAMPUS SALTO                                                                                        	SALTO     
+453	SECRETAR�A DE ASUNTOS JUR�DICOS                                                                     	JURIDICA
+454	SISTEMAS DE BIBLIOTECA                                                                              	BIBLIOTECA
+455	DIRECCI�N DE COMUNICACI�N INSTITUCIONAL                                                             	DCI
+456	DIRECCI�N ADMINISTRATIVA Y FINANCIERA                                                               	DAF       
+457	DIRECCI�N DE PLANTA F�SICA                                                                          	DPF       
+458	DIRECCI�N DE GESTI�N HUMANA                                                                         	DGH       
+460	GENERALES                                                                                           	Generales 
+462	CAMPUS MONTEVIDEO                                                                                   	CAMPUS MVD
+463	RECTOR�A                                                                                            	Rector�a  
+464	OFICINA DE TITULACI�N                                                                               	TITULACION
+465	DIRECCI�N DE ASUNTOS ESTUDIANTILES                                                                  	DAE       
+466	VICERRECTOR�A ADMINISTRATIVA                                                                        	VRAD      
+467	CENTRO DE IDIOMAS                                                                                   	DPING     
+468	UCU BUSINESS SCHOOL                                                                                 	UCUBS     
+469	DIRECCI�N DE SISTEMAS DE INFORMACI�N                                                                	DSI       
+471	DIRECCI�N DE ASUNTOS INTERNACIONALES Y ALUMNI                                                       	INTERESTL
+473	VICERRECTOR�A DE LA COMUNIDAD UNIVERSITARIA                                                         	VCU
+474	VICERRECTOR�A DE PROGRAMAS ACAD�MICOS                                                               	VPA       
+475	VICERRECTOR�A DE INVESTIGACI�N E INNOVACI�N                                                         	VII
+476	VII-DEPARTAMENTOS, INSTITUTOS Y CENTROS                                                             	VII-deptos
+477	CENTRO DE EDUCACI�N CONTINUA                                                                        	CEC       
+478	BEDEL�A                                                                                             	Bedel�a   
+479	FACULTAD DE CIENCIAS DE LA SALUD                                                                    	FCS       
+480	ESCUELA DE POSTGRADOS                                                                               	EPG       
+481	FACULTAD DE CIENCIAS EMPRESARIALES                                                                  	FCE       
+482	FACULTAD DE DERECHO                                                                                 	FD
+483	FACULTAD DE CIENCIAS HUMANAS                                                                        	FCH       
+484	FACULTAD DE INGENIERIA Y TECNOLOG�AS                                                                	FIT       
+485	FACULTAD DE ODONTOLOG�A                                                                             	FOD       
+486	CAMPUS PUNTA DEL ESTE                                                                               	PESTE     
+487	CAMPUS SALTO                                                                                        	SALTO     
+488	SECRETAR�A DE ASUNTOS JUR�DICOS                                                                     	JURIDICA
+489	SISTEMAS DE BIBLIOTECA                                                                              	BIBLIOTECA
+490	DIRECCI�N DE COMUNICACI�N INSTITUCIONAL                                                             	DCI
+491	DIRECCI�N ADMINISTRATIVA Y FINANCIERA                                                               	DAF       
+492	DIRECCI�N DE PLANTA F�SICA                                                                          	DPF       
+493	DIRECCI�N DE GESTI�N HUMANA                                                                         	DGH       
+494	GENERALES                                                                                           	Generales 
+495	CAMPUS MONTEVIDEO                                                                                   	CAMPUS MVD
+496	RECTOR�A                                                                                            	Rector�a  
+497	OFICINA DE TITULACI�N                                                                               	TITULACION
+498	DIRECCI�N DE ASUNTOS ESTUDIANTILES                                                                  	DAE       
+499	VICERRECTOR�A ADMINISTRATIVA                                                                        	VRAD      
+500	CENTRO DE IDIOMAS                                                                                   	DPING     
+501	UCU BUSINESS SCHOOL                                                                                 	UCUBS     
+502	DIRECCI�N DE SISTEMAS DE INFORMACI�N                                                                	DSI       
+503	DIRECCI�N DE ASUNTOS INTERNACIONALES Y ALUMNI                                                       	INTERESTL
+504	VICERRECTOR�A DE LA COMUNIDAD UNIVERSITARIA                                                         	VCU
+505	VICERRECTOR�A DE PROGRAMAS ACAD�MICOS                                                               	VPA       
+506	VICERRECTOR�A DE INVESTIGACI�N E INNOVACI�N                                                         	VII
+507	VII-DEPARTAMENTOS, INSTITUTOS Y CENTROS                                                             	VII-deptos
+508	CENTRO DE EDUCACI�N CONTINUA                                                                        	CEC       
+509	BEDEL�A                                                                                             	Bedel�a   
+510	FACULTAD DE CIENCIAS DE LA SALUD                                                                    	FCS       
+511	ESCUELA DE POSTGRADOS                                                                               	EPG       
+512	FACULTAD DE CIENCIAS EMPRESARIALES                                                                  	FCE       
+513	FACULTAD DE INGENIERIA Y TECNOLOG�AS                                                                	FIT       
+514	FACULTAD DE ODONTOLOG�A                                                                             	FOD       
+515	CAMPUS PUNTA DEL ESTE                                                                               	PESTE     
+516	CAMPUS SALTO                                                                                        	SALTO     
+517	SECRETAR�A DE ASUNTOS JUR�DICOS                                                                     	JURIDICA
+518	FACULTAD DE DERECHO                                                                                 	FD
+519	FACULTAD DE CIENCIAS HUMANAS                                                                        	FCH       
+520	SISTEMAS DE BIBLIOTECA                                                                              	BIBLIOTECA
+521	DIRECCI�N DE COMUNICACI�N INSTITUCIONAL                                                             	DCI
+522	DIRECCI�N ADMINISTRATIVA Y FINANCIERA                                                               	DAF       
+523	DIRECCI�N DE PLANTA F�SICA                                                                          	DPF       
+524	DIRECCI�N DE GESTI�N HUMANA                                                                         	DGH       
+525	GENERALES                                                                                           	Generales 
+526	CAMPUS MONTEVIDEO                                                                                   	CAMPUS MVD
+527	RECTOR�A                                                                                            	Rector�a  
+528	OFICINA DE TITULACI�N                                                                               	TITULACION
+529	DIRECCI�N DE ASUNTOS ESTUDIANTILES                                                                  	DAE       
+530	VICERRECTOR�A ADMINISTRATIVA                                                                        	VRAD      
+531	CENTRO DE IDIOMAS                                                                                   	DPING     
+532	UCU BUSINESS SCHOOL                                                                                 	UCUBS     
+533	DIRECCI�N DE SISTEMAS DE INFORMACI�N                                                                	DSI       
+534	DIRECCI�N DE ASUNTOS INTERNACIONALES Y ALUMNI                                                       	INTERESTL
+535	VICERRECTOR�A DE LA COMUNIDAD UNIVERSITARIA                                                         	VCU
+536	VICERRECTOR�A DE PROGRAMAS ACAD�MICOS                                                               	VPA       
+537	VICERRECTOR�A DE INVESTIGACI�N E INNOVACI�N                                                         	VII
+538	VII-DEPARTAMENTOS, INSTITUTOS Y CENTROS                                                             	VII-deptos
+539	CENTRO DE EDUCACI�N CONTINUA                                                                        	CEC       
+540	BEDEL�A                                                                                             	Bedel�a   
+541	FACULTAD DE CIENCIAS DE LA SALUD                                                                    	FCS       
+542	ESCUELA DE POSTGRADOS                                                                               	EPG       
+100	DEPARTAMENTO DE EDUCACION                                                                           	VII-DEPTOS
+1001	ITHAKA                                                                                              	VII
+1002	LUDUS                                                                                               	VPA
+1003	VICERRECTORIA DE PROGRAMAS ACADEMICOS                                                               	VPA
+1014	DEPARTAMENTO EN DERECHO                                                                             	VII-DEPTOS
+1015	DEPARTAMENTO EN DERECHO PRIVADO                                                                     	VII-DEPTOS
+1018	INSITUTO DE HISTORIA (N)                                                                            	VII-DEPTOS
+1019	INSTITUTO DE FILOSOFIA                                                                              	VII-DEPTOS
+1020	DEPARTAMENTO DE HUMANIDADES Y COMUNICACION                                                          	VII-DEPTOS
+1021	INSTITUTO DE SOCIEDAD Y RELIGION                                                                    	VII-DEPTOS
+1030	VICERRECTORIA INVESTIGACION E INNOVACION                                                            	VII
+1034	DEPARTAMENTO DE HUMANIDADES                                                                         	VII-DEPTOS
+1038	DEPARTAMENTO DE PSICOLOGIA SOCIAL Y TRABAJO                                                         	VII-DEPTOS
+1039	DEPARTAMENTO DE ADMINISTRACION Y NEGOCIOS                                                           	VII-DEPTOS
+1045	UNIDAD DE APOYO A LOS DEPARTAMENTOS                                                                 	VII-DEPTOS
+1046	MAESTRIA PSICOTERAPIA ADULTOS                                                                       	ESP
+1052	CENTRO DE EDUCACION CONTINUA                                                                        	CEC
+1053	DEPARTAMENTO DE ODONTOLOGIA                                                                         	VII-DEPTOS
+1074	MEDICINA                                                                                            	FCS
+1079	DEPARTAMENTO DE CIENCIAS SOCIALES                                                                   	VII-DEPTOS
+1080	DEPARTAMENTO DE CIENCIAS EXACTAS Y NATURALES                                                        	VII-DEPTOS
+1081	DEPARTAMENTO DE INGENIERIA                                                                          	VII-DEPTOS
+11	LIC. EN DIRECCION DE EMPRESAS                                                                       	FCE
+111	MAESTRIA EN ESTUDIOS ORGANIZA                                                                       	UCUBS
+1112	MAESTRIA EN FISIOTERAPIA                                                                            	UCUBS
+1113	MAESTRIA Y PG DESARROLLO Y APRENDIZAJE                                                              	UCUBS
+1115	DIRECCION DE GESTION DE GRADO                                                                       	VPA
+1121	MAESTRIA - PG EN GESTION DE CONFLICTOS	UCUBS
+1122	MAESTRIA EN METODOLOGIAS                                                                            	UCUBS
+1132	MAESTRIA EN LIDERAZGO Y GESTION EDUCATIVA                                                           	UCUBS
+1133	MAESTRIA EN PSICOLOGIA DE LA SALUD Y DEPORTE                                                        	UCUBS
+1134	ACOMPAÑAMIENTO TERAPUETICO SALTO                                                                    	FCS
+1146	INGENIERIA AMBIENTAL                                                                                	FIT
+12	LIC. EN NEGOCIOS INTERNACIONAL                                                                      	FCE
+124	POST GRADOS Y MAESTRIAS DE DCSP                                                                     	ESP
+13	LIC. EN RELACIONES LABORALES                                                                        	FCE
+14	LIC. EN ECONOMIA                                                                                    	FCE
+15	MBA                                                                                                 	UCUBS
+16	PG EN MARKETING                                                                                     	EPG
+218	LICENCIATURA EN NUTRICIÓN                                                                           	FCS
+28	CONTADOR PUBLICO                                                                                    	FCE
+29	PG.EN FINANZAS                                                                                      	EPG
+32	LIC.EN DIREC.EMPR.TURÍSTICAS                                                                        	FCE
+33	PG.EN TRIBUTARIA                                                                                    	EPG
+40	COMPETITIVIDAD Y CLUSTERS                                                                           	FCE
+41	DERECHO                                                                                             	FD
+51	NOTARIADO                                                                                           	FD
+59	DEPARTAMENTO DE ESTUDIOS ORGANIZACIONALES                                                           	VII-DEPTOS
+60	LIC. EN CIENCIAS SOCIALES                                                                           	FCH
+600	MAESTRIA EN DERECHO CIVIL                                                                           	UCUBS
+61	LIC. EN COMUNICACION SOCIAL                                                                         	FCH
+722	DEPTO. NEGOCIOS INTERNACIONALES E INTEGRACION                                                       	VII-DEPTOS
+765	DPTO.INFORMATICA Y CC DE LA COMPUTACION                                                             	VII-DEPTOS
+795	LICENCIATURA EN PRODUCCION Y GESTION AGRICOLA GANADERA (SALTO)                                      	FCE
+806	LIC. EN FONOAUDIOLOGIA                                                                              	FCS
+811	INGENIERIA DE LOS ALIMENTOS                                                                         	FIT
+816	MAESTRIA EN ATENCION TEMPRANA                                                                       	UCUBS
+821	PG COMUNICACION ORGANIZACIONAL                                                                      	EPG
+856	POST GRADO Y MAESTRIAS EN EDUCACION                                                                 	ESP
+863	MAESTRIA EN GERENCIA DE TECNOLOGIA DE LA INFORMACION                                                	UCUBS
+878	LICENCIATURA EN INFORMATICA (SALTO)                                                                 	FIT
+903	LICENCIATURA EN SEGURIDAD Y SALUD OCUPACIONAL                                                       	FIT
+904	LICENCIATURA EN ARTES VISUALES                                                                      	FCH
+909	DEPARTAMENTO DE NEUROCIENCIA Y APRENDIZAJE                                                          	VII-DEPTOS
+912	DEPARTAMENTO DE PSICOLOGIA                                                                          	VII-DEPTOS
+913	DEPTO. PSICOLOGIA DEL DESARROLLO Y EDUCACION                                                        	VII-DEPTOS
+920	DEPARTAMENTO DE BIENESTAR Y SALUD                                                                   	VII-DEPTOS
+928	LIC. EN LOGISTICA                                                                                   	FCE
+936	MAESTRIA EN DERECHO PROCESAL PENAL                                                                  	UCUBS
+938	DPTO CIENCIAS DE LA ENFERMERIA                                                                      	VII-DEPTOS
+939	DEPARTAMENTO NUTRICION                                                                              	VII-DEPTOS
+940	DPTO CIENCIAS DEL MOVIMIENTO HUMANO                                                                 	VII-DEPTOS
+941	DECANATO FACULTAD DE CIENCIAS DE LA SALUD                                                           	VPA
+942	LICENCIATURA EN FISIOTERAPIA                                                                        	FCS
+943	LICENCIATURA EN PSICOMOTRICIDAD                                                                     	FCS
+946	LIC. EN ENFERMERÍA                                                                                  	FCS
+95	CARRERA DE GRADO EN EDUCACION                                                                       	FCH
+950	MAESTRIA EN CUIDADOS PALIATIVOS                                                                     	UCUBS
+956	PG. ESP. GESTION SERVICIOS DE SALUD                                                                 	EPG

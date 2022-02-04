@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "UCU_ODS_FINANZAS", "UCU_ODS_FINANZAS.dtproj", "{643FC97C-6D27-43FD-83E6-9A28BEA1FDAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{643FC97C-6D27-43FD-83E6-9A28BEA1FDAA}.Development|Default.ActiveCfg = Development
+		{643FC97C-6D27-43FD-83E6-9A28BEA1FDAA}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33A81241-7E86-4AC0-810F-5CE2F58A8380}
+	EndGlobalSection
+EndGlobal

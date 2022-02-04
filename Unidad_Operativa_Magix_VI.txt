@@ -1,0 +1,329 @@
+cod_clasedpto	nom_clasedpto	cod_tipodpto	nom_tipodpto	Unidad_Operativa	Unidad_Operativa_Desc	fuente
+480	ESCUELA DE POSTGRADOS	EPG	Escuela De Postgrados	EPG	Escuela De Postgrados	MAGIX
+479	FACULTAD DE CIENCIAS DE LA SALUD	FCS	Facultad De Ciencias De La Salud	FCS	Facultad De Ciencias De La Salud	MAGIX
+478	BEDELÍA	VPA	Bedelía	VPA	Bedelía	MAGIX
+477	CENTRO DE EDUCACIÓN CONTINUA	CEC	Centro De Educación Continua	CEC	Centro De Educación Continua	MAGIX
+476	VII-DEPARTAMENTOS, INSTITUTOS Y CENTROS	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	MAGIX
+475	VICERRECTORÍA DE INVESTIGACIÓN E INNOVACIÓN	VII	Vicerrectoría De Investigación E Innovación	VII	Vicerrectoría De Investigación E Innovación	MAGIX
+474	VICERRECTORÍA DE PROGRAMAS ACADÉMICOS	VPA	Vicerrectoría De Programas Académicos	VPA	Vicerrectoría De Programas Académicos	MAGIX
+473	VICERRECTORÍA DE LA COMUNIDAD UNIVERSITARIA	VCU	Vicerrectoría De La Comunidad Universitaria	VCU	Vicerrectoría De La Comunidad Universitaria	MAGIX
+471	DIRECCIÓN DE ASUNTOS INTERNACIONALES Y ALUMNI	VCU	Dirección De Asuntos Internacionales Y Alumni	VCU	Dirección De Asuntos Internacionales Y Alumni	MAGIX
+469	DIRECCIÓN DE SISTEMAS DE INFORMACIÓN	VRAD	Dirección De Sistemas De Información	VRAD	Dirección De Sistemas De Información	MAGIX
+468	UCU BUSINESS SCHOOL	UCUBS	Ucu Business School	UCUBS	Ucu Business School	MAGIX
+467	CENTRO DE IDIOMAS	VPA	Centro De Idiomas	VPA	Centro De Idiomas	MAGIX
+466	VICERRECTORÍA ADMINISTRATIVA	VRAD	Vicerrectoría Administrativa	VRAD	Vicerrectoría Administrativa	MAGIX
+465	DIRECCIÓN DE ASUNTOS ESTUDIANTILES	VCU	Dirección De Asuntos Estudiantiles	VCU	Dirección De Asuntos Estudiantiles	MAGIX
+464	OFICINA DE TITULACIÓN	RECTORADO	Oficina De Titulación	RECTORADO	Oficina De Titulación	MAGIX
+463	RECTORADO	RECTORADO	Rectorado	RECTORADO	Rectorado	MAGIX
+462	CAMPUS MONTEVIDEO	SMVDYGRAL	Campus Montevideo	SMVDYGRAL	Campus Montevideo	MAGIX
+460	GENERALES	SMVDYGRAL	Generales	SMVDYGRAL	Generales	MAGIX
+458	DIRECCIÓN DE GESTIÓN HUMANA	VRAD	Dirección De Gestión Humana	VRAD	Dirección De Gestión Humana	MAGIX
+457	DIRECCIÓN DE PLANTA FÍSICA	VRAD	Dirección De Planta Física	VRAD	Dirección De Planta Física	MAGIX
+456	DIRECCIÓN ADMINISTRATIVA Y FINANCIERA	VRAD	Dirección Administrativa Y Financiera	VRAD	Dirección Administrativa Y Financiera	MAGIX
+455	DIRECCIÓN DE COMUNICACIÓN INSTITUCIONAL	VCU	Dirección De Comunicación Institucional	VCU	Dirección De Comunicación Institucional	MAGIX
+454	SISTEMAS DE BIBLIOTECA	VII	Sistemas De Biblioteca	VII	Sistemas De Biblioteca	MAGIX
+453	SECRETARÍA DE ASUNTOS JURÍDICOS	RECTORADO	Secretaría De Asuntos Jurídicos	RECTORADO	Secretaría De Asuntos Jurídicos	MAGIX
+452	CAMPUS SALTO	VPA	Campus Salto	VPA	Campus Salto	MAGIX
+450	CAMPUS PUNTA DEL ESTE	VPA	Campus Punta Del Este	VPA	Campus Punta Del Este	MAGIX
+439	FACULTAD DE CIENCIAS DE LA SALUD	FCS	Facultad De Ciencias De La Salud	FCS	Facultad De Ciencias De La Salud	MAGIX
+443	FACULTAD DE CIENCIAS EMPRESARIALES	FCE	Facultad De Ciencias Empresariales	FCE	Facultad De Ciencias Empresariales	MAGIX
+403	FACULTAD DE CIENCIAS EMPRESARIALES	FCE	Facultad De Ciencias Empresariales	FCE	Facultad De Ciencias Empresariales	MAGIX
+366	FACULTAD DE CIENCIAS EMPRESARIALES	FCE	Facultad De Ciencias Empresariales	FCE	Facultad De Ciencias Empresariales	MAGIX
+332	FACULTAD DE CIENCIAS EMPRESARIALES	FCE	Facultad De Ciencias Empresariales	FCE	Facultad De Ciencias Empresariales	MAGIX
+441	DCI-SECRETARÍA DE CONTENIDOS Y PRENSA	VCU	Dci-Secretaría De Contenidos Y Prensa	VCU	Dci-Secretaría De Contenidos Y Prensa	MAGIX
+440	ESCUELA DE POSTGRADOS	EPG	Escuela De Postgrados	EPG	Escuela De Postgrados	MAGIX
+299	FACULTAD DE CIENCIAS EMPRESARIALES	FCE	Facultad De Ciencias Empresariales	FCE	Facultad De Ciencias Empresariales	MAGIX
+438	BEDELÍA	VPA	Bedelía	VPA	Bedelía	MAGIX
+437	CENTRO DE EDUCACIÓN CONTINUA	CEC	Centro De Educación Continua	CEC	Centro De Educación Continua	MAGIX
+436	VII-DEPARTAMENTOS, INSTITUTOS Y CENTROS	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	MAGIX
+435	VICERRECTORÍA DE INVESTIGACIÓN E INNOVACIÓN	VII	Vicerrectoría De Investigación E Innovación	VII	Vicerrectoría De Investigación E Innovación	MAGIX
+434	VICERRECTORÍA DE PROGRAMAS ACADÉMICOS	VPA	Vicerrectoría De Programas Académicos	VPA	Vicerrectoría De Programas Académicos	MAGIX
+433	VICERRECTORÍA DE LA COMUNIDAD UNIVERSITARIA	VCU	Vicerrectoría De La Comunidad Universitaria	VCU	Vicerrectoría De La Comunidad Universitaria	MAGIX
+431	DIRECCIÓN DE ASUNTOS INTERNACIONALES Y ALUMNI	VCU	Dirección De Asuntos Internacionales Y Alumni	VCU	Dirección De Asuntos Internacionales Y Alumni	MAGIX
+430	DCI-SECRETARÍA PUBLICIDAD Y PRODUCCIÓN	VCU	Dci-Secretaría Publicidad Y Producción	VCU	Dci-Secretaría Publicidad Y Producción	MAGIX
+429	DIRECCIÓN DE SISTEMAS DE INFORMACIÓN	VRAD	Dirección De Sistemas De Información	VRAD	Dirección De Sistemas De Información	MAGIX
+428	UCU BUSINESS SCHOOL	UCUBS	Ucu Business School	UCUBS	Ucu Business School	MAGIX
+427	CENTRO DE IDIOMAS	VPA	Centro De Idiomas	VPA	Centro De Idiomas	MAGIX
+426	VICERRECTORÍA ADMINISTRATIVA	VRAD	Vicerrectoría Administrativa	VRAD	Vicerrectoría Administrativa	MAGIX
+425	DIRECCIÓN DE ASUNTOS ESTUDIANTILES	VCU	Dirección De Asuntos Estudiantiles	VCU	Dirección De Asuntos Estudiantiles	MAGIX
+424	OFICINA DE TITULACIÓN	RECTORADO	Oficina De Titulación	RECTORADO	Oficina De Titulación	MAGIX
+423	RECTORADO	RECTORADO	Rectorado	RECTORADO	Rectorado	MAGIX
+422	SEDES MONTEVIDEO	SMVDYGRAL	Sedes Montevideo	SMVDYGRAL	Sedes Montevideo	MAGIX
+421	CENTRO DE DESARROLLO TÉCNICO PROFESIONAL	CDTP	Centro De Desarrollo Técnico Profesional	CDTP	Centro De Desarrollo Técnico Profesional	MAGIX
+420	GENERALES	SMVDYGRAL	Generales	SMVDYGRAL	Generales	MAGIX
+418	DIRECCIÓN DE GESTIÓN HUMANA	VRAD	Dirección De Gestión Humana	VRAD	Dirección De Gestión Humana	MAGIX
+417	DIRECCIÓN DE PLANTA FÍSICA	VRAD	Dirección De Planta Física	VRAD	Dirección De Planta Física	MAGIX
+416	DIRECCIÓN ADMINISTRATIVA Y FINANCIERA	VRAD	Dirección Administrativa Y Financiera	VRAD	Dirección Administrativa Y Financiera	MAGIX
+415	DCI-DIRECCIÓN DE COMUNICACIÓN INSTITUCIONAL	VCU	Dci-Dirección De Comunicación Institucional	VCU	Dci-Dirección De Comunicación Institucional	MAGIX
+414	SISTEMAS DE BIBLIOTECA	VII	Sistemas De Biblioteca	VII	Sistemas De Biblioteca	MAGIX
+413	SECRETARÍA DE ASUNTOS JURÍDICOS	RECTORADO	Secretaría De Asuntos Jurídicos	RECTORADO	Secretaría De Asuntos Jurídicos	MAGIX
+412	CAMPUS SALTO	VPA	Campus Salto	VPA	Campus Salto	MAGIX
+411	DCI-SECRETARÍA DE PROMOCIÓN	VCU	Dci-Secretaría De Promoción	VCU	Dci-Secretaría De Promoción	MAGIX
+410	CAMPUS PUNTA DEL ESTE	VPA	Campus Punta Del Este	VPA	Campus Punta Del Este	MAGIX
+409	DCI-SECRETARÍA DE COMUNICACIÓN INTERNA	VCU	Dci-Secretaría De Comunicación Interna	VCU	Dci-Secretaría De Comunicación Interna	MAGIX
+263	FACULTAD DE CIENCIAS EMPRESARIALES	FCE	Facultad De Ciencias Empresariales	FCE	Facultad De Ciencias Empresariales	MAGIX
+229	FACULTAD DE CIENCIAS EMPRESARIALES	FCE	Facultad De Ciencias Empresariales	FCE	Facultad De Ciencias Empresariales	MAGIX
+195	FACULTAD DE CIENCIAS EMPRESARIALES	FCE	Facultad De Ciencias Empresariales	FCE	Facultad De Ciencias Empresariales	MAGIX
+161	FACULTAD DE CIENCIAS EMPRESARIALES	FCE	Facultad De Ciencias Empresariales	FCE	Facultad De Ciencias Empresariales	MAGIX
+127	FACULTAD DE CIENCIAS EMPRESARIALES	FCE	Facultad De Ciencias Empresariales	FCE	Facultad De Ciencias Empresariales	MAGIX
+402	CENTRO DE EDUCACIÓN CONTINUA	CEC	Centro De Educación Continua	CEC	Centro De Educación Continua	MAGIX
+401	VII-DEPARTAMENTOS, INSTITUTOS Y CENTROS	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	MAGIX
+400	VICERRECTORÍA DE INVESTIGACIÓN E INNOVACIÓN	VII	Vicerrectoría De Investigación E Innovación	VII	Vicerrectoría De Investigación E Innovación	MAGIX
+399	VICERRECTORÍA DE PROGRAMAS ACADÉMICOS	VPA	Vicerrectoría De Programas Académicos	VPA	Vicerrectoría De Programas Académicos	MAGIX
+398	VICERRECTORÍA DE LA COMUNIDAD UNIVERSITARIA	VCU	Vicerrectoría De La Comunidad Universitaria	VCU	Vicerrectoría De La Comunidad Universitaria	MAGIX
+397	SERVICIO DE ATENCIÓN ESTUDIANTIL	VCU	Servicio De Atención Estudiantil	VCU	Servicio De Atención Estudiantil	MAGIX
+396	DIRECCIÓN DE ASUNTOS INTERNACIONALES Y ALUMNI	VCU	Dirección De Asuntos Internacionales Y Alumni	VCU	Dirección De Asuntos Internacionales Y Alumni	MAGIX
+395	DCI-SECRETARÍA DE COMUNICACIÓN	VCU	Dci-Secretaría De Comunicación	VCU	Dci-Secretaría De Comunicación	MAGIX
+393	DIRECCIÓN DE SISTEMAS DE INFORMACIÓN	VRAD	Dirección De Sistemas De Información	VRAD	Dirección De Sistemas De Información	MAGIX
+392	ESCUELA DE NEGOCIOS	ISEDE	Escuela De Negocios	ISEDE	Escuela De Negocios	MAGIX
+391	CENTRO DE IDIOMAS	VPA	Centro De Idiomas	VPA	Centro De Idiomas	MAGIX
+390	VICERRECTORÍA ADMINISTRATIVA	VRAD	Vicerrectoría Administrativa	VRAD	Vicerrectoría Administrativa	MAGIX
+388	DIRECCIÓN DE ASUNTOS ESTUDIANTILES	VCU	Dirección De Asuntos Estudiantiles	VCU	Dirección De Asuntos Estudiantiles	MAGIX
+387	REGISTRO ACADÉMICO	RECTORADO	Registro Académico	RECTORADO	Registro Académico	MAGIX
+386	RECTORADO	RECTORADO	Rectorado	RECTORADO	Rectorado	MAGIX
+385	SEDES MONTEVIDEO	SMVDYGRAL	Sedes Montevideo	SMVDYGRAL	Sedes Montevideo	MAGIX
+384	CENTRO DE DESARROLLO TÉCNICO PROFESIONAL	CDTP	Centro De Desarrollo Técnico Profesional	CDTP	Centro De Desarrollo Técnico Profesional	MAGIX
+383	GENERALES	SMVDYGRAL	Generales	SMVDYGRAL	Generales	MAGIX
+445	FACULTAD DE CIENCIAS HUMANAS	FCH	Facultad De Ciencias Humanas	FCH	Facultad De Ciencias Humanas	MAGIX
+381	DIRECCIÓN DE GESTIÓN HUMANA	VRAD	Dirección De Gestión Humana	VRAD	Dirección De Gestión Humana	MAGIX
+380	DIRECCIÓN DE PLANTA FÍSICA	VRAD	Dirección De Planta Física	VRAD	Dirección De Planta Física	MAGIX
+379	DIRECCIÓN ADMINISTRATIVA Y FINANCIERA	VRAD	Dirección Administrativa Y Financiera	VRAD	Dirección Administrativa Y Financiera	MAGIX
+378	DCI-DIRECCIÓN DE COMUNICACIÓN INSTITUCIONAL	VCU	Dci-Dirección De Comunicación Institucional	VCU	Dci-Dirección De Comunicación Institucional	MAGIX
+377	SISTEMAS DE BIBLIOTECA	VII	Sistemas De Biblioteca	VII	Sistemas De Biblioteca	MAGIX
+376	SECRETARÍA DE ASUNTOS JURÍDICOS	RECTORADO	Secretaría De Asuntos Jurídicos	RECTORADO	Secretaría De Asuntos Jurídicos	MAGIX
+375	SEDE LITORAL NORTE - SALTO	VPA	Sede Litoral Norte - Salto	VPA	Sede Litoral Norte - Salto	MAGIX
+374	DCI-SECRETARÍA DE PROMOCIÓN	VCU	Dci-Secretaría De Promoción	VCU	Dci-Secretaría De Promoción	MAGIX
+373	SEDE PUNTA DEL ESTE- MALDONADO	VPA	Sede Punta Del Este- Maldonado	VPA	Sede Punta Del Este- Maldonado	MAGIX
+372	DCI-SECRETARÍA DE ADMISIÓN	VCU	Dci-Secretaría De Admisión	VCU	Dci-Secretaría De Admisión	MAGIX
+405	FACULTAD DE CIENCIAS HUMANAS	FCH	Facultad De Ciencias Humanas	FCH	Facultad De Ciencias Humanas	MAGIX
+368	FACULTAD DE CIENCIAS HUMANAS	FCH	Facultad De Ciencias Humanas	FCH	Facultad De Ciencias Humanas	MAGIX
+334	FACULTAD DE CIENCIAS HUMANAS	FCH	Facultad De Ciencias Humanas	FCH	Facultad De Ciencias Humanas	MAGIX
+301	FACULTAD DE CIENCIAS HUMANAS	FCH	Facultad De Ciencias Humanas	FCH	Facultad De Ciencias Humanas	MAGIX
+265	FACULTAD DE CIENCIAS HUMANAS	FCH	Facultad De Ciencias Humanas	FCH	Facultad De Ciencias Humanas	MAGIX
+231	FACULTAD DE CIENCIAS HUMANAS	FCH	Facultad De Ciencias Humanas	FCH	Facultad De Ciencias Humanas	MAGIX
+364	VICERRECTORÍA DE LA COMUNIDAD UNIVERSITARIA	VCU	Vicerrectoría De La Comunidad Universitaria	VCU	Vicerrectoría De La Comunidad Universitaria	MAGIX
+363	SERVICIO DE ATENCIÓN ESTUDIANTIL	VCU	Servicio De Atención Estudiantil	VCU	Servicio De Atención Estudiantil	MAGIX
+362	DIRECCIÓN DE ASUNTOS INTERNACIONALES Y ALUMNI	VCU	Dirección De Asuntos Internacionales Y Alumni	VCU	Dirección De Asuntos Internacionales Y Alumni	MAGIX
+361	DCI-SECRETARÍA DE COMUNICACIÓN	VCU	Dci-Secretaría De Comunicación	VCU	Dci-Secretaría De Comunicación	MAGIX
+360	SECRETARIA DE INFORMACION ESTRATÉGICA Y CALIDAD	SIEC	Secretaria De Informacion Estratégica Y Calidad	SIEC	Secretaria De Informacion Estratégica Y Calidad	MAGIX
+359	DIRECCIÓN DE SISTEMAS DE INFORMACIÓN	VRAD	Dirección De Sistemas De Información	VRAD	Dirección De Sistemas De Información	MAGIX
+358	ESCUELA DE NEGOCIOS	ISEDE	Escuela De Negocios	ISEDE	Escuela De Negocios	MAGIX
+357	CENTRO DE IDIOMAS	VPA	Centro De Idiomas	VPA	Centro De Idiomas	MAGIX
+356	VICERRECTORÍA DE GESTIÓN ECONÓMICA Y DESARROLLO	VRAD	Vicerrectoría De Gestión Económica Y Desarrollo	VRAD	Vicerrectoría De Gestión Económica Y Desarrollo	MAGIX
+355	VII Y VPA (EX-VRAC)	VII	Vii Y Vpa (Ex-Vrac)	VII	Vii Y Vpa (Ex-Vrac)	MAGIX
+354	DIRECCIÓN DE ASUNTOS ESTUDIANTILES	VCU	Dirección De Asuntos Estudiantiles	VCU	Dirección De Asuntos Estudiantiles	MAGIX
+353	REGISTRO ACADÉMICO	RECTORADO	Registro Académico	RECTORADO	Registro Académico	MAGIX
+352	RECTORADO	RECTORADO	Rectorado	RECTORADO	Rectorado	MAGIX
+351	SEDES MONTEVIDEO	SMVDYGRAL	Sedes Montevideo	SMVDYGRAL	Sedes Montevideo	MAGIX
+350	CENTRO DE DESARROLLO TÉCNICO PROFESIONAL	CDTP	Centro De Desarrollo Técnico Profesional	CDTP	Centro De Desarrollo Técnico Profesional	MAGIX
+349	GENERALES	SMVDYGRAL	Generales	SMVDYGRAL	Generales	MAGIX
+197	FACULTAD DE CIENCIAS HUMANAS	FCH	Facultad De Ciencias Humanas	FCH	Facultad De Ciencias Humanas	MAGIX
+347	DIRECCIÓN DE GESTIÓN HUMANA	VRAD	Dirección De Gestión Humana	VRAD	Dirección De Gestión Humana	MAGIX
+346	DIRECCIÓN DE PLANTA FÍSICA	VRAD	Dirección De Planta Física	VRAD	Dirección De Planta Física	MAGIX
+345	DIRECCIÓN ADMINISTRATIVA Y FINANCIERA	VRAD	Dirección Administrativa Y Financiera	VRAD	Dirección Administrativa Y Financiera	MAGIX
+344	DCI-DIRECCIÓN DE COMUNICACIÓN INSTITUCIONAL	VCU	Dci-Dirección De Comunicación Institucional	VCU	Dci-Dirección De Comunicación Institucional	MAGIX
+343	SISTEMAS DE BIBLIOTECA	VII	Sistemas De Biblioteca	VII	Sistemas De Biblioteca	MAGIX
+342	SECRETARÍA DE ASUNTOS JURÍDICOS	RECTORADO	Secretaría De Asuntos Jurídicos	RECTORADO	Secretaría De Asuntos Jurídicos	MAGIX
+341	SEDE LITORAL NORTE - SALTO	VPA	Sede Litoral Norte - Salto	VPA	Sede Litoral Norte - Salto	MAGIX
+340	DCI-SECRETARÍA DE PROMOCIÓN	VCU	Dci-Secretaría De Promoción	VCU	Dci-Secretaría De Promoción	MAGIX
+339	SEDE PUNTA DEL ESTE- MALDONADO	VPA	Sede Punta Del Este- Maldonado	VPA	Sede Punta Del Este- Maldonado	MAGIX
+338	DCI-SECRETARÍA DE ADMISIÓN	VCU	Dci-Secretaría De Admisión	VCU	Dci-Secretaría De Admisión	MAGIX
+163	FACULTAD DE CIENCIAS HUMANAS	FCH	Facultad De Ciencias Humanas	FCH	Facultad De Ciencias Humanas	MAGIX
+129	FACULTAD DE CIENCIAS HUMANAS	FCH	Facultad De Ciencias Humanas	FCH	Facultad De Ciencias Humanas	MAGIX
+444	FACULTAD DE DERECHO	FD	Facultad De Derecho	FD	Facultad De Derecho	MAGIX
+404	FACULTAD DE DERECHO	FD	Facultad De Derecho	FD	Facultad De Derecho	MAGIX
+367	FACULTAD DE DERECHO	FD	Facultad De Derecho	FD	Facultad De Derecho	MAGIX
+333	FACULTAD DE DERECHO	FD	Facultad De Derecho	FD	Facultad De Derecho	MAGIX
+331	DEPARTAMENTO DE FORMACIÓN HUMANÍSTICA	VII-DEPTOS	Departamento De Formación Humanística	VII-DEPTOS	Departamento De Formación Humanística	MAGIX
+330	SERVICIO DE ATENCIÓN ESTUDIANTIL	VCU	Servicio De Atención Estudiantil	VCU	Servicio De Atención Estudiantil	MAGIX
+329	DRIC-SECRETARÍA DE RELACIONES INSTITUCIONALES	VCU	Dric-Secretaría De Relaciones Institucionales	VCU	Dric-Secretaría De Relaciones Institucionales	MAGIX
+328	DRIC-SECRETARÍA DE COMUNICACIÓN	VCU	Dric-Secretaría De Comunicación	VCU	Dric-Secretaría De Comunicación	MAGIX
+327	SECRETARIA DE INFORMACION ESTRATEGICA Y CALIDAD	SIEC	Secretaria De Informacion Estrategica Y Calidad	SIEC	Secretaria De Informacion Estrategica Y Calidad	MAGIX
+326	DIRECCIÓN DE SISTEMAS DE INFORMACIÓN	VRAD	Dirección De Sistemas De Información	VRAD	Dirección De Sistemas De Información	MAGIX
+325	ESCUELA DE NEGOCIOS	ISEDE	Escuela De Negocios	ISEDE	Escuela De Negocios	MAGIX
+324	CENTRO DE IDIOMAS	VPA	Centro De Idiomas	VPA	Centro De Idiomas	MAGIX
+323	VICERRECTORIA DE GESTION ECONOMICA Y DESARROLLO	VRAD	Vicerrectoria De Gestion Economica Y Desarrollo	VRAD	Vicerrectoria De Gestion Economica Y Desarrollo	MAGIX
+322	VICERRECTORÍA ACADÉMICA	VPA	Vicerrectoría Académica	VPA	Vicerrectoría Académica	MAGIX
+321	VICERRECTORÍA DEL MEDIO UNIVERSITARIO	VCU	Vicerrectoría Del Medio Universitario	VCU	Vicerrectoría Del Medio Universitario	MAGIX
+320	REGISTRO ACADÉMICO	RECTORADO	Registro Académico	RECTORADO	Registro Académico	MAGIX
+319	RECTORADO	RECTORADO	Rectorado	RECTORADO	Rectorado	MAGIX
+318	SEDES MONTEVIDEO	SMVDYGRAL	Sedes Montevideo	SMVDYGRAL	Sedes Montevideo	MAGIX
+317	CENTRO DE DESARROLLO TÉCNICO PROFESIONAL	CDTP	Centro De Desarrollo Técnico Profesional	CDTP	Centro De Desarrollo Técnico Profesional	MAGIX
+316	GENERALES	SMVDYGRAL	Generales	SMVDYGRAL	Generales	MAGIX
+300	FACULTAD DE DERECHO	FD	Facultad De Derecho	FD	Facultad De Derecho	MAGIX
+314	DIRECCIÓN DE GESTIÓN HUMANA	VRAD	Dirección De Gestión Humana	VRAD	Dirección De Gestión Humana	MAGIX
+313	DIRECCIÓN DE PLANTA FÍSICA	VRAD	Dirección De Planta Física	VRAD	Dirección De Planta Física	MAGIX
+312	DIRECCIÓN ADMINISTRATIVA Y FINANCIERA	VRAD	Dirección Administrativa Y Financiera	VRAD	Dirección Administrativa Y Financiera	MAGIX
+311	DRIC-DIRECCIÓN DE COMUNICACIÓN INSTITUCIONAL	VCU	Dric-Dirección De Comunicación Institucional	VCU	Dric-Dirección De Comunicación Institucional	MAGIX
+310	SISTEMAS DE BIBLIOTECA	VII	Sistemas De Biblioteca	VII	Sistemas De Biblioteca	MAGIX
+309	SECRETARÍA DE ASUNTOS JURÍDICOS	RECTORADO	Secretaría De Asuntos Jurídicos	RECTORADO	Secretaría De Asuntos Jurídicos	MAGIX
+308	SEDE LITORAL NORTE - SALTO	VPA	Sede Litoral Norte - Salto	VPA	Sede Litoral Norte - Salto	MAGIX
+307	DRIC-SECRETARÍA DE PROMOCIÓN	VCU	Dric-Secretaría De Promoción	VCU	Dric-Secretaría De Promoción	MAGIX
+306	SEDE PUNTA DEL ESTE- MALDONADO	VPA	Sede Punta Del Este- Maldonado	VPA	Sede Punta Del Este- Maldonado	MAGIX
+305	DRIC-SECRETARÍA DE ADMISIÓN	VCU	Dric-Secretaría De Admisión	VCU	Dric-Secretaría De Admisión	MAGIX
+264	FACULTAD DE DERECHO	FD	Facultad De Derecho	FD	Facultad De Derecho	MAGIX
+230	FACULTAD DE DERECHO	FD	Facultad De Derecho	FD	Facultad De Derecho	MAGIX
+196	FACULTAD DE DERECHO	FD	Facultad De Derecho	FD	Facultad De Derecho	MAGIX
+162	FACULTAD DE DERECHO	FD	Facultad De Derecho	FD	Facultad De Derecho	MAGIX
+128	FACULTAD DE DERECHO	FD	Facultad De Derecho	FD	Facultad De Derecho	MAGIX
+382	FACULTAD DE ENFERMERÍA Y TECNOLOGÍAS DE LA SALUD	FEST	Facultad De Enfermería Y Tecnologías De La Salud	FEST	Facultad De Enfermería Y Tecnologías De La Salud	MAGIX
+298	VMU-DEPARTAMENTO DE FORMACIÓN HUMANÍSTICA	VMU	Vmu-Departamento De Formación Humanística	VMU	Vmu-Departamento De Formación Humanística	MAGIX
+297	DRIC-DIRECCIÓN DE COMUNICACIÓN INSTITUCIONAL	VCU	Dric-Dirección De Comunicación Institucional	VCU	Dric-Dirección De Comunicación Institucional	MAGIX
+296	DRIC-SECRETARÍA DE PROMOCIÓN	VCU	Dric-Secretaría De Promoción	VCU	Dric-Secretaría De Promoción	MAGIX
+295	DRIC-SECRETARÍA DE RELACIONES INSTITUCIONALES	VCU	Dric-Secretaría De Relaciones Institucionales	VCU	Dric-Secretaría De Relaciones Institucionales	MAGIX
+294	DRIC-SECRETARÍA DE COMUNICACIÓN INSTITUCIONAL	VCU	Dric-Secretaría De Comunicación Institucional	VCU	Dric-Secretaría De Comunicación Institucional	MAGIX
+293	SECRETARIA DE INFORMACION ESTRATEGICA Y CALIDAD	SIEC	Secretaria De Informacion Estrategica Y Calidad	SIEC	Secretaria De Informacion Estrategica Y Calidad	MAGIX
+292	DIRECCIÓN DE SISTEMAS DE INFORMACIÓN	VRAD	Dirección De Sistemas De Información	VRAD	Dirección De Sistemas De Información	MAGIX
+290	ESCUELA DE NEGOCIOS	ISEDE	Escuela De Negocios	ISEDE	Escuela De Negocios	MAGIX
+289	CENTRO DE IDIOMAS	VPA	Centro De Idiomas	VPA	Centro De Idiomas	MAGIX
+288	VICERRECTORIA DE GESTION ECONOMICA Y DESARROLLO	VRAD	Vicerrectoria De Gestion Economica Y Desarrollo	VRAD	Vicerrectoria De Gestion Economica Y Desarrollo	MAGIX
+287	VICERRECTORÍA ACADÉMICA	VPA	Vicerrectoría Académica	VPA	Vicerrectoría Académica	MAGIX
+286	VICERRECTORÍA DEL MEDIO UNIVERSITARIO	VMU	Vicerrectoría Del Medio Universitario	VMU	Vicerrectoría Del Medio Universitario	MAGIX
+284	REGISTRO ACADÉMICO	RECTORADO	Registro Académico	RECTORADO	Registro Académico	MAGIX
+283	RECTORADO	RECTORADO	Rectorado	RECTORADO	Rectorado	MAGIX
+282	SEDES MONTEVIDEO	SMVDYGRAL	Sedes Montevideo	SMVDYGRAL	Sedes Montevideo	MAGIX
+281	CENTRO DE DESARROLLO TÉCNICO PROFESIONAL	CDTP	Centro De Desarrollo Técnico Profesional	CDTP	Centro De Desarrollo Técnico Profesional	MAGIX
+280	GENERALES	SMVDYGRAL	Generales	SMVDYGRAL	Generales	MAGIX
+348	FACULTAD DE ENFERMERÍA Y TECNOLOGÍAS DE LA SALUD	FEST	Facultad De Enfermería Y Tecnologías De La Salud	FEST	Facultad De Enfermería Y Tecnologías De La Salud	MAGIX
+278	DIRECCIÓN DE GESTIÓN HUMANA	VRAD	Dirección De Gestión Humana	VRAD	Dirección De Gestión Humana	MAGIX
+277	DIRECCIÓN DE PLANTA FÍSICA	VRAD	Dirección De Planta Física	VRAD	Dirección De Planta Física	MAGIX
+276	DIRECCIÓN ADMINISTRATIVA Y FINANCIERA	VRAD	Dirección Administrativa Y Financiera	VRAD	Dirección Administrativa Y Financiera	MAGIX
+274	SISTEMAS DE BIBLIOTECA	VII	Sistemas De Biblioteca	VII	Sistemas De Biblioteca	MAGIX
+273	SECRETARÍA DE ASUNTOS JURÍDICOS	RECTORADO	Secretaría De Asuntos Jurídicos	RECTORADO	Secretaría De Asuntos Jurídicos	MAGIX
+272	SEDE LITORAL NORTE - SALTO	VPA	Sede Litoral Norte - Salto	VPA	Sede Litoral Norte - Salto	MAGIX
+270	SEDE PUNTA DEL ESTE- MALDONADO	SMVDYGRAL	Sede Punta Del Este- Maldonado	SMVDYGRAL	Sede Punta Del Este- Maldonado	MAGIX
+269	DRIC-SECRETARÍA DE ADMISIÓN	VCU	Dric-Secretaría De Admisión	VCU	Dric-Secretaría De Admisión	MAGIX
+315	FACULTAD DE ENFERMERÍA Y TECNOLOGÍAS DE LA SALUD	FEST	Facultad De Enfermería Y Tecnologías De La Salud	FEST	Facultad De Enfermería Y Tecnologías De La Salud	MAGIX
+279	FACULTAD DE ENFERMERÍA Y TECNOLOGÍAS DE LA SALUD	FEST	Facultad De Enfermería Y Tecnologías De La Salud	FEST	Facultad De Enfermería Y Tecnologías De La Salud	MAGIX
+245	FACULTAD DE ENFERMERÍA Y TECNOLOGÍAS DE LA SALUD	FEST	Facultad De Enfermería Y Tecnologías De La Salud	FEST	Facultad De Enfermería Y Tecnologías De La Salud	MAGIX
+212	FACULTAD DE ENFERMERÍA Y TECNOLOGÍAS DE LA SALUD	FEST	Facultad De Enfermería Y Tecnologías De La Salud	FEST	Facultad De Enfermería Y Tecnologías De La Salud	MAGIX
+178	FACULTAD DE ENFERMERÍA Y TECNOLOGÍAS DE LA SALUD	FEST	Facultad De Enfermería Y Tecnologías De La Salud	FEST	Facultad De Enfermería Y Tecnologías De La Salud	MAGIX
+144	FACULTAD DE ENFERMERÍA Y TECNOLOGÍAS DE LA SALUD	FEST	Facultad De Enfermería Y Tecnologías De La Salud	FEST	Facultad De Enfermería Y Tecnologías De La Salud	MAGIX
+262	VMU-DEPARTAMENTO DE FORMACIÓN HUMANÍSTICA	VMU	Vmu-Departamento De Formación Humanística	VMU	Vmu-Departamento De Formación Humanística	MAGIX
+261	DRIC-SECRETARÍA DE RELACIONES INSTITUCIONALES	VCU	Dric-Secretaría De Relaciones Institucionales	VCU	Dric-Secretaría De Relaciones Institucionales	MAGIX
+260	DRIC-SECRETARÍA DE COMUNICACIÓN INSTITUCIONAL	VCU	Dric-Secretaría De Comunicación Institucional	VCU	Dric-Secretaría De Comunicación Institucional	MAGIX
+259	SECRETARIA DE INFORMACION ESTRATEGICA Y CALIDAD	SIEC	Secretaria De Informacion Estrategica Y Calidad	SIEC	Secretaria De Informacion Estrategica Y Calidad	MAGIX
+258	DIRECCIÓN DE SISTEMAS DE INFORMACIÓN	VRAD	Dirección De Sistemas De Información	VRAD	Dirección De Sistemas De Información	MAGIX
+256	ESCUELA DE NEGOCIOS	ISEDE	Escuela De Negocios	ISEDE	Escuela De Negocios	MAGIX
+255	CENTRO DE IDIOMAS	VPA	Centro De Idiomas	VPA	Centro De Idiomas	MAGIX
+254	VICERRECTORIA DE GESTION ECONOMICA Y DESARROLLO	VRAD	Vicerrectoria De Gestion Economica Y Desarrollo	VRAD	Vicerrectoria De Gestion Economica Y Desarrollo	MAGIX
+253	VICERRECTORÍA ACADÉMICA	VPA	Vicerrectoría Académica	VPA	Vicerrectoría Académica	MAGIX
+252	VICERRECTORÍA DEL MEDIO UNIVERSITARIO	VMU	Vicerrectoría Del Medio Universitario	VMU	Vicerrectoría Del Medio Universitario	MAGIX
+251	SEDE TACUAREMBÓ	VPA	Sede Tacuarembó	VPA	Sede Tacuarembó	MAGIX
+250	REGISTRO ACADÉMICO	RECTORADO	Registro Académico	RECTORADO	Registro Académico	MAGIX
+249	RECTORADO	RECTORADO	Rectorado	RECTORADO	Rectorado	MAGIX
+248	SEDES MONTEVIDEO	VPA	Sedes Montevideo	VPA	Sedes Montevideo	MAGIX
+247	CENTRO DE DESARROLLO TÉCNICO PROFESIONAL	CDTP	Centro De Desarrollo Técnico Profesional	CDTP	Centro De Desarrollo Técnico Profesional	MAGIX
+246	GENERALES	SMVDYGRAL	Generales	SMVDYGRAL	Generales	MAGIX
+446	FACULTAD DE INGENIERIA Y TECNOLOGÍAS	FIT	Facultad De Ingenieria Y Tecnologías	FIT	Facultad De Ingenieria Y Tecnologías	MAGIX
+244	DIRECCIÓN DE GESTIÓN HUMANA	VRAD	Dirección De Gestión Humana	VRAD	Dirección De Gestión Humana	MAGIX
+243	DIRECCIÓN DE PLANTA FÍSICA	VRAD	Dirección De Planta Física	VRAD	Dirección De Planta Física	MAGIX
+242	DIRECCIÓN ADMINISTRATIVA Y FINANCIERA	VRAD	Dirección Administrativa Y Financiera	VRAD	Dirección Administrativa Y Financiera	MAGIX
+241	SECRETARIA SEDE CENTRO	SMVDYGRAL	Secretaria Sede Centro	SMVDYGRAL	Secretaria Sede Centro	MAGIX
+240	SISTEMAS DE BIBLIOTECA	VII	Sistemas De Biblioteca	VII	Sistemas De Biblioteca	MAGIX
+239	SECRETARÍA DE ASUNTOS JURÍDICOS	RECTORADO	Secretaría De Asuntos Jurídicos	RECTORADO	Secretaría De Asuntos Jurídicos	MAGIX
+238	SEDE LITORAL NORTE - SALTO	VPA	Sede Litoral Norte - Salto	VPA	Sede Litoral Norte - Salto	MAGIX
+236	SEDE PUNTA DEL ESTE- MALDONADO	VPA	Sede Punta Del Este- Maldonado	VPA	Sede Punta Del Este- Maldonado	MAGIX
+235	DRIC-SECRETARÍA DE ADMISIÓN	VCU	Dric-Secretaría De Admisión	VCU	Dric-Secretaría De Admisión	MAGIX
+406	FACULTAD DE INGENIERIA Y TECNOLOGÍAS	FIT	Facultad De Ingenieria Y Tecnologías	FIT	Facultad De Ingenieria Y Tecnologías	MAGIX
+369	FACULTAD DE INGENIERIA Y TECNOLOGÍAS	FIT	Facultad De Ingenieria Y Tecnologías	FIT	Facultad De Ingenieria Y Tecnologías	MAGIX
+335	FACULTAD DE INGENIERIA Y TECNOLOGÍAS	FIT	Facultad De Ingenieria Y Tecnologías	FIT	Facultad De Ingenieria Y Tecnologías	MAGIX
+302	FACULTAD DE INGENIERIA Y TECNOLOGÍAS	FIT	Facultad De Ingenieria Y Tecnologías	FIT	Facultad De Ingenieria Y Tecnologías	MAGIX
+266	FACULTAD DE INGENIERIA Y TECNOLOGÍAS	FIT	Facultad De Ingenieria Y Tecnologías	FIT	Facultad De Ingenieria Y Tecnologías	MAGIX
+232	FACULTAD DE INGENIERIA Y TECNOLOGÍAS	FIT	Facultad De Ingenieria Y Tecnologías	FIT	Facultad De Ingenieria Y Tecnologías	MAGIX
+228	VMU-DEPARTAMENTO DE FORMACIÓN HUMANÍSTICA	VMU	Vmu-Departamento De Formación Humanística	VMU	Vmu-Departamento De Formación Humanística	MAGIX
+227	SECRETARIA DE INFORMACION ESTRATEGICA Y CALIDAD	SIEC	Secretaria De Informacion Estrategica Y Calidad	SIEC	Secretaria De Informacion Estrategica Y Calidad	MAGIX
+226	DIRECCIÓN DE SISTEMAS	VRAD	Dirección De Sistemas	VRAD	Dirección De Sistemas	MAGIX
+225	SERVICIO DE ATENCIÓN AL AULA	VPA	Servicio De Atención Al Aula	VPA	Servicio De Atención Al Aula	MAGIX
+224	ISEDE	ISEDE	Isede	ISEDE	Isede	MAGIX
+223	IDIOMAS	VPA	Idiomas	VPA	Idiomas	MAGIX
+222	VICERRECTORIA DE GESTION ECONOMICA Y DESARROLLO	VRAD	Vicerrectoria De Gestion Economica Y Desarrollo	VRAD	Vicerrectoria De Gestion Economica Y Desarrollo	MAGIX
+221	VICERRECTORÍA ACADÉMICA	VPA	Vicerrectoría Académica	VPA	Vicerrectoría Académica	MAGIX
+220	VICERRECTORÍA DEL MEDIO UNIVERSITARIO	VMU	Vicerrectoría Del Medio Universitario	VMU	Vicerrectoría Del Medio Universitario	MAGIX
+219	SEDE TACUAREMBÓ	VPA	Sede Tacuarembó	VPA	Sede Tacuarembó	MAGIX
+217	REGISTRO ACADÉMICO	RECTORADO	Registro Académico	RECTORADO	Registro Académico	MAGIX
+216	RECTORADO	RECTORADO	Rectorado	RECTORADO	Rectorado	MAGIX
+215	SEDES MONTEVIDEO	SMVDYGRAL	Sedes Montevideo	SMVDYGRAL	Sedes Montevideo	MAGIX
+214	CENTRO DE DESARROLLO PROFESIONAL	CDP	Centro De Desarrollo Profesional	CDP	Centro De Desarrollo Profesional	MAGIX
+213	GENERALES	SMVDYGRAL	Generales	SMVDYGRAL	Generales	MAGIX
+198	FACULTAD DE INGENIERIA Y TECNOLOGÍAS	FIT	Facultad De Ingenieria Y Tecnologías	FIT	Facultad De Ingenieria Y Tecnologías	MAGIX
+211	DIRECCIÓN DE RECURSOS HUMANOS	VRAD	Dirección De Recursos Humanos	VRAD	Dirección De Recursos Humanos	MAGIX
+210	DIRECCIÓN DE PLANTA FÍSICA	VRAD	Dirección De Planta Física	VRAD	Dirección De Planta Física	MAGIX
+208	DIRECCIÓN ADMINISTRATIVA Y FINANCIERA	VRAD	Dirección Administrativa Y Financiera	VRAD	Dirección Administrativa Y Financiera	MAGIX
+207	SECRETARIA SEDE CENTRO	SMVDYGRAL	Secretaria Sede Centro	SMVDYGRAL	Secretaria Sede Centro	MAGIX
+206	BIBLIOTECA Y ARCHIVO	VPA	Biblioteca Y Archivo	VPA	Biblioteca Y Archivo	MAGIX
+205	ASESORÍA LEGAL	RECTORADO	Asesoría Legal	RECTORADO	Asesoría Legal	MAGIX
+204	SEDE LITORAL NORTE - SALTO	VPA	Sede Litoral Norte - Salto	VPA	Sede Litoral Norte - Salto	MAGIX
+202	SEDE PUNTA DEL ESTE- MALDONADO	VPA	Sede Punta Del Este- Maldonado	VPA	Sede Punta Del Este- Maldonado	MAGIX
+201	DIRECCIÓN DE RELACIONES INSTITUCIONALES Y COMUNICACIONES	VCU	Dirección De Relaciones Institucionales Y Comunicaciones	VCU	Dirección De Relaciones Institucionales Y Comunicaciones	MAGIX
+164	FACULTAD DE INGENIERIA Y TECNOLOGÍAS	FIT	Facultad De Ingenieria Y Tecnologías	FIT	Facultad De Ingenieria Y Tecnologías	MAGIX
+130	FACULTAD DE INGENIERIA Y TECNOLOGÍAS	FIT	Facultad De Ingenieria Y Tecnologías	FIT	Facultad De Ingenieria Y Tecnologías	MAGIX
+448	FACULTAD DE ODONTOLOGÍA	FOD	Facultad De Odontología	FOD	Facultad De Odontología	MAGIX
+408	FACULTAD DE ODONTOLOGÍA	FOD	Facultad De Odontología	FOD	Facultad De Odontología	MAGIX
+371	FACULTAD DE ODONTOLOGÍA	FOD	Facultad De Odontología	FOD	Facultad De Odontología	MAGIX
+337	FACULTAD DE ODONTOLOGÍA	FOD	Facultad De Odontología	FOD	Facultad De Odontología	MAGIX
+194	VMU-DEPARTAMENTO DE FORMACIÓN HUMANÍSTICA	VMU	Vmu-Departamento De Formación Humanística	VMU	Vmu-Departamento De Formación Humanística	MAGIX
+193	SECRETARIA DE PLANEAMIENTO Y ANÁLISIS INSTITUCIONAL	RECTORADO	Secretaria De Planeamiento Y Análisis Institucional	RECTORADO	Secretaria De Planeamiento Y Análisis Institucional	MAGIX
+192	ASESORÍA EN SISTEMAS DE INFORMACIÓN	VRAD	Asesoría En Sistemas De Información	VRAD	Asesoría En Sistemas De Información	MAGIX
+191	SERVICIO DE ATENCIÓN AL AULA	VPA	Servicio De Atención Al Aula	VPA	Servicio De Atención Al Aula	MAGIX
+190	ISEDE	ISEDE	Isede	ISEDE	Isede	MAGIX
+189	IDIOMAS	VPA	Idiomas	VPA	Idiomas	MAGIX
+188	VICERRECTORÍA ADMINISTRATIVA	VRAD	Vicerrectoría Administrativa	VRAD	Vicerrectoría Administrativa	MAGIX
+187	VICERRECTORÍA ACADÉMICA	VPA	Vicerrectoría Académica	VPA	Vicerrectoría Académica	MAGIX
+186	VICERRECTORÍA DEL MEDIO UNIVERSITARIO	VMU	Vicerrectoría Del Medio Universitario	VMU	Vicerrectoría Del Medio Universitario	MAGIX
+185	SEDE TACUAREMBÓ	VPA	Sede Tacuarembó	VPA	Sede Tacuarembó	MAGIX
+183	REGISTRO ACADÉMICO	RECTORADO	Registro Académico	RECTORADO	Registro Académico	MAGIX
+182	RECTORADO	RECTORADO	Rectorado	RECTORADO	Rectorado	MAGIX
+181	SEDES MONTEVIDEO	SMVDYGRAL	Sedes Montevideo	SMVDYGRAL	Sedes Montevideo	MAGIX
+180	CENTRO DE DESARROLLO PROFESIONAL	CDP	Centro De Desarrollo Profesional	CDP	Centro De Desarrollo Profesional	MAGIX
+179	GENERALES	SMVDYGRAL	Generales	SMVDYGRAL	Generales	MAGIX
+304	FACULTAD DE ODONTOLOGÍA	FOD	Facultad De Odontología	FOD	Facultad De Odontología	MAGIX
+177	DIRECCIÓN DE RECURSOS HUMANOS	VRAD	Dirección De Recursos Humanos	VRAD	Dirección De Recursos Humanos	MAGIX
+176	DIRECCIÓN DE PLANTA FÍSICA	VRAD	Dirección De Planta Física	VRAD	Dirección De Planta Física	MAGIX
+174	DIRECCIÓN ADMINISTRATIVA Y FINANCIERA	VRAD	Dirección Administrativa Y Financiera	VRAD	Dirección Administrativa Y Financiera	MAGIX
+173	SECRETARIA SEDE CENTRO	SMVDYGRAL	Secretaria Sede Centro	SMVDYGRAL	Secretaria Sede Centro	MAGIX
+172	BIBLIOTECA Y ARCHIVO	VPA	Biblioteca Y Archivo	VPA	Biblioteca Y Archivo	MAGIX
+171	ASESORÍA LEGAL	RECTORADO	Asesoría Legal	RECTORADO	Asesoría Legal	MAGIX
+170	SEDE LITORAL NORTE - SALTO	VPA	Sede Litoral Norte - Salto	VPA	Sede Litoral Norte - Salto	MAGIX
+169	SEDE LITORAL NORTE - PAYSANDÚ	VPA	Sede Litoral Norte - Paysandú	VPA	Sede Litoral Norte - Paysandú	MAGIX
+168	SEDE PUNTA DEL ESTE- MALDONADO	VPA	Sede Punta Del Este- Maldonado	VPA	Sede Punta Del Este- Maldonado	MAGIX
+167	DIRECCIÓN DE RELACIONES INSTITUCIONALES Y COMUNICACIONES	VCU	Dirección De Relaciones Institucionales Y Comunicaciones	VCU	Dirección De Relaciones Institucionales Y Comunicaciones	MAGIX
+268	FACULTAD DE ODONTOLOGÍA	FOD	Facultad De Odontología	FOD	Facultad De Odontología	MAGIX
+234	FACULTAD DE ODONTOLOGÍA	FOD	Facultad De Odontología	FOD	Facultad De Odontología	MAGIX
+200	FACULTAD DE ODONTOLOGÍA	FOD	Facultad De Odontología	FOD	Facultad De Odontología	MAGIX
+166	FACULTAD DE ODONTOLOGÍA	FOD	Facultad De Odontología	FOD	Facultad De Odontología	MAGIX
+132	FACULTAD DE ODONTOLOGÍA	FOD	Facultad De Odontología	FOD	Facultad De Odontología	MAGIX
+370	FACULTAD DE PSICOLOGÍA	FPSIC	Facultad De Psicología	FPSIC	Facultad De Psicología	MAGIX
+160	DEPARTAMENTO DE FORMACIÓN HUMANÍSTICA	VII-DEPTOS	Departamento De Formación Humanística	VII-DEPTOS	Departamento De Formación Humanística	MAGIX
+159	SECRETARIA DE PLANEAMIENTO Y ANÁLISIS INSTITUCIONAL	RECTORADO	Secretaria De Planeamiento Y Análisis Institucional	RECTORADO	Secretaria De Planeamiento Y Análisis Institucional	MAGIX
+158	ASESORÍA EN SISTEMAS DE INFORMACIÓN	VRAD	Asesoría En Sistemas De Información	VRAD	Asesoría En Sistemas De Información	MAGIX
+157	SERVICIO DE ATENCIÓN AL AULA	VPA	Servicio De Atención Al Aula	VPA	Servicio De Atención Al Aula	MAGIX
+156	ISEDE	ISEDE	Isede	ISEDE	Isede	MAGIX
+155	IDIOMAS	VPA	Idiomas	VPA	Idiomas	MAGIX
+154	VICERRECTORÍA ADMINISTRATIVA	VRAD	Vicerrectoría Administrativa	VRAD	Vicerrectoría Administrativa	MAGIX
+153	VICERRECTORÍA ACADÉMICA	VPA	Vicerrectoría Académica	VPA	Vicerrectoría Académica	MAGIX
+152	VICERRECTORÍA DEL MEDIO UNIVERSITARIO	VMU	Vicerrectoría Del Medio Universitario	VMU	Vicerrectoría Del Medio Universitario	MAGIX
+151	SEDE TACUAREMBÓ	VPA	Sede Tacuarembó	VPA	Sede Tacuarembó	MAGIX
+149	REGISTRO ACADÉMICO	RECTORADO	Registro Académico	RECTORADO	Registro Académico	MAGIX
+148	RECTORADO	RECTORADO	Rectorado	RECTORADO	Rectorado	MAGIX
+147	SEDES MONTEVIDEO	SMVDYGRAL	Sedes Montevideo	SMVDYGRAL	Sedes Montevideo	MAGIX
+146	CENTRO DE DESARROLLO PROFESIONAL	CDP	Centro De Desarrollo Profesional	CDP	Centro De Desarrollo Profesional	MAGIX
+145	GENERALES	SMVDYGRAL	Generales	SMVDYGRAL	Generales	MAGIX
+336	FACULTAD DE PSICOLOGÍA	FPSIC	Facultad De Psicología	FPSIC	Facultad De Psicología	MAGIX
+143	DIRECCIÓN DE RECURSOS HUMANOS	VRAD	Dirección De Recursos Humanos	VRAD	Dirección De Recursos Humanos	MAGIX
+142	DIRECCIÓN DE PLANTA FÍSICA	VRAD	Dirección De Planta Física	VRAD	Dirección De Planta Física	MAGIX
+140	DIRECCIÓN ADMINISTRATIVA Y FINANCIERA	VRAD	Dirección Administrativa Y Financiera	VRAD	Dirección Administrativa Y Financiera	MAGIX
+139	SECRETARIA SEDE CENTRO	SMVDYGRAL	Secretaria Sede Centro	SMVDYGRAL	Secretaria Sede Centro	MAGIX
+138	BIBLIOTECA Y ARCHIVO	VPA	Biblioteca Y Archivo	VPA	Biblioteca Y Archivo	MAGIX
+137	ASESORÍA LEGAL	RECTORADO	Asesoría Legal	RECTORADO	Asesoría Legal	MAGIX
+136	SEDE LITORAL NORTE - SALTO	VPA	Sede Litoral Norte - Salto	VPA	Sede Litoral Norte - Salto	MAGIX
+135	SEDE LITORAL NORTE - PAYSANDÚ	VPA	Sede Litoral Norte - Paysandú	VPA	Sede Litoral Norte - Paysandú	MAGIX
+134	SEDE PUNTA DEL ESTE- MALDONADO	VPA	Sede Punta Del Este- Maldonado	VPA	Sede Punta Del Este- Maldonado	MAGIX
+133	DIRECCIÓN DE RELACIONES INSTITUCIONALES Y COMUNICACIONES	VCU	Dirección De Relaciones Institucionales Y Comunicaciones	VCU	Dirección De Relaciones Institucionales Y Comunicaciones	MAGIX
+303	FACULTAD DE PSICOLOGÍA	FPSIC	Facultad De Psicología	FPSIC	Facultad De Psicología	MAGIX
+267	FACULTAD DE PSICOLOGÍA	FPSIC	Facultad De Psicología	FPSIC	Facultad De Psicología	MAGIX
+233	FACULTAD DE PSICOLOGÍA	FPSIC	Facultad De Psicología	FPSIC	Facultad De Psicología	MAGIX
+199	FACULTAD DE PSICOLOGÍA	FPSIC	Facultad De Psicología	FPSIC	Facultad De Psicología	MAGIX
+165	FACULTAD DE PSICOLOGÍA	FPSIC	Facultad De Psicología	FPSIC	Facultad De Psicología	MAGIX
+131	FACULTAD DE PSICOLOGÍA	FPSIC	Facultad De Psicología	FPSIC	Facultad De Psicología	MAGIX
+126	DEPARTAMENTO DE FORMACIÓN HUMANÍSTICA	VII-DEPTOS	Departamento De Formación Humanística	VII-DEPTOS	Departamento De Formación Humanística	MAGIX
