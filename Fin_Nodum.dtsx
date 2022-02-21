@@ -12,8 +12,8 @@
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="42"
-  DTS:VersionGUID="{6EAEF4A5-4312-4628-AAF5-E177614C6047}">
+  DTS:VersionBuild="43"
+  DTS:VersionGUID="{09E24819-42B2-40B7-8626-535743E34825}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,12 +27,12 @@
           DTS:ConnectionString="Data Source=10.245.0.6;User ID=nodum_read;Initial Catalog=Nodum_Prod;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="BMreZ9pizL8="
-            IV="UjQfT62FX0vxliy+3lO9QA==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="PbA+GD/e4a0="
+            IV="Y7CjC4Plv+pYE5a0TI667w==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>UjQfT62FX0vxliy+3lO9QO6ij2G+Db9njs6gagFv9LlNF44qXfZlkNtvibfXMvfvFCi4DTvASWePsO0VYHZE3wHR7YD9MHY4NO9Fo8lmpTu8V93w1Ivi7oPc0krMVa0swvybi4eckMbVAKXuJGFITCXdyQY33CYto/zJkUKKs3+b17h0MtlFv+deI+alPI0c</CipherValue>
+              <CipherValue>Y7CjC4Plv+pYE5a0TI667023v1Zu20VzckFJovhZpz20chba16xEwCsOWgOTOLVLPfeldmLZCt7aHBJkCWkLX5WqPDL7/LMDoku1O5hlB1a1fJUX8ctJyJ7WpSFC9U8QeASY/mxeQkqHDRJrtKhO5yk0c3n6X0Lsd2dWEEYnbfznME/ZiynvXDHwDeGwNvpd</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -59,12 +59,12 @@
           DTS:ConnectionString="Data Source=PROD-UCUDBS10\POWERBI;User ID=rcalvo;Initial Catalog=ODS_UCU;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="bQUpSd0/BSA="
-            IV="XU4Bl2bN5SydGcvFbzMryA==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="P8lPbvS8Zlk="
+            IV="rokwwhk0GdMWK36MXYCWjg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>XU4Bl2bN5SydGcvFbzMryL8AD79JoljZXhGYST6Z/Fj0Acj+LpmnMp6liycaESy1ksmIHfLR13dZ5CCbBEf7RIWcfi+HyrNNvCKV4YJJDV45LNxu4FNwpo0TAFh2ICr98fcbg00ZP6aKYoSGS8RdYmAmyW0+TeVsaPQncTk4w61AkrLP6A7P8dWXbP2lA5KN</CipherValue>
+              <CipherValue>rokwwhk0GdMWK36MXYCWjpA2OJgBo6l46AmEzPWYt2aKSehUKEFhd7ucnWsBP9aieirVRVL3fxpJODMFEFHp6qridYj9iLf4l/2vmx3c0uU0PhlcQw+m1n1xwsNqPBr81zIWcsomB9BxQH/7cgT4r3wG3uqJSu+8ip9tnWyork98ZR842lwvQKC5sNaX1lyi</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -80,12 +80,12 @@
           DTS:ConnectionString="Data Source=PROD-UCUDBS10\POWERBI;User ID=rcalvo;Initial Catalog=ODS_UCU;Provider=SQLNCLI11.1;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="C0Dbh4A8W3E="
-            IV="p7udC83YgFaJV4JWh9sRig==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="o6QtjX9Q5hU="
+            IV="7BFbbGC1nxI2U/DpixBA2g==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>p7udC83YgFaJV4JWh9sRiq3tiNYjClTK1xzTsjepObtXCLBzg8l3xwx6/lk4c31K/yJXdNqFegrm43YF4ZwYGdRR9fSpHi4IGQ0KU+TW9QnaqWW8CI+d8dU9sdFLTPKJToK0YEmameyu/AEWb3m/UTw1aBmtTAbZ5zJpKvJoTBMpWRiRjKsf696cVHFtC1JU</CipherValue>
+              <CipherValue>7BFbbGC1nxI2U/DpixBA2gs5Ya/5LA4AFLKjVKX9Vjk962PPpbw1H6g92riiKJ2zjpIC7JVgYHnWoLgO37O20KEhuBurRBS+1wK4Of6Ia/lBZyhGEZmX4NZMxS+BzAG71c5duh82SZA6Ta4fCfy4aLMa/hAH1tEiIPfA2d2jBl71e7VI6p9/8hloh92hGxuL</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -7603,7 +7603,7 @@ CROSS JOIN ct_ctaprescta b
 CROSS JOIN ct_dptos c
 LEFT JOIN cpp_ctaprescta CtaPres1 ON CtaPres1.cod_cta=b.cod_cta
 LEFT JOIN ct_presup Pres ON Pres.cod_emp='01' AND Pres.cod_presup = a.anio 
-WHERE (a.anio =year(getdate()) OR a.anio =  year(getdate())-1)</property>
+WHERE a.anio &gt; 2019</property>
                 <property
                   dataType="System.String"
                   description="Variable que contiene el comando SQL para ejecutar."
@@ -15919,6 +15919,10 @@ WHERE PM.MGX_AÑO_FISCAL &lt;= 2019</property>
           Id="Package\Cargar Tablas de Nodum"
           TopLeft="563.5,13.5" />
         <NodeLayout
+          Size="240,42"
+          Id="Package\Cargar Tablas Nodum workaround"
+          TopLeft="243.5,11.5" />
+        <NodeLayout
           Size="212,42"
           Id="Package\Cargar UNION tres Sistemas"
           TopLeft="246.5,113.5" />
@@ -15930,32 +15934,6 @@ WHERE PM.MGX_AÑO_FISCAL &lt;= 2019</property>
           Size="191,42"
           Id="Package\Vaciar tablas de Nodum"
           TopLeft="3.5,5.5" />
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Restricción 2]"
-          TopLeft="353.5,155.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,66"
-              Start="0,0"
-              End="0,58.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,58.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="240,42"
-          Id="Package\Cargar Tablas Nodum workaround"
-          TopLeft="243.5,11.5" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción]"
           TopLeft="194.5,29.5">
@@ -16004,6 +15982,28 @@ WHERE PM.MGX_AÑO_FISCAL &lt;= 2019</property>
                     Point3="-11,34" />
                   <mssgle:LineSegment
                     End="-11,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restricción 2]"
+          TopLeft="353.5,155.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,66"
+              Start="0,0"
+              End="0,58.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,58.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -16250,6 +16250,308 @@ WHERE PM.MGX_AÑO_FISCAL &lt;= 2019</property>
         <Name>TableInfoObjectType</Name>
         <Value
           type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Cargar Tablas Nodum workaround">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="207,42"
+          Id="Package\Cargar Tablas Nodum workaround\Seguridad centro de costos"
+          TopLeft="46,433" />
+        <NodeLayout
+          Size="196,42"
+          Id="Package\Cargar Tablas Nodum workaround\Centros de Costo Nodum"
+          TopLeft="61,136" />
+        <NodeLayout
+          Size="177,42"
+          Id="Package\Cargar Tablas Nodum workaround\Comando de OLE DB"
+          TopLeft="335.5,234.5" />
+        <NodeLayout
+          Size="178,42"
+          Id="Package\Cargar Tablas Nodum workaround\Presupuestos Nodum"
+          TopLeft="60,485" />
+        <NodeLayout
+          Size="164,42"
+          Id="Package\Cargar Tablas Nodum workaround\Columna derivada"
+          TopLeft="330,136" />
+        <NodeLayout
+          Size="180,42"
+          Id="Package\Cargar Tablas Nodum workaround\Carga Rubros Nodum"
+          TopLeft="329,60" />
+        <NodeLayout
+          Size="149,42"
+          Id="Package\Cargar Tablas Nodum workaround\Rubros Nodum"
+          TopLeft="60,60" />
+        <NodeLayout
+          Size="173,42"
+          Id="Package\Cargar Tablas Nodum workaround\Columna derivada 2"
+          TopLeft="828.5,334.5" />
+        <NodeLayout
+          Size="173,42"
+          Id="Package\Cargar Tablas Nodum workaround\Columna derivada 1"
+          TopLeft="585.5,229.5" />
+        <NodeLayout
+          Size="228,42"
+          Id="Package\Cargar Tablas Nodum workaround\ODS_USER_SECURITY_NODUM"
+          TopLeft="315,435" />
+        <NodeLayout
+          Size="177,42"
+          Id="Package\Cargar Tablas Nodum workaround\Comando de OLE DB 1 1"
+          TopLeft="812,428.5" />
+        <NodeLayout
+          Size="209,42"
+          Id="Package\Cargar Tablas Nodum workaround\Carga Presupuestos Nodum"
+          TopLeft="329,485" />
+        <NodeLayout
+          Size="177,42"
+          Id="Package\Cargar Tablas Nodum workaround\Comando de OLE DB 1"
+          TopLeft="586,326" />
+        <EdgeLayout
+          Id="Package\Cargar Tablas Nodum workaround.Paths[Salida de comando de OLE DB1]"
+          TopLeft="512.5,253">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="73,0"
+              Start="0,0"
+              End="65.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="65.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Cargar Tablas Nodum workaround.Paths[Salida de comando de OLE DB]"
+          TopLeft="763,347">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="65.5,8.5"
+              Start="0,0"
+              End="58,8.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="28.75,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="28.75,0"
+                    Point2="32.75,0"
+                    Point3="32.75,4" />
+                  <mssgle:LineSegment
+                    End="32.75,4.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="32.75,4.5"
+                    Point2="32.75,8.5"
+                    Point3="36.75,8.5" />
+                  <mssgle:LineSegment
+                    End="58,8.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Cargar Tablas Nodum workaround.Paths[Salida de columna derivada2]"
+          TopLeft="412,178">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="12,56.5"
+              Start="0,0"
+              End="12,49">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,24.25" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,24.25"
+                    Point2="0,28.25"
+                    Point3="4,28.25" />
+                  <mssgle:LineSegment
+                    End="8,28.25" />
+                  <mssgle:CubicBezierSegment
+                    Point1="8,28.25"
+                    Point2="12,28.25"
+                    Point3="12,32.25" />
+                  <mssgle:LineSegment
+                    End="12,49" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Cargar Tablas Nodum workaround.Paths[Salida de columna derivada1]"
+          TopLeft="673.25,271.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,54.5"
+              Start="0,0"
+              End="0,47">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,47" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Cargar Tablas Nodum workaround.Paths[Salida de columna derivada]"
+          TopLeft="915,376.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-14.5,52"
+              Start="0,0"
+              End="-14.5,44.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,22" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,22"
+                    Point2="0,26"
+                    Point3="-4,26" />
+                  <mssgle:LineSegment
+                    End="-10.5,26" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-10.5,26"
+                    Point2="-14.5,26"
+                    Point3="-14.5,30" />
+                  <mssgle:LineSegment
+                    End="-14.5,44.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Cargar Tablas Nodum workaround.Paths[Salida de origen de OLE DB3]"
+          TopLeft="257,157">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="73,0"
+              Start="0,0"
+              End="65.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="65.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Cargar Tablas Nodum workaround.Paths[Salida de origen de OLE DB2]"
+          TopLeft="209,81">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="120,0"
+              Start="0,0"
+              End="112.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="112.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Cargar Tablas Nodum workaround.Paths[Salida de origen de OLE DB1]"
+          TopLeft="238,506">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="91,0"
+              Start="0,0"
+              End="83.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="83.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Cargar Tablas Nodum workaround.Paths[Salida de origen de OLE DB]"
+          TopLeft="253,455">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="62,0"
+              Start="0,0"
+              End="54.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="54.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Cargar Tablas Nodum workaround\Presupuestos Nodum">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
@@ -16625,299 +16927,5 @@ WHERE PM.MGX_AÑO_FISCAL &lt;= 2019</property>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\Cargar Tablas Nodum workaround">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="178,42"
-          Id="Package\Cargar Tablas Nodum workaround\Presupuestos Nodum"
-          TopLeft="60,485" />
-        <NodeLayout
-          Size="209,42"
-          Id="Package\Cargar Tablas Nodum workaround\Carga Presupuestos Nodum"
-          TopLeft="329,485" />
-        <NodeLayout
-          Size="228,42"
-          Id="Package\Cargar Tablas Nodum workaround\ODS_USER_SECURITY_NODUM"
-          TopLeft="315,435" />
-        <NodeLayout
-          Size="180,42"
-          Id="Package\Cargar Tablas Nodum workaround\Carga Rubros Nodum"
-          TopLeft="329,60" />
-        <NodeLayout
-          Size="149,42"
-          Id="Package\Cargar Tablas Nodum workaround\Rubros Nodum"
-          TopLeft="60,60" />
-        <NodeLayout
-          Size="207,42"
-          Id="Package\Cargar Tablas Nodum workaround\Seguridad centro de costos"
-          TopLeft="46,433" />
-        <EdgeLayout
-          Id="Package\Cargar Tablas Nodum workaround.Paths[Salida de origen de OLE DB]"
-          TopLeft="253,455">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="62,0"
-              Start="0,0"
-              End="54.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="54.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Cargar Tablas Nodum workaround.Paths[Salida de origen de OLE DB1]"
-          TopLeft="238,506">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="91,0"
-              Start="0,0"
-              End="83.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="83.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Cargar Tablas Nodum workaround.Paths[Salida de origen de OLE DB2]"
-          TopLeft="209,81">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="120,0"
-              Start="0,0"
-              End="112.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="112.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="177,42"
-          Id="Package\Cargar Tablas Nodum workaround\Comando de OLE DB 1 1"
-          TopLeft="812,428.5" />
-        <NodeLayout
-          Size="177,42"
-          Id="Package\Cargar Tablas Nodum workaround\Comando de OLE DB"
-          TopLeft="335.5,234.5" />
-        <NodeLayout
-          Size="173,42"
-          Id="Package\Cargar Tablas Nodum workaround\Columna derivada 1"
-          TopLeft="585.5,229.5" />
-        <NodeLayout
-          Size="177,42"
-          Id="Package\Cargar Tablas Nodum workaround\Comando de OLE DB 1"
-          TopLeft="586,326" />
-        <NodeLayout
-          Size="173,42"
-          Id="Package\Cargar Tablas Nodum workaround\Columna derivada 2"
-          TopLeft="828.5,334.5" />
-        <NodeLayout
-          Size="196,42"
-          Id="Package\Cargar Tablas Nodum workaround\Centros de Costo Nodum"
-          TopLeft="61,136" />
-        <NodeLayout
-          Size="164,42"
-          Id="Package\Cargar Tablas Nodum workaround\Columna derivada"
-          TopLeft="330,136" />
-        <EdgeLayout
-          Id="Package\Cargar Tablas Nodum workaround.Paths[Salida de origen de OLE DB3]"
-          TopLeft="257,157">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="73,0"
-              Start="0,0"
-              End="65.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="65.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Cargar Tablas Nodum workaround.Paths[Salida de comando de OLE DB]"
-          TopLeft="763,347">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="65.5,8.5"
-              Start="0,0"
-              End="58,8.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="28.75,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="28.75,0"
-                    Point2="32.75,0"
-                    Point3="32.75,4" />
-                  <mssgle:LineSegment
-                    End="32.75,4.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="32.75,4.5"
-                    Point2="32.75,8.5"
-                    Point3="36.75,8.5" />
-                  <mssgle:LineSegment
-                    End="58,8.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Cargar Tablas Nodum workaround.Paths[Salida de comando de OLE DB1]"
-          TopLeft="512.5,253">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="73,0"
-              Start="0,0"
-              End="65.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="65.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Cargar Tablas Nodum workaround.Paths[Salida de columna derivada]"
-          TopLeft="915,376.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-14.5,52"
-              Start="0,0"
-              End="-14.5,44.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,22" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,22"
-                    Point2="0,26"
-                    Point3="-4,26" />
-                  <mssgle:LineSegment
-                    End="-10.5,26" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-10.5,26"
-                    Point2="-14.5,26"
-                    Point3="-14.5,30" />
-                  <mssgle:LineSegment
-                    End="-14.5,44.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Cargar Tablas Nodum workaround.Paths[Salida de columna derivada1]"
-          TopLeft="673.25,271.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,54.5"
-              Start="0,0"
-              End="0,47">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,47" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Cargar Tablas Nodum workaround.Paths[Salida de columna derivada2]"
-          TopLeft="412,178">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="12,56.5"
-              Start="0,0"
-              End="12,49">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,24.25" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,24.25"
-                    Point2="0,28.25"
-                    Point3="4,28.25" />
-                  <mssgle:LineSegment
-                    End="8,28.25" />
-                  <mssgle:CubicBezierSegment
-                    Point1="8,28.25"
-                    Point2="12,28.25"
-                    Point3="12,32.25" />
-                  <mssgle:LineSegment
-                    End="12,49" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
 </Objects>]]></DTS:DesignTimeProperties>
 </DTS:Executable>
