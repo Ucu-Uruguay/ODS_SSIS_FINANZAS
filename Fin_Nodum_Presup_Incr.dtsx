@@ -1,0 +1,1505 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="2/22/2022 10:21:18 AM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="PROD-UCUDBS10"
+  DTS:CreatorName="UCUADM\SSLVPN-RCALVO"
+  DTS:DTSID="{35B7F625-1560-4608-871E-B31870E9DA2E}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="15.0.2000.132"
+  DTS:LocaleID="3082"
+  DTS:ObjectName="Package1"
+  DTS:PackageType="5"
+  DTS:ProtectionLevel="2"
+  DTS:VersionBuild="13"
+  DTS:VersionGUID="{96919CDF-86B3-4F95-8D4C-0D191219F98A}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[10.245.0.6.Nodum_Prod.nodum_read]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{4AFAB6D1-6E9C-402A-AD52-4ECD4F20827A}"
+      DTS:ObjectName="10.245.0.6.Nodum_Prod.nodum_read">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=10.245.0.6;User ID=nodum_read;Initial Catalog=Nodum_Prod;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+          <EncryptedData
+            Type="http://www.w3.org/2001/04/xmlenc#Element"
+            Salt="Q0OvaReax3k="
+            IV="s5POLeiBW4wSgi1TKKzp9A==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            <EncryptionMethod
+              Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+            <CipherData>
+              <CipherValue>s5POLeiBW4wSgi1TKKzp9DLab/dwQWOVeqSRxKiAog4Z0BPE5vFXtbbbLj+vO1BazV6ns9eXq8hgn3JjkiTAXzNeGfOoiKUaia9zhJJ8iwy+nWT7WSvO+Cu5RFuIQZSGv8Mpm/YnXTCtm4Hm7IjjEPgLxTuHdC1gtPZFK0sqT44T0xXhAN1TtFhAwYpJHhKy</CipherValue>
+            </CipherData>
+          </EncryptedData>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[BorradoBatch_ODS_FIN_NDM_PRESUPUESTOS.txt]"
+      DTS:CreationName="FILE"
+      DTS:DTSID="{F577455C-5A8F-42EA-9BC3-2BBE47E82DF3}"
+      DTS:ObjectName="BorradoBatch_ODS_FIN_NDM_PRESUPUESTOS.txt">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="C:\ETL UCU\UCU_ODS\UCU_ODS_FINANZAS\BorradoBatch_ODS_FIN_NDM_PRESUPUESTOS.txt" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[BorradoBatch_ODS_FIN_PRESUPUESTOS.txt]"
+      DTS:CreationName="FILE"
+      DTS:DTSID="{E2D5C990-C483-4FEF-AF79-D0C57E8A7DEE}"
+      DTS:ObjectName="BorradoBatch_ODS_FIN_PRESUPUESTOS.txt">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="C:\ETL UCU\UCU_ODS\UCU_ODS_FINANZAS\BorradoBatch_ODS_FIN_PRESUPUESTOS.txt" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[FINANZAS_ODS_INCR.log]"
+      DTS:CreationName="FILE"
+      DTS:DTSID="{D2841D95-06D5-4B7F-A39D-21E82327C1B7}"
+      DTS:ObjectName="FINANZAS_ODS_INCR.log">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:FileUsageType="1"
+          DTS:ConnectionString="C:\ETL UCU\REGISTRO_ERRORES\FINANZAS_ODS_INCR.log" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[PROD-UCUDBS10\POWERBI.ODS_UCU.rcalvo]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{377E0FC5-8E0F-4665-AB01-9260C6CD04DF}"
+      DTS:ObjectName="PROD-UCUDBS10\POWERBI.ODS_UCU.rcalvo">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=PROD-UCUDBS10\POWERBI;User ID=rcalvo;Initial Catalog=ODS_UCU;Provider=SQLNCLI11.1;Auto Translate=False;">
+          <EncryptedData
+            Type="http://www.w3.org/2001/04/xmlenc#Element"
+            Salt="dPm+zxPUmpQ="
+            IV="FDryDM2A5e6RqqQfstGx0g==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            <EncryptionMethod
+              Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+            <CipherData>
+              <CipherValue>FDryDM2A5e6RqqQfstGx0upzKeYXiaWvRhZoBac/dQ3rt4GpxMZZIZTeko1Tyh6NBb0Ztwe6gIwLmQwZR3+eRwrza6y+eBktf3h9d2IwHPy6kq0nsoySWlR8P1wUB4kMmKJrcwUNYe4SN9ZB3lvL1I9/motVxZGssbb+KPV/8GYttWyJfot2YN+orA57atWd</CipherValue>
+            </CipherData>
+          </EncryptedData>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:LogProviders>
+    <DTS:LogProvider
+      DTS:ConfigString="FINANZAS_ODS_INCR.log"
+      DTS:CreationName="Microsoft.LogProviderTextFile"
+      DTS:Description="Escribe entradas del registro sobre eventos en un archivo CSV"
+      DTS:DTSID="{75FE0E6E-50D2-47F0-8FD2-7E89F18D66F2}"
+      DTS:ObjectName="Proveedor de registro SSIS para archivos de texto">
+      <DTS:ObjectData>
+        <InnerObject />
+      </DTS:ObjectData>
+    </DTS:LogProvider>
+  </DTS:LogProviders>
+  <DTS:Variables />
+  <DTS:LoggingOptions
+    DTS:FilterKind="0"
+    DTS:LoggingMode="1">
+    <DTS:Property
+      DTS:DataType="8"
+      DTS:Name="EventFilter">1,7,OnError</DTS:Property>
+    <DTS:Property
+      DTS:EventName="OnError"
+      DTS:Name="ColumnFilter">
+      <DTS:Property
+        DTS:Name="Computer">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="Operator">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="SourceName">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="SourceID">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="ExecutionID">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="MessageText">-1</DTS:Property>
+      <DTS:Property
+        DTS:Name="DataBytes">-1</DTS:Property>
+    </DTS:Property>
+    <DTS:SelectedLogProviders>
+      <DTS:SelectedLogProvider
+        DTS:InstanceID="{75FE0E6E-50D2-47F0-8FD2-7E89F18D66F2}" />
+    </DTS:SelectedLogProviders>
+  </DTS:LoggingOptions>
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Borrar ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Tarea Ejecutar SQL"
+      DTS:DTSID="{A8A0D744-1B4B-4C3A-9EA6-BD0A8773CD27}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Borrar ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:LoggingOptions
+        DTS:FilterKind="0" />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{377E0FC5-8E0F-4665-AB01-9260C6CD04DF}"
+          SQLTask:SqlStmtSourceType="FileConnection"
+          SQLTask:SqlStatementSource="BorradoBatch_ODS_FIN_NDM_PRESUPUESTOS.txt" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Borrar ùltimos 2 años ODS_FIN_PRESUPUESTOS"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Tarea Ejecutar SQL"
+      DTS:DTSID="{016D9B7B-8781-488C-A1D9-9CED4514C2B6}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Borrar ùltimos 2 años ODS_FIN_PRESUPUESTOS"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:LoggingOptions
+        DTS:FilterKind="0" />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{377E0FC5-8E0F-4665-AB01-9260C6CD04DF}"
+          SQLTask:SqlStmtSourceType="FileConnection"
+          SQLTask:SqlStatementSource="BorradoBatch_ODS_FIN_PRESUPUESTOS.txt" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Tarea Flujo de datos"
+      DTS:DTSID="{726E0D9B-E997-4B9C-89C8-D6BE48EB5875}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:LoggingOptions
+        DTS:FilterKind="0" />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Carga Presupuestos Nodum"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="Destino de OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;4"
+              description="Destino de OLE DB"
+              name="Carga Presupuestos Nodum"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowset">[dbo].[ODS_FIN_NDM_PRESUPUESTOS]</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica la variable que contiene el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Comando SQL para ejecutar."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Fuerza el uso del valor de la propiedad DefaultCodePage al describir datos de caracteres."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica el modo utilizado para obtener acceso a la base de datos."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si los valores proporcionados para columnas de identidad se van a copiar al destino. Si es False, los valores de las columnas de identidad se generan automáticamente en el destino. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si las columnas que contienen NULL tendrán NULL insertado en el destino. Si es False, las columnas que contienen NULL tendrán sus valores predeterminados insertados en el destino. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica opciones para usar con la carga rápida. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica cuándo se emiten confirmaciones durante la inserción de datos. El valor 0 especifica que se emitirá una confirmación al final de la inserción de datos. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Carga Presupuestos Nodum.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[PROD-UCUDBS10\POWERBI.ODS_UCU.rcalvo]"
+                  connectionManagerRefId="Package.ConnectionManagers[PROD-UCUDBS10\POWERBI.ODS_UCU.rcalvo]"
+                  description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Carga Presupuestos Nodum.Inputs[Entrada de destino de OLE DB]"
+                  errorOrTruncationOperation="Insertar"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Entrada de destino de OLE DB">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Carga Presupuestos Nodum.Inputs[Entrada de destino de OLE DB].Columns[mes]"
+                      cachedDataType="i4"
+                      cachedName="mes"
+                      externalMetadataColumnId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Carga Presupuestos Nodum.Inputs[Entrada de destino de OLE DB].ExternalColumns[mes]"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de origen de OLE DB].Columns[mes]" />
+                    <inputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Carga Presupuestos Nodum.Inputs[Entrada de destino de OLE DB].Columns[anio]"
+                      cachedDataType="i4"
+                      cachedName="anio"
+                      externalMetadataColumnId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Carga Presupuestos Nodum.Inputs[Entrada de destino de OLE DB].ExternalColumns[anio]"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de origen de OLE DB].Columns[anio]" />
+                    <inputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Carga Presupuestos Nodum.Inputs[Entrada de destino de OLE DB].Columns[PresMensual]"
+                      cachedDataType="numeric"
+                      cachedName="PresMensual"
+                      cachedPrecision="38"
+                      cachedScale="2"
+                      externalMetadataColumnId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Carga Presupuestos Nodum.Inputs[Entrada de destino de OLE DB].ExternalColumns[PresMensual]"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de origen de OLE DB].Columns[PresMensual]" />
+                    <inputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Carga Presupuestos Nodum.Inputs[Entrada de destino de OLE DB].Columns[EjecutadodelMes]"
+                      cachedDataType="numeric"
+                      cachedName="EjecutadodelMes"
+                      cachedPrecision="38"
+                      cachedScale="2"
+                      externalMetadataColumnId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Carga Presupuestos Nodum.Inputs[Entrada de destino de OLE DB].ExternalColumns[EjecutadodelMes]"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de origen de OLE DB].Columns[EjecutadodelMes]" />
+                    <inputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Carga Presupuestos Nodum.Inputs[Entrada de destino de OLE DB].Columns[cuenta]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="15"
+                      cachedName="cuenta"
+                      externalMetadataColumnId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Carga Presupuestos Nodum.Inputs[Entrada de destino de OLE DB].ExternalColumns[cuenta]"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de origen de OLE DB].Columns[cuenta]" />
+                    <inputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Carga Presupuestos Nodum.Inputs[Entrada de destino de OLE DB].Columns[cc]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="15"
+                      cachedName="cc"
+                      externalMetadataColumnId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Carga Presupuestos Nodum.Inputs[Entrada de destino de OLE DB].ExternalColumns[cc]"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de origen de OLE DB].Columns[cc]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Carga Presupuestos Nodum.Inputs[Entrada de destino de OLE DB].ExternalColumns[mes]"
+                      dataType="i4"
+                      name="mes" />
+                    <externalMetadataColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Carga Presupuestos Nodum.Inputs[Entrada de destino de OLE DB].ExternalColumns[anio]"
+                      dataType="i4"
+                      name="anio" />
+                    <externalMetadataColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Carga Presupuestos Nodum.Inputs[Entrada de destino de OLE DB].ExternalColumns[PresMensual]"
+                      dataType="numeric"
+                      name="PresMensual"
+                      precision="38"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Carga Presupuestos Nodum.Inputs[Entrada de destino de OLE DB].ExternalColumns[EjecutadodelMes]"
+                      dataType="numeric"
+                      name="EjecutadodelMes"
+                      precision="38"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Carga Presupuestos Nodum.Inputs[Entrada de destino de OLE DB].ExternalColumns[cuenta]"
+                      codePage="1252"
+                      dataType="str"
+                      length="15"
+                      name="cuenta" />
+                    <externalMetadataColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Carga Presupuestos Nodum.Inputs[Entrada de destino de OLE DB].ExternalColumns[cc]"
+                      codePage="1252"
+                      dataType="str"
+                      length="15"
+                      name="cc" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Carga Presupuestos Nodum.Outputs[Salida de error de destino de OLE DB]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de destino de OLE DB"
+                  synchronousInputId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Carga Presupuestos Nodum.Inputs[Entrada de destino de OLE DB]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Carga Presupuestos Nodum.Outputs[Salida de error de destino de OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Carga Presupuestos Nodum.Outputs[Salida de error de destino de OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Carga Presupuestos Nodum.Outputs[Salida de error de destino de OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Carga Presupuestos Nodum.Outputs[Salida de error de destino de OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="Origen de OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;7"
+              description="Origen de OLE DB"
+              name="Presupuestos Nodum"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowset"></property>
+                <property
+                  dataType="System.String"
+                  description="Especifica la variable que contiene el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Comando SQL para ejecutar."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT a.mes, a.anio, b.cod_cta as cuenta, c.cod_dpto as cc
+,(select isnull(sum(imp_mov_mn*signo),0)
+	FROM cpf_presup Pr
+	WHERE cod_emp='01' AND (cod_actividad='0' OR (select actividad_cta FROM ct_parapresup WHERE cod_emp='01')='N')
+	AND Pr.cod_dpto=c.cod_dpto AND Pr.anio=a.anio AND Pr.mes=a.mes AND Pr.cod_presup=Pres.cod_presup
+	AND Pr.cod_cta=CtaPres1.cod_cta_pres) PresMensual
+,(select isnull(sum(imp_mov_mn*signo),0)
+	FROM cpf_contaux cpf
+	INNER JOIN cpp_ctaprescta ON cpp_ctaprescta.cod_cta=Cpf.cod_cta
+	WHERE cod_emp='01' AND (cod_actividad='0' OR (select actividad_cta FROM ct_parapresup WHERE cod_emp='01')='N') AND cpf.formulario&lt;&gt;'CierreEjercicio'
+	AND cod_cta_pres=CtaPres1.cod_cta_pres AND Cpf.cod_dpto=c.cod_dpto AND year(cpf.fec_doc)=a.anio AND month(cpf.fec_doc)=a.mes) EjecutadodelMes
+FROM cz_dp_aniomes a
+CROSS JOIN ct_ctaprescta b
+CROSS JOIN ct_dptos c
+LEFT JOIN cpp_ctaprescta CtaPres1 ON CtaPres1.cod_cta=b.cod_cta
+LEFT JOIN ct_presup Pres ON Pres.cod_emp='01' AND Pres.cod_presup = a.anio 
+WHERE (a.anio =year(getdate()) OR a.anio =  year(getdate())-1)</property>
+                <property
+                  dataType="System.String"
+                  description="Variable que contiene el comando SQL para ejecutar."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Fuerza el uso del valor de la propiedad DefaultCodePage al describir datos de caracteres."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica el modo utilizado para obtener acceso a la base de datos."
+                  name="AccessMode"
+                  typeConverter="AccessMode">2</property>
+                <property
+                  dataType="System.String"
+                  description="Asignaciones entre los parámetros del comando SQL y las variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[10.245.0.6.Nodum_Prod.nodum_read]"
+                  connectionManagerRefId="Package.ConnectionManagers[10.245.0.6.Nodum_Prod.nodum_read]"
+                  description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de origen de OLE DB]"
+                  name="Salida de origen de OLE DB">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de origen de OLE DB].Columns[mes]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de origen de OLE DB].ExternalColumns[mes]"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de origen de OLE DB].Columns[mes]"
+                      name="mes"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de origen de OLE DB].Columns[anio]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de origen de OLE DB].ExternalColumns[anio]"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de origen de OLE DB].Columns[anio]"
+                      name="anio"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de origen de OLE DB].Columns[PresMensual]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de origen de OLE DB].ExternalColumns[PresMensual]"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de origen de OLE DB].Columns[PresMensual]"
+                      name="PresMensual"
+                      precision="38"
+                      scale="2"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de origen de OLE DB].Columns[EjecutadodelMes]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de origen de OLE DB].ExternalColumns[EjecutadodelMes]"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de origen de OLE DB].Columns[EjecutadodelMes]"
+                      name="EjecutadodelMes"
+                      precision="38"
+                      scale="2"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de origen de OLE DB].Columns[cuenta]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de origen de OLE DB].ExternalColumns[cuenta]"
+                      length="15"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de origen de OLE DB].Columns[cuenta]"
+                      name="cuenta"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de origen de OLE DB].Columns[cc]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de origen de OLE DB].ExternalColumns[cc]"
+                      length="15"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de origen de OLE DB].Columns[cc]"
+                      name="cc"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de origen de OLE DB].ExternalColumns[mes]"
+                      dataType="i4"
+                      name="mes" />
+                    <externalMetadataColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de origen de OLE DB].ExternalColumns[anio]"
+                      dataType="i4"
+                      name="anio" />
+                    <externalMetadataColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de origen de OLE DB].ExternalColumns[PresMensual]"
+                      dataType="numeric"
+                      name="PresMensual"
+                      precision="38"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de origen de OLE DB].ExternalColumns[EjecutadodelMes]"
+                      dataType="numeric"
+                      name="EjecutadodelMes"
+                      precision="38"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de origen de OLE DB].ExternalColumns[cuenta]"
+                      codePage="1252"
+                      dataType="str"
+                      length="15"
+                      name="cuenta" />
+                    <externalMetadataColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de origen de OLE DB].ExternalColumns[cc]"
+                      codePage="1252"
+                      dataType="str"
+                      length="15"
+                      name="cc" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de error de origen de OLE DB]"
+                  isErrorOut="true"
+                  name="Salida de error de origen de OLE DB">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de error de origen de OLE DB].Columns[mes]"
+                      dataType="i4"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de error de origen de OLE DB].Columns[mes]"
+                      name="mes" />
+                    <outputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de error de origen de OLE DB].Columns[anio]"
+                      dataType="i4"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de error de origen de OLE DB].Columns[anio]"
+                      name="anio" />
+                    <outputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de error de origen de OLE DB].Columns[cuenta]"
+                      codePage="1252"
+                      dataType="str"
+                      length="15"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de error de origen de OLE DB].Columns[cuenta]"
+                      name="cuenta" />
+                    <outputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de error de origen de OLE DB].Columns[cc]"
+                      codePage="1252"
+                      dataType="str"
+                      length="15"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de error de origen de OLE DB].Columns[cc]"
+                      name="cc" />
+                    <outputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de error de origen de OLE DB].Columns[PresMensual]"
+                      dataType="numeric"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de error de origen de OLE DB].Columns[PresMensual]"
+                      name="PresMensual"
+                      precision="38"
+                      scale="2" />
+                    <outputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de error de origen de OLE DB].Columns[EjecutadodelMes]"
+                      dataType="numeric"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de error de origen de OLE DB].Columns[EjecutadodelMes]"
+                      name="EjecutadodelMes"
+                      precision="38"
+                      scale="2" />
+                    <outputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de error de origen de OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de error de origen de OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de error de origen de OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de error de origen de OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS.Paths[Salida de origen de OLE DB]"
+              endId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Carga Presupuestos Nodum.Inputs[Entrada de destino de OLE DB]"
+              name="Salida de origen de OLE DB"
+              startId="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum.Outputs[Salida de origen de OLE DB]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Tarea Flujo de datos"
+      DTS:DTSID="{1F1AFF84-B0BD-4656-87A0-8DF4ACC7A8B6}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Carga ultimos 2 años ODS_FIN_PRESUPUESTOS"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:LoggingOptions
+        DTS:FilterKind="0" />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Carga ODS_FIN_PRESUPUESTOS"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="Destino de OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;4"
+              description="Destino de OLE DB"
+              name="Carga ODS_FIN_PRESUPUESTOS"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowset">[dbo].[ODS_FIN_PRESUPUESTOS]</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica la variable que contiene el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Comando SQL para ejecutar."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Fuerza el uso del valor de la propiedad DefaultCodePage al describir datos de caracteres."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica el modo utilizado para obtener acceso a la base de datos."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si los valores proporcionados para columnas de identidad se van a copiar al destino. Si es False, los valores de las columnas de identidad se generan automáticamente en el destino. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si las columnas que contienen NULL tendrán NULL insertado en el destino. Si es False, las columnas que contienen NULL tendrán sus valores predeterminados insertados en el destino. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica opciones para usar con la carga rápida. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica cuándo se emiten confirmaciones durante la inserción de datos. El valor 0 especifica que se emitirá una confirmación al final de la inserción de datos. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Carga ODS_FIN_PRESUPUESTOS.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[PROD-UCUDBS10\POWERBI.ODS_UCU.rcalvo]"
+                  connectionManagerRefId="Package.ConnectionManagers[PROD-UCUDBS10\POWERBI.ODS_UCU.rcalvo]"
+                  description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Carga ODS_FIN_PRESUPUESTOS.Inputs[Entrada de destino de OLE DB]"
+                  errorOrTruncationOperation="Insertar"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Entrada de destino de OLE DB">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Carga ODS_FIN_PRESUPUESTOS.Inputs[Entrada de destino de OLE DB].Columns[PRESUPUESTO_ANIO_FISCAL]"
+                      cachedDataType="numeric"
+                      cachedName="PRESUPUESTO_ANIO_FISCAL"
+                      cachedPrecision="10"
+                      externalMetadataColumnId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Carga ODS_FIN_PRESUPUESTOS.Inputs[Entrada de destino de OLE DB].ExternalColumns[PRESUPUESTO_ANIO_FISCAL]"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].Columns[PRESUPUESTO_ANIO_FISCAL]" />
+                    <inputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Carga ODS_FIN_PRESUPUESTOS.Inputs[Entrada de destino de OLE DB].Columns[PRESUPUESTO_PERIODO]"
+                      cachedDataType="i4"
+                      cachedName="PRESUPUESTO_PERIODO"
+                      externalMetadataColumnId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Carga ODS_FIN_PRESUPUESTOS.Inputs[Entrada de destino de OLE DB].ExternalColumns[PRESUPUESTO_PERIODO]"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].Columns[PRESUPUESTO_PERIODO]" />
+                    <inputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Carga ODS_FIN_PRESUPUESTOS.Inputs[Entrada de destino de OLE DB].Columns[PRESUPUESTO_CENTRO_COSTO]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="15"
+                      cachedName="PRESUPUESTO_CENTRO_COSTO"
+                      externalMetadataColumnId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Carga ODS_FIN_PRESUPUESTOS.Inputs[Entrada de destino de OLE DB].ExternalColumns[PRESUPUESTO_CENTRO_COSTO]"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].Columns[PRESUPUESTO_CENTRO_COSTO]" />
+                    <inputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Carga ODS_FIN_PRESUPUESTOS.Inputs[Entrada de destino de OLE DB].Columns[PRESUPUESTO_RUBRO_PRESUPUESTO_ID]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="15"
+                      cachedName="PRESUPUESTO_RUBRO_PRESUPUESTO_ID"
+                      externalMetadataColumnId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Carga ODS_FIN_PRESUPUESTOS.Inputs[Entrada de destino de OLE DB].ExternalColumns[PRESUPUESTO_RUBRO_PRESUPUESTO_ID]"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].Columns[PRESUPUESTO_RUBRO_PRESUPUESTO_ID]" />
+                    <inputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Carga ODS_FIN_PRESUPUESTOS.Inputs[Entrada de destino de OLE DB].Columns[PRESUPUESTO_EJECUTADO]"
+                      cachedDataType="numeric"
+                      cachedName="PRESUPUESTO_EJECUTADO"
+                      cachedPrecision="20"
+                      cachedScale="2"
+                      externalMetadataColumnId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Carga ODS_FIN_PRESUPUESTOS.Inputs[Entrada de destino de OLE DB].ExternalColumns[PRESUPUESTO_EJECUTADO]"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].Columns[PRESUPUESTO_EJECUTADO]" />
+                    <inputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Carga ODS_FIN_PRESUPUESTOS.Inputs[Entrada de destino de OLE DB].Columns[PRESUPUESTO_PRESUPUESTADO]"
+                      cachedDataType="numeric"
+                      cachedName="PRESUPUESTO_PRESUPUESTADO"
+                      cachedPrecision="18"
+                      cachedScale="2"
+                      externalMetadataColumnId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Carga ODS_FIN_PRESUPUESTOS.Inputs[Entrada de destino de OLE DB].ExternalColumns[PRESUPUESTO_PRESUPUESTADO]"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].Columns[PRESUPUESTO_PRESUPUESTADO]" />
+                    <inputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Carga ODS_FIN_PRESUPUESTOS.Inputs[Entrada de destino de OLE DB].Columns[SOURCE]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="5"
+                      cachedName="SOURCE"
+                      externalMetadataColumnId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Carga ODS_FIN_PRESUPUESTOS.Inputs[Entrada de destino de OLE DB].ExternalColumns[SOURCE]"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].Columns[SOURCE]" />
+                    <inputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Carga ODS_FIN_PRESUPUESTOS.Inputs[Entrada de destino de OLE DB].Columns[PRESUPUESTO_RUBRO_NVARCHAR]"
+                      cachedDataType="wstr"
+                      cachedLength="15"
+                      cachedName="PRESUPUESTO_RUBRO_NVARCHAR"
+                      externalMetadataColumnId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Carga ODS_FIN_PRESUPUESTOS.Inputs[Entrada de destino de OLE DB].ExternalColumns[PRESUPUESTO_RUBRO]"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Conversión de datos.Outputs[Salida de conversión de datos].Columns[PRESUPUESTO_RUBRO_NVARCHAR]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Carga ODS_FIN_PRESUPUESTOS.Inputs[Entrada de destino de OLE DB].ExternalColumns[PRESUPUESTO_ANIO_FISCAL]"
+                      dataType="numeric"
+                      name="PRESUPUESTO_ANIO_FISCAL"
+                      precision="10" />
+                    <externalMetadataColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Carga ODS_FIN_PRESUPUESTOS.Inputs[Entrada de destino de OLE DB].ExternalColumns[PRESUPUESTO_PERIODO]"
+                      dataType="i4"
+                      name="PRESUPUESTO_PERIODO" />
+                    <externalMetadataColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Carga ODS_FIN_PRESUPUESTOS.Inputs[Entrada de destino de OLE DB].ExternalColumns[PRESUPUESTO_CENTRO_COSTO]"
+                      codePage="1252"
+                      dataType="str"
+                      length="15"
+                      name="PRESUPUESTO_CENTRO_COSTO" />
+                    <externalMetadataColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Carga ODS_FIN_PRESUPUESTOS.Inputs[Entrada de destino de OLE DB].ExternalColumns[PRESUPUESTO_RUBRO]"
+                      dataType="wstr"
+                      length="15"
+                      name="PRESUPUESTO_RUBRO" />
+                    <externalMetadataColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Carga ODS_FIN_PRESUPUESTOS.Inputs[Entrada de destino de OLE DB].ExternalColumns[PRESUPUESTO_RUBRO_PRESUPUESTO_ID]"
+                      codePage="1252"
+                      dataType="str"
+                      length="15"
+                      name="PRESUPUESTO_RUBRO_PRESUPUESTO_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Carga ODS_FIN_PRESUPUESTOS.Inputs[Entrada de destino de OLE DB].ExternalColumns[PRESUPUESTO_EJECUTADO]"
+                      dataType="numeric"
+                      name="PRESUPUESTO_EJECUTADO"
+                      precision="20"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Carga ODS_FIN_PRESUPUESTOS.Inputs[Entrada de destino de OLE DB].ExternalColumns[PRESUPUESTO_PRESUPUESTADO]"
+                      dataType="numeric"
+                      name="PRESUPUESTO_PRESUPUESTADO"
+                      precision="18"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Carga ODS_FIN_PRESUPUESTOS.Inputs[Entrada de destino de OLE DB].ExternalColumns[SOURCE]"
+                      codePage="1252"
+                      dataType="str"
+                      length="5"
+                      name="SOURCE" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Carga ODS_FIN_PRESUPUESTOS.Outputs[Salida de error de destino de OLE DB]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de destino de OLE DB"
+                  synchronousInputId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Carga ODS_FIN_PRESUPUESTOS.Inputs[Entrada de destino de OLE DB]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Carga ODS_FIN_PRESUPUESTOS.Outputs[Salida de error de destino de OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Carga ODS_FIN_PRESUPUESTOS.Outputs[Salida de error de destino de OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Carga ODS_FIN_PRESUPUESTOS.Outputs[Salida de error de destino de OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Carga ODS_FIN_PRESUPUESTOS.Outputs[Salida de error de destino de OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Conversión de datos"
+              componentClassID="Microsoft.DataConvert"
+              contactInfo="Conversión de datos;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;0"
+              description="Conversión de datos"
+              name="Conversión de datos"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Conversión de datos.Inputs[Entrada de conversión de datos]"
+                  name="Entrada de conversión de datos">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Conversión de datos.Inputs[Entrada de conversión de datos].Columns[PRESUPUESTO_RUBRO]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="15"
+                      cachedName="PRESUPUESTO_RUBRO"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].Columns[PRESUPUESTO_RUBRO]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Conversión de datos.Outputs[Salida de conversión de datos]"
+                  exclusionGroup="1"
+                  name="Salida de conversión de datos"
+                  synchronousInputId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Conversión de datos.Inputs[Entrada de conversión de datos]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Conversión de datos.Outputs[Salida de conversión de datos].Columns[PRESUPUESTO_RUBRO_NVARCHAR]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      length="15"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Conversión de datos.Outputs[Salida de conversión de datos].Columns[PRESUPUESTO_RUBRO_NVARCHAR]"
+                      name="PRESUPUESTO_RUBRO_NVARCHAR"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica la columna de entrada usada como origen de datos para la conversión."
+                          name="SourceInputColumnLineageID">#{Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].Columns[PRESUPUESTO_RUBRO]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Conversión de datos.Outputs[Salida de error de conversión de datos]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de conversión de datos"
+                  synchronousInputId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Conversión de datos.Inputs[Entrada de conversión de datos]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Conversión de datos.Outputs[Salida de error de conversión de datos].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Conversión de datos.Outputs[Salida de error de conversión de datos].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Conversión de datos.Outputs[Salida de error de conversión de datos].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Conversión de datos.Outputs[Salida de error de conversión de datos].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="Origen de OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;7"
+              description="Origen de OLE DB"
+              name="Presupuestos"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowset"></property>
+                <property
+                  dataType="System.String"
+                  description="Especifica la variable que contiene el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Comando SQL para ejecutar."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT  distinct PN.anio AS PRESUPUESTO_ANIO_FISCAL,
+PN.mes  AS PRESUPUESTO_PERIODO,
+PN.cc AS PRESUPUESTO_CENTRO_COSTO,
+PN.Cuenta AS PRESUPUESTO_RUBRO,
+PC.CTA_PRESUPUESTO_ID AS PRESUPUESTO_RUBRO_PRESUPUESTO_ID,
+cast([EjecutadodelMes] as numeric(18,2)) * -1 AS PRESUPUESTO_EJECUTADO,
+case when PN.Cuenta like '1%' or PN.Cuenta like '5%' then  cast([PresMensual] as numeric(14,2)) * -1
+            else cast([PresMensual] as numeric(18,2)) END
+             AS PRESUPUESTO_PRESUPUESTADO,
+'NODUM' AS  SOURCE
+
+FROM
+ODS_FIN_NDM_PRESUPUESTOS PN
+LEFT JOIN (SELECT DISTINCT
+            CENTRO_COSTO_NOD_ID,
+            CENTRO_COSTO_MGX_ID,
+            CENTRO_COSTO_PS_ID,
+            CENTRO_COSTO_NOD_ANIO,
+            CENTRO_COSTO_NOD_DEPTO_ID
+            FROM ODS_FIN_CCOSTOS) CC ON PN.cc  = CC.CENTRO_COSTO_NOD_ID
+LEFT JOIN (SELECT DISTINCT
+            RUBRO_CLAVE,
+            RUBRO_MGX_ID,
+            RUBRO_PS_ID,
+            CTA_CONTABLE_ID,
+            CTA_PRESUPUESTO_ID,
+            ES_RUBRO_CTA_PRESUPUESTAL
+            FROM ODS_FIN_RUBROS
+            where ES_RUBRO_CTA_PRESUPUESTAL = 'S' ) PC ON PC.CTA_PRESUPUESTO_ID = PN.Cuenta
+
+WHERE PN.anio &gt; year(getdate())-2
+AND ES_RUBRO_CTA_PRESUPUESTAL = 'S'</property>
+                <property
+                  dataType="System.String"
+                  description="Variable que contiene el comando SQL para ejecutar."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Fuerza el uso del valor de la propiedad DefaultCodePage al describir datos de caracteres."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica el modo utilizado para obtener acceso a la base de datos."
+                  name="AccessMode"
+                  typeConverter="AccessMode">2</property>
+                <property
+                  dataType="System.String"
+                  description="Asignaciones entre los parámetros del comando SQL y las variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[PROD-UCUDBS10\POWERBI.ODS_UCU.rcalvo]"
+                  connectionManagerRefId="Package.ConnectionManagers[PROD-UCUDBS10\POWERBI.ODS_UCU.rcalvo]"
+                  description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB]"
+                  name="Salida de origen de OLE DB">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].Columns[PRESUPUESTO_ANIO_FISCAL]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].ExternalColumns[PRESUPUESTO_ANIO_FISCAL]"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].Columns[PRESUPUESTO_ANIO_FISCAL]"
+                      name="PRESUPUESTO_ANIO_FISCAL"
+                      precision="10"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].Columns[PRESUPUESTO_PERIODO]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].ExternalColumns[PRESUPUESTO_PERIODO]"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].Columns[PRESUPUESTO_PERIODO]"
+                      name="PRESUPUESTO_PERIODO"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].Columns[PRESUPUESTO_CENTRO_COSTO]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].ExternalColumns[PRESUPUESTO_CENTRO_COSTO]"
+                      length="15"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].Columns[PRESUPUESTO_CENTRO_COSTO]"
+                      name="PRESUPUESTO_CENTRO_COSTO"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].Columns[PRESUPUESTO_RUBRO]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].ExternalColumns[PRESUPUESTO_RUBRO]"
+                      length="15"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].Columns[PRESUPUESTO_RUBRO]"
+                      name="PRESUPUESTO_RUBRO"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].Columns[PRESUPUESTO_RUBRO_PRESUPUESTO_ID]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].ExternalColumns[PRESUPUESTO_RUBRO_PRESUPUESTO_ID]"
+                      length="15"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].Columns[PRESUPUESTO_RUBRO_PRESUPUESTO_ID]"
+                      name="PRESUPUESTO_RUBRO_PRESUPUESTO_ID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].Columns[PRESUPUESTO_EJECUTADO]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].ExternalColumns[PRESUPUESTO_EJECUTADO]"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].Columns[PRESUPUESTO_EJECUTADO]"
+                      name="PRESUPUESTO_EJECUTADO"
+                      precision="20"
+                      scale="2"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].Columns[PRESUPUESTO_PRESUPUESTADO]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].ExternalColumns[PRESUPUESTO_PRESUPUESTADO]"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].Columns[PRESUPUESTO_PRESUPUESTADO]"
+                      name="PRESUPUESTO_PRESUPUESTADO"
+                      precision="18"
+                      scale="2"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].Columns[SOURCE]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].ExternalColumns[SOURCE]"
+                      length="5"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].Columns[SOURCE]"
+                      name="SOURCE"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].ExternalColumns[PRESUPUESTO_ANIO_FISCAL]"
+                      dataType="i4"
+                      name="PRESUPUESTO_ANIO_FISCAL" />
+                    <externalMetadataColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].ExternalColumns[PRESUPUESTO_PERIODO]"
+                      dataType="i4"
+                      name="PRESUPUESTO_PERIODO" />
+                    <externalMetadataColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].ExternalColumns[PRESUPUESTO_CENTRO_COSTO]"
+                      codePage="1252"
+                      dataType="str"
+                      length="15"
+                      name="PRESUPUESTO_CENTRO_COSTO" />
+                    <externalMetadataColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].ExternalColumns[PRESUPUESTO_RUBRO]"
+                      codePage="1252"
+                      dataType="str"
+                      length="15"
+                      name="PRESUPUESTO_RUBRO" />
+                    <externalMetadataColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].ExternalColumns[PRESUPUESTO_RUBRO_PRESUPUESTO_ID]"
+                      codePage="1252"
+                      dataType="str"
+                      length="15"
+                      name="PRESUPUESTO_RUBRO_PRESUPUESTO_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].ExternalColumns[PRESUPUESTO_EJECUTADO]"
+                      dataType="numeric"
+                      name="PRESUPUESTO_EJECUTADO"
+                      precision="20"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].ExternalColumns[PRESUPUESTO_PRESUPUESTADO]"
+                      dataType="numeric"
+                      name="PRESUPUESTO_PRESUPUESTADO"
+                      precision="18"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB].ExternalColumns[SOURCE]"
+                      codePage="1252"
+                      dataType="str"
+                      length="5"
+                      name="SOURCE" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de error de origen de OLE DB]"
+                  isErrorOut="true"
+                  name="Salida de error de origen de OLE DB">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de error de origen de OLE DB].Columns[PRESUPUESTO_ANIO_FISCAL]"
+                      dataType="i4"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de error de origen de OLE DB].Columns[PRESUPUESTO_ANIO_FISCAL]"
+                      name="PRESUPUESTO_ANIO_FISCAL" />
+                    <outputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de error de origen de OLE DB].Columns[PRESUPUESTO_PERIODO]"
+                      dataType="i4"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de error de origen de OLE DB].Columns[PRESUPUESTO_PERIODO]"
+                      name="PRESUPUESTO_PERIODO" />
+                    <outputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de error de origen de OLE DB].Columns[PRESUPUESTO_CENTRO_COSTO]"
+                      codePage="1252"
+                      dataType="str"
+                      length="15"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de error de origen de OLE DB].Columns[PRESUPUESTO_CENTRO_COSTO]"
+                      name="PRESUPUESTO_CENTRO_COSTO" />
+                    <outputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de error de origen de OLE DB].Columns[PRESUPUESTO_RUBRO]"
+                      codePage="1252"
+                      dataType="str"
+                      length="15"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de error de origen de OLE DB].Columns[PRESUPUESTO_RUBRO]"
+                      name="PRESUPUESTO_RUBRO" />
+                    <outputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de error de origen de OLE DB].Columns[PRESUPUESTO_RUBRO_PRESUPUESTO_ID]"
+                      codePage="1252"
+                      dataType="str"
+                      length="15"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de error de origen de OLE DB].Columns[PRESUPUESTO_RUBRO_PRESUPUESTO_ID]"
+                      name="PRESUPUESTO_RUBRO_PRESUPUESTO_ID" />
+                    <outputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de error de origen de OLE DB].Columns[PRESUPUESTO_EJECUTADO]"
+                      dataType="numeric"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de error de origen de OLE DB].Columns[PRESUPUESTO_EJECUTADO]"
+                      name="PRESUPUESTO_EJECUTADO"
+                      precision="20"
+                      scale="2" />
+                    <outputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de error de origen de OLE DB].Columns[PRESUPUESTO_PRESUPUESTADO]"
+                      dataType="numeric"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de error de origen de OLE DB].Columns[PRESUPUESTO_PRESUPUESTADO]"
+                      name="PRESUPUESTO_PRESUPUESTADO"
+                      precision="18"
+                      scale="2" />
+                    <outputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de error de origen de OLE DB].Columns[SOURCE]"
+                      codePage="1252"
+                      dataType="str"
+                      length="5"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de error de origen de OLE DB].Columns[SOURCE]"
+                      name="SOURCE" />
+                    <outputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de error de origen de OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de error de origen de OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de error de origen de OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de error de origen de OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS.Paths[Salida de conversión de datos]"
+              endId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Carga ODS_FIN_PRESUPUESTOS.Inputs[Entrada de destino de OLE DB]"
+              name="Salida de conversión de datos"
+              startId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Conversión de datos.Outputs[Salida de conversión de datos]" />
+            <path
+              refId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS.Paths[Salida de origen de OLE DB]"
+              endId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Conversión de datos.Inputs[Entrada de conversión de datos]"
+              name="Salida de origen de OLE DB"
+              startId="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos.Outputs[Salida de origen de OLE DB]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Restricción]"
+      DTS:CreationName=""
+      DTS:DTSID="{23DC09C2-F34A-416A-B49E-3BA4E9B9319C}"
+      DTS:From="Package\Borrar ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Restricción"
+      DTS:To="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Restricción 1]"
+      DTS:CreationName=""
+      DTS:DTSID="{B9055AB9-C2C2-4062-9BF8-6D2C7FE3FF2D}"
+      DTS:From="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Restricción 1"
+      DTS:To="Package\Borrar ùltimos 2 años ODS_FIN_PRESUPUESTOS" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Restricción 2]"
+      DTS:CreationName=""
+      DTS:DTSID="{37F3634C-7457-4A2E-8BD5-D9EDBA2618E0}"
+      DTS:From="Package\Borrar ùltimos 2 años ODS_FIN_PRESUPUESTOS"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Restricción 2"
+      DTS:To="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS" />
+  </DTS:PrecedenceConstraints>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--Esta sección CDATA contiene la información de diseño del paquete. Esta sección incluye información como, por ejemplo, las coordenadas (x,y), el ancho y el alto.-->
+<!--Si edita manualmente esta sección y comete un error, puede eliminarlo. -->
+<!--El paquete podrá cargarse normalmente, pero se perderá la información de diseño anterior y el diseñador reorganizará los elementos automáticamente en la superficie de diseño.-->
+<Objects
+  Version="8">
+  <!--Cada uno de los nodos siguientes contiene propiedades que no afectan al comportamiento en tiempo de ejecución.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="337,42"
+          Id="Package\Borrar ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS"
+          TopLeft="12.75,34.5" />
+        <NodeLayout
+          Size="308,42"
+          Id="Package\Borrar ùltimos 2 años ODS_FIN_PRESUPUESTOS"
+          TopLeft="27.25,205.166666666667" />
+        <NodeLayout
+          Size="335,42"
+          Id="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS"
+          TopLeft="13.75,119.833333333333" />
+        <NodeLayout
+          Size="306,42"
+          Id="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS"
+          TopLeft="28.25,290.5" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restricción]"
+          TopLeft="181.25,76.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,43.3333333333333"
+              Start="0,0"
+              End="0,35.8333333333333">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,35.8333333333333" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restricción 1]"
+          TopLeft="181.25,161.833333333333">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,43.3333333333333"
+              Start="0,0"
+              End="0,35.8333333333333">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,35.8333333333333" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restricción 2]"
+          TopLeft="181.25,247.166666666667">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,43.3333333333333"
+              Start="0,0"
+              End="0,35.8333333333333">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,35.8333333333333" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="178,42"
+          Id="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum"
+          TopLeft="60,60" />
+        <NodeLayout
+          Size="209,42"
+          Id="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Carga Presupuestos Nodum"
+          TopLeft="329,60" />
+        <EdgeLayout
+          Id="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS.Paths[Salida de origen de OLE DB]"
+          TopLeft="238,81">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="91,0"
+              Start="0,0"
+              End="83.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="83.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Carga Presupuestos Nodum">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Carga ultimos 2 años ODS_FIN_NDM_PRESUPUESTOS\Presupuestos Nodum">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="235,42"
+          Id="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Carga ODS_FIN_PRESUPUESTOS"
+          TopLeft="481,58.5" />
+        <NodeLayout
+          Size="141,42"
+          Id="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos"
+          TopLeft="60,58.5" />
+        <NodeLayout
+          Size="175,42"
+          Id="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Conversión de datos"
+          TopLeft="253.5,58.5" />
+        <EdgeLayout
+          Id="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS.Paths[Salida de origen de OLE DB]"
+          TopLeft="201,79.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="52.5,0"
+              Start="0,0"
+              End="45,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="45,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS.Paths[Salida de conversión de datos]"
+          TopLeft="428.5,79.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="52.5,0"
+              Start="0,0"
+              End="45,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="45,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Carga ODS_FIN_PRESUPUESTOS">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
