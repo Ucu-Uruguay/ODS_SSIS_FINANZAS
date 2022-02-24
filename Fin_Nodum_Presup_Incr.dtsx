@@ -12,8 +12,8 @@
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="13"
-  DTS:VersionGUID="{96919CDF-86B3-4F95-8D4C-0D191219F98A}">
+  DTS:VersionBuild="14"
+  DTS:VersionGUID="{6550711E-B6D5-4E02-9928-C501AC256637}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,12 +27,12 @@
           DTS:ConnectionString="Data Source=10.245.0.6;User ID=nodum_read;Initial Catalog=Nodum_Prod;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="Q0OvaReax3k="
-            IV="s5POLeiBW4wSgi1TKKzp9A==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="uQ4zPlbktVw="
+            IV="1ob1pvZPnd05R3g7TaSf9g==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>s5POLeiBW4wSgi1TKKzp9DLab/dwQWOVeqSRxKiAog4Z0BPE5vFXtbbbLj+vO1BazV6ns9eXq8hgn3JjkiTAXzNeGfOoiKUaia9zhJJ8iwy+nWT7WSvO+Cu5RFuIQZSGv8Mpm/YnXTCtm4Hm7IjjEPgLxTuHdC1gtPZFK0sqT44T0xXhAN1TtFhAwYpJHhKy</CipherValue>
+              <CipherValue>1ob1pvZPnd05R3g7TaSf9oesfxhWAeAiuD8Xq1zkla6bPAdwcgBtsfDDkAx4nT4bibHAWnRTQwZLccyZUaoIqqORPfHtVelSW5nveXtZV3PgBdLGM1IcGaYh7ms8cD5iIur1OQ70EbjnzlqPjnZq+8f1WdN4y+4hTwHHagxE3xc7DZKKkdTBmKKgJZLLmNiK</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -79,12 +79,12 @@
           DTS:ConnectionString="Data Source=PROD-UCUDBS10\POWERBI;User ID=rcalvo;Initial Catalog=ODS_UCU;Provider=SQLNCLI11.1;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="dPm+zxPUmpQ="
-            IV="FDryDM2A5e6RqqQfstGx0g==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="YqgVR2Uutes="
+            IV="tvNudJD2f8nycmh9+XYWJg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>FDryDM2A5e6RqqQfstGx0upzKeYXiaWvRhZoBac/dQ3rt4GpxMZZIZTeko1Tyh6NBb0Ztwe6gIwLmQwZR3+eRwrza6y+eBktf3h9d2IwHPy6kq0nsoySWlR8P1wUB4kMmKJrcwUNYe4SN9ZB3lvL1I9/motVxZGssbb+KPV/8GYttWyJfot2YN+orA57atWd</CipherValue>
+              <CipherValue>tvNudJD2f8nycmh9+XYWJmyl7OghNV0MmUu5mIusN8ksKoMef8FMokcWr99iw7eb26I7qz3wuX20BFvY6H+wg3dI0C5zERb5VZlB+QHWwtguz26GA44ipKOQJk9HQgaTjz07nyRdcOrnzjO6CcQzXE3yC2xLhzH+O6n1VEn82bLiiAl72uzoBFwvSbigo/+J</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -972,7 +972,7 @@ LEFT JOIN (SELECT DISTINCT
             FROM ODS_FIN_RUBROS
             where ES_RUBRO_CTA_PRESUPUESTAL = 'S' ) PC ON PC.CTA_PRESUPUESTO_ID = PN.Cuenta
 
-WHERE PN.anio &gt; year(getdate())-2
+WHERE (PN.anio = year(getdate()) OR PN.anio = year(getdate()) - 1) 
 AND ES_RUBRO_CTA_PRESUPUESTAL = 'S'</property>
                 <property
                   dataType="System.String"
@@ -1422,13 +1422,13 @@ AND ES_RUBRO_CTA_PRESUPUESTAL = 'S'</property>
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="235,42"
-          Id="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Carga ODS_FIN_PRESUPUESTOS"
-          TopLeft="481,58.5" />
-        <NodeLayout
           Size="141,42"
           Id="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos"
           TopLeft="60,58.5" />
+        <NodeLayout
+          Size="235,42"
+          Id="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Carga ODS_FIN_PRESUPUESTOS"
+          TopLeft="481,58.5" />
         <NodeLayout
           Size="175,42"
           Id="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Conversión de datos"
@@ -1481,6 +1481,14 @@ AND ES_RUBRO_CTA_PRESUPUESTAL = 'S'</property>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
+    design-time-name="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
     design-time-name="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Carga ODS_FIN_PRESUPUESTOS">
     <Properties>
       <Property>
@@ -1490,14 +1498,6 @@ AND ES_RUBRO_CTA_PRESUPUESTAL = 'S'</property>
         <Name>TableInfoObjectType</Name>
         <Value
           type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Carga ultimos 2 años ODS_FIN_PRESUPUESTOS\Presupuestos">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
