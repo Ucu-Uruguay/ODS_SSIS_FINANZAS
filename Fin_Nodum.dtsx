@@ -12,8 +12,8 @@
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="45"
-  DTS:VersionGUID="{A473A3AF-FF1F-4510-A325-E44629E88D7F}">
+  DTS:VersionBuild="46"
+  DTS:VersionGUID="{4B491F47-06AE-492D-8685-84F5AD4FF744}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,12 +27,12 @@
           DTS:ConnectionString="Data Source=10.245.0.6;User ID=nodum_read;Initial Catalog=Nodum_Prod;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="gy6GrciIBLs="
-            IV="s1HDvSGD7C3JhTgOUeHEwQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="M22DCOJktg0="
+            IV="pByaxW+C3zBAVvHNexu4dg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>s1HDvSGD7C3JhTgOUeHEwYkA185T9naNSF+8dcrYXVJvbrcqENZcxmh/7HD8QZaFvsIYcZUAMyxUEUDfqetg0jskYFpVL31eCx86eDt5u7VT0PFxSpdqdCva0Z03bNp+wH5P+xAtvdC/eI9e0uxfhT1ezAuPk3NUGI8Jlutulcay9STL8Rsog01mNeOTv63S</CipherValue>
+              <CipherValue>pByaxW+C3zBAVvHNexu4dlvnYq5QQZ+08jl8bffL47YVlrCeojBRGgoQxBGsfzDb13NACuJRrDRcKKZOO1Nw2oHKcx3cOghjijSvGafLjgeK1CDCzsRZtQ+c7k1fn6sO6DK7NTZrqNMOwuh9kpfU+Vvu0Gqp++bWNn2A1aLoa5KlPE7+LWyyqIY34fFCCLTL</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -59,12 +59,12 @@
           DTS:ConnectionString="Data Source=PROD-UCUDBS10\POWERBI;User ID=rcalvo;Initial Catalog=ODS_UCU;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="/o9BCvdP3do="
-            IV="0XGYatf6Tt23fRDSg+QZbw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="OMfTF86cRnw="
+            IV="4uRdwrcNYXs2dWG7Z4IkQg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>0XGYatf6Tt23fRDSg+QZb+YbsS9QphzFguf1yF0h1f3adegItRANG+7k/GKS5y6oHRYXXsVzlDtJNH42WKqVai4q8vZTqGxbUYHCaRpJJJiuOWCexwX7FjOm79DCTTGXOhADtnqC1uPHRrRyUxNX0SiJmIyPm/nENAlnAR0/zrdUEg4OfWMR6MpAAg60uZPW</CipherValue>
+              <CipherValue>4uRdwrcNYXs2dWG7Z4IkQrX8OOxXw0yN/9VId0kTqizSNxI3xI0ZwlebkGxpWSTYBbxaEPp19ug2vPIvxIYjuAX6E87rXhquknWVA+NOBOQrU1XMdRaucOjZ+tBGIZVUmoFn7iqrAXwFIb51obU+vplP+Ry2/Tp1T3KceAmNpRR0ZMJ+UbGQq3Bf2LN2qeIt</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -80,12 +80,12 @@
           DTS:ConnectionString="Data Source=PROD-UCUDBS10\POWERBI;User ID=rcalvo;Initial Catalog=ODS_UCU;Provider=SQLNCLI11.1;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="UTDpXq7EpcM="
-            IV="2obSIS6Jk3rQo8VQWYT43A==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="UJfuUios/B0="
+            IV="iAf3HTvAUobkiUUXyn5zzw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>2obSIS6Jk3rQo8VQWYT43KqPhU582kzGqpHUEnHoXq3yDCy4VdXu7OvSbDuvhubZI1FEwMDVL8EI8nDXpO2VlNJWmitj4S4kHZN5WP7iFZWnaqUz0vUDCLMkndh5p1nOwxeencYzmznSrc2vARGFTDkRyxtREIq4e1HsIAfnEEMlv8tYUYs5H/c4W6/oQ+QR</CipherValue>
+              <CipherValue>iAf3HTvAUobkiUUXyn5zz/rsT0Ax/T0VBKBwG+XMVNebIpylDEPP/rMlEXDZxUa6UJoajUnIvYZuhznKS4N2xSLDPag4E2NdVL0prRC4a/vU65fHSeGoESJFGXIr9jpQo3pf/E4lIWGAnHXKW42GQRBxcm/XeRlaUycr9wCP317Y1v2KpfuAPYXKIE2PH/WU</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -7603,7 +7603,7 @@ CROSS JOIN ct_ctaprescta b
 CROSS JOIN ct_dptos c
 LEFT JOIN cpp_ctaprescta CtaPres1 ON CtaPres1.cod_cta=b.cod_cta
 LEFT JOIN ct_presup Pres ON Pres.cod_emp='01' AND Pres.cod_presup = a.anio 
-WHERE a.anio &gt; 2019</property>
+WHERE a.anio &gt; 2019 and a.anio &lt; (year(getdate())+1)</property>
                 <property
                   dataType="System.String"
                   description="Variable que contiene el comando SQL para ejecutar."
@@ -15940,14 +15940,14 @@ WHERE PM.MGX_AÑO_FISCAL &lt;= 2019</property>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="42.3333333333333,0"
+              EndConnector="42.333333333333,0"
               Start="0,0"
-              End="34.8333333333333,0">
+              End="34.833333333333,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="34.8333333333333,0" />
+                    End="34.833333333333,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
