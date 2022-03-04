@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">PROD-UCUDBS10</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1" SSIS:Salt="xA6RLPEpRPM=" SSIS:IV="75RW3P2acefE7bJBAE2Inw==" SSIS:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc">5ZzntfFGXs2P9k5CU7viAlds3B4smbC+vTrxfPmqxNyBRw+nOurChYetNKAmaOUvSmL6GoTdIk3OM4816OzIJEMdHdZXgvhppDlAlCbzWRuRJ1B+7iqzG50kWyDrpmipe1/NYibF8d09T9DfWiR+Uea5rpIHA43xcx0gOS9dQafdzKH4IBuQGYfhsxdVC9nL</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1" SSIS:Salt="bgo1Xjs5eos=" SSIS:IV="SuEQ6CGDlVmmW/9tyLkgGQ==" SSIS:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc">v6N2sgckCSurFIJaHlAzkkBjAhhak/EVoBskee0ipneHAf55HWb9xjqPIpHGIFRRYxZRFkfx/BiYNpRD0l2Nhhw+3ZsuaMAmhtcOfhShago/HdRdnuR1QqFxtn907+WQrcrVa0ctNCf6z5qwFUCq679UCVb6a3uHnkDk7xAxGuLD9S2ZPivHbIPQ5nU06iYH</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -46,10 +46,10 @@
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">45</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">49</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{3A7B2C70-9C54-4CD7-9784-71FF6C1D267D}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{D60154D5-363C-4CCF-AA02-90134AA361BD}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -454,6 +454,8 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">
+                    </SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -558,7 +560,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">C:\ETL UCU\UCU_ODS\UCU_ODS_FINANZAS\Unidad_Operativa_Magix_VII.txt</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">C:\ETL UCU\UCU_ODS\UCU_ODS_FINANZAS\Unidad_Operativa_Magix_VIII.txt</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -648,6 +650,8 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">
+                    </SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -1331,10 +1335,10 @@
                 <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">46</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">47</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{CF5F7913-729F-4609-8D81-BCBE7AA56B33}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{D28EB278-378E-421C-B4AD-87ADE51568DA}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -1768,7 +1772,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">C:\ETL UCU\UCU_ODS\UCU_ODS_FINANZAS\Unidad_Operativa_Magix_VII.txt</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">C:\ETL UCU\UCU_ODS\UCU_ODS_FINANZAS\Unidad_Operativa_Magix_VIII.txt</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>

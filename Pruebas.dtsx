@@ -12,8 +12,8 @@
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="46"
-  DTS:VersionGUID="{CF5F7913-729F-4609-8D81-BCBE7AA56B33}">
+  DTS:VersionBuild="47"
+  DTS:VersionGUID="{D28EB278-378E-421C-B4AD-87ADE51568DA}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,12 +27,12 @@
           DTS:ConnectionString="Data Source=10.245.0.6;User ID=nodum_read;Initial Catalog=Nodum_Prod;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="cDO+CucxeIs="
-            IV="+ef5/wQ22kmZ0vCdDTm6TQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="rnmjeYwvJA0="
+            IV="E8VtPZ+Tv6HZ3mt1H2ZKxA==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>+ef5/wQ22kmZ0vCdDTm6TVlITtj2ZoqOCSrR90gaG+3eUSXCccR2g+E7qR7UeKJuYYppvplJ9Z8ul6gl7YnMYz5nIN0t5kYB2ctbupazKMx8slE6cIJqsfbzedWpUbpDFzUwDJfqU76MZqdE8pKQIXhp49YAQ6JxDJPm4f/fiIEDMO4xxM/EpNNfGsCO93PK</CipherValue>
+              <CipherValue>E8VtPZ+Tv6HZ3mt1H2ZKxPm1FldiWoBpptvOKDpdk/+xSDCZuvP3ej9zUB63DUdP6p41OWlo00fQK3BqOvx/o1q57aeBh8OeJfZmiUOvTJ0jGlYSBorAmolao/oxSHRDoS4q9ZT1h8it+GlgHW7N4ZMf9ftVxLGYvO0Ew3wIfNIVvyDi/MYXoM1bfLGIX3Oe</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -48,12 +48,12 @@
           DTS:ConnectionString="Data Source=10.245.0.6;User ID=nodum_read;Initial Catalog=Nodum_Prod;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="j2aUo31ByLw="
-            IV="sYq7mAh96gTRg0WcHaQSog==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="GlfhNGdlvXc="
+            IV="taxmojTw2kAa4fYemUDTiw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>sYq7mAh96gTRg0WcHaQSoq6vCaJVpVWQExQEeJVozDAxJhzxui0KkkkFGplzgmcgJwxbaQK8ur3bke0kWVlhGz0tS3/djub8af2cgxiDwNLFgulMcTD9W2fBULeP60LZ+T4n0d37s2Re2ORhV5gOxR/zauBuBH4C+t95VLey8QZRKTKWKQ04RXf/c2eEpc9L</CipherValue>
+              <CipherValue>taxmojTw2kAa4fYemUDTi5WzNvAHO/mlPGXnOk5vvyt31Oi0GQJZAb9V7IMRv7oWrhAAjpBpqefTBbsyJOJn2cXE53/+WxqdEbbXM+1iSzAUDMx1ldgoA2wevUUmX3kAJ5QbtD5vTWyFwjsdtt6GmuEGbrvwxqqWyKQqHwMCcybjQ652Ya30v4zcXg7+lCtY</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -69,12 +69,12 @@
           DTS:ConnectionString="Server=172.16.5.45;User ID=MGXCONS;Database=RRHH;DBName=RRHH;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="mj9TLhereO0="
-            IV="oomANyNpCotaJy1nbKTIWg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="JdHNcRbaViE="
+            IV="oowFK1p//WuN2C98JtFhrA==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>oomANyNpCotaJy1nbKTIWrEf7JvwAfeJwVIYHlxiEwG0D56k4WOTrya7CiTT1Jpm7wh+Iruy13Btjn/sao8NniBLbIfo8lQpCxjbhwK5qVWUxVM+OGjeproJ0LRz/M9QxMXAOcQMce753xFLq1f3ptvbZ8tfpO4VN38FMnZxbuU/3qx1eMq5tjuGLR+VdIJ5</CipherValue>
+              <CipherValue>oowFK1p//WuN2C98JtFhrOQILBsfUJ6B7GfKQQAoIrejylEHXRvulps80mUeh6QM0bJvycy3eK3JKyjYbeThfgoZGKYOKkXoRTQq3PiGM7fwBMN4EOjJVl1Sxq/wl5ga2hygEmdyOT7PBpNTjS/LFz0wdthWbaivhqzVP3MhQZcAPvT1FuTQzLmM4cNazpwA</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -94,7 +94,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\ETL UCU\UCU_ODS\UCU_ODS_FINANZAS\Unidad_Operativa_Magix_VII.txt">
+          DTS:ConnectionString="C:\ETL UCU\UCU_ODS\UCU_ODS_FINANZAS\Unidad_Operativa_Magix_VIII.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -103,7 +103,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="cod_clasedpto"
-              DTS:DTSID="{1DC750AB-27C1-4593-9A14-864916D50E9B}"
+              DTS:DTSID="{1458E0D4-1C52-4D55-B631-C8EFA48D79E8}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -112,7 +112,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="nom_clasedpto"
-              DTS:DTSID="{A1BAC4D4-316D-4C3E-80B1-4F198EB933D7}"
+              DTS:DTSID="{3D6C9542-0AF6-4992-AF3E-0AE200DA380D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -121,7 +121,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="cod_tipodpto"
-              DTS:DTSID="{05ACECC6-D6CD-4F33-9BDE-87347AD8D935}"
+              DTS:DTSID="{AE6C8E57-5619-4AD0-B26B-089835BD11B3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -130,7 +130,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="nom_tipodpto"
-              DTS:DTSID="{AD2751C3-15A1-4C8E-9FF6-1DF39815943B}"
+              DTS:DTSID="{31F7F213-CC9A-4F80-8802-4776F2D675A6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -139,7 +139,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Unidad_Operativa"
-              DTS:DTSID="{7366F7F4-8AF3-44C5-8F5F-EDFA7E8897B0}"
+              DTS:DTSID="{10AA52ED-0884-467D-B244-A25C61645056}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -148,7 +148,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Unidad_Operativa_Desc"
-              DTS:DTSID="{C42BF9B8-9E5C-43E6-9CB7-AFDD8FD1532D}"
+              DTS:DTSID="{7853FE04-C91F-453F-A3EF-9DE63BE8B4A9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -157,7 +157,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="fuente"
-              DTS:DTSID="{68544803-BBD4-4DF9-9E24-D4C11C970827}"
+              DTS:DTSID="{D6C3A3C7-9418-470E-ABFB-519384411B92}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -173,12 +173,12 @@
           DTS:ConnectionString="Data Source=PROD-UCUDBS10\POWERBI;User ID=rcalvo;Initial Catalog=ODS_UCU;Provider=SQLNCLI11.1;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="G3+6GXt1Td4="
-            IV="2oNHiiOOBL8zedrleLOkWw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="0NzYCwOExL0="
+            IV="D/MXvt3qM0iDHOHcMIFjqA==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>2oNHiiOOBL8zedrleLOkW+fZTAvq8uaxwi5e+Et+Aj1UJBZylfjJDbk2SVpRYqamX9cPuYTBFwwB6EvSXXx6Wm1IC18jcuWzy1gy9KBYxQpkKn/dHn20ZhVLa2xgi3LUrDMPv+hgLxlmBPrjosKpotKlELOZ5GghWNltKDsxX9T6FmOedDyYQykci3OrdoPu</CipherValue>
+              <CipherValue>D/MXvt3qM0iDHOHcMIFjqIqV1xqFOT2MVLH3I/5tnYOeCvQm6wLnft5BqPlS1QxuTidOwqfSH5GhLKRafgBlbrfaTFrqscI4b417BBgngZDWM6tYIpP7heRQvlOhmLvpiGK8d00UnYIgMSli5hrCMV3uBOooG8340fhyjWZV+W4WyGNuAus73vLoPsybSiym</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -194,12 +194,12 @@
           DTS:ConnectionString="Data Source=PROD-UCUDBS10\POWERBI;User ID=rcalvo;Initial Catalog=ODS_UCU;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="fKhhPaaOcHQ="
-            IV="vqgtVw8DEPF2kQZREhLPDw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="ac/VMZCnyHA="
+            IV="FqL8IEebfz0R+ithpWh55g==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>vqgtVw8DEPF2kQZREhLPDz5nzVnFbLjgbWRY94LQqEPP0RHDb2yRkQ2jPrQsCPfhBgHL6kdmI+WsjboquCEvWDsYNVrcDwYbVERRwy8OuJFOAvasSZGciVdTldhOHHmAyA93VQP/m8AgdXPqzkcvzspyDRtUEqVQKAnbZ3pxDDFBMtnC5FBJ1fE+z3DXDPBu</CipherValue>
+              <CipherValue>FqL8IEebfz0R+ithpWh55hP2i+5J6bKYwaMBIirP8H2smBxUmsIa7UiyXxXk/j4f+br7XcWBr41xAWMbZnmR+KUDhmhR83ZHTvoNOp2Ml22+WiTojADj2Kf103D4wG/G/sluO++QCs7i9TA8Q6Db3mjL/NQKO2TsggxMNeHUD3TPZv4zpakGIOGcYW1tcJjW</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -9933,7 +9933,7 @@ from ct_usuariosxdpto;</property>
     design-time-name="Package\ccosto MGX">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="117,42"
           Id="Package\ccosto MGX\Ordenar"
@@ -9981,9 +9981,7 @@ from ct_usuariosxdpto;</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -10005,9 +10003,7 @@ from ct_usuariosxdpto;</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -10041,9 +10037,7 @@ from ct_usuariosxdpto;</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -10077,9 +10071,7 @@ from ct_usuariosxdpto;</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -10101,9 +10093,7 @@ from ct_usuariosxdpto;</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -10125,9 +10115,7 @@ from ct_usuariosxdpto;</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
