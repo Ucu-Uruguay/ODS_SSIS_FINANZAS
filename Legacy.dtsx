@@ -12,8 +12,8 @@
   DTS:ObjectName="Package"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="49"
-  DTS:VersionGUID="{D60154D5-363C-4CCF-AA02-90134AA361BD}">
+  DTS:VersionBuild="50"
+  DTS:VersionGUID="{1950256D-A9AA-4B86-8C66-B28E2E1C590C}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,12 +27,12 @@
           DTS:ConnectionString="Data Source=10.245.0.6;User ID=nodum_read;Initial Catalog=Nodum_Prod;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="3r2zkKgn9tI="
-            IV="nOrx6PLiP4cb9dNxvBR4HQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="z0O5GWhy6Lk="
+            IV="YczaXSaw5da7EIuRp8TsFg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>nOrx6PLiP4cb9dNxvBR4HYB+tIT5NwTrUeNiGnA/xwY1gCbXThVaoICdH3ovl0/GjGLFBVoUMfHTU07WdQ/ksMB1W3G31NwI8MlUNrCODSUsAjBWInoDJz4oeY+ojUAc9r6LcE9mJ69pTIgqB4+m9Vlpff+Hrij0xdlKZYTs4i1H5V2NTr51XPG5EIu9UeIy</CipherValue>
+              <CipherValue>YczaXSaw5da7EIuRp8TsFi7XYJBHBNnMKHf4dhKHWkDO+t+bVOV8TAbVbqklIlYVSLZKRzmM3GHenKwtH5wUuw/NjxC0Aczd/NHhRQD9D1Snr8oH8qpaliQ7bqXfY2Tv2h8WROUqcUWsNlrDsV8+Z2xCsd1/HuUCmm25VWkDvPd+MA1GSyoGkkaesHiuWJvs</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -48,12 +48,12 @@
           DTS:ConnectionString="Server=172.16.5.45;User ID=MGXCONS;Database=RRHH;DBName=RRHH;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="V5Z/CDBrGoQ="
-            IV="ap/tCr4zSaLunXUiGSygBQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="NLIy/4NjsZc="
+            IV="UQxFJ5/q6oTaOIqi2q8dOw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>ap/tCr4zSaLunXUiGSygBf2Xe8tHGwILt4Qkwc2eS26k31cfT3Kscv3nx+mWs2wWZAMIl/uwXpQQpYI3n5lLu7Q/8K/32y4BVXNGcG1CwoKJv7K0sHGlfk9kVfhmxjTHaepWnc1Mibdn6XYa2i4QDLzr2cQ84xxh9YHtD8g+///cLz1o1NjBu+vC1b8LUquz</CipherValue>
+              <CipherValue>UQxFJ5/q6oTaOIqi2q8dO2rbUL29XyL29oPmcPmWIz2pqQ3+sBcbUmI5Nvih/FMzJINN5ojBM3ipzV+WRdm0ESavZm74yv+PGliuZ6VXBfC/2h61mNA7h4lUqBDq1Irn8RQA79YVrIFmA0CwtgARwRlV6dSWxxkoEYDb/R+1XUJr8X1zZBYhHDSHq9Wllm8u</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -73,7 +73,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\ETL UCU\UCU_ODS\UCU_ODS_FINANZAS\MapeoMagixNodumUnidadesOperativas.txt">
+          DTS:ConnectionString="C:\ETL UCU\UCU_ODS\UCU_ODS_FINANZAS\MapeoMagixNodumUnidadesOperativas_II.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -82,7 +82,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="CENTRO_COSTO_MGX_COD_AGRUPACION"
-              DTS:DTSID="{B13BFD03-60E2-4822-BE86-880AD680BDA0}"
+              DTS:DTSID="{134F8CA2-8829-45FF-8318-0BCCD24288D9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -91,7 +91,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="CENTRO_COSTO_MGX_DESC_AREA"
-              DTS:DTSID="{CFBDF157-00D0-4326-B5B2-038D302FF844}"
+              DTS:DTSID="{86B32C7C-5D24-4243-8873-78177031B019}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -100,7 +100,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DESCR_CORTA"
-              DTS:DTSID="{060F3DEF-402F-44B1-B92F-737056634DF8}"
+              DTS:DTSID="{9C298EBE-DF8A-4E2D-9333-09C42ABD32FB}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -199,12 +199,12 @@
           DTS:ConnectionString="DATA SOURCE=FINPROD;USER ID=UCU_GP;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="j17I7MCMh8I="
-            IV="rzIrT6lDPEBxbOoyNuHywQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="4JORCtnqeW4="
+            IV="VEYYD3cVzIY1p9JBM/D8LQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>rzIrT6lDPEBxbOoyNuHywU2qTZz/Auxdny2rgOn8bXmVyns5tOpBkmYWyhJ/btK1RHkzQwFRdLAHVs4/kdYTL/Ta+AuxosZn5DTR+sQHit7x2hSN4PlfyWKlVMyfTybbgg8tLv/8nVpUp7gtBJxIYL4mcaDXFhmgn2ge4tuf9R+/u4Q9Lgp991p/3hPDZVY7</CipherValue>
+              <CipherValue>VEYYD3cVzIY1p9JBM/D8LZb7BuGziB4GMVs6i7el5KW6SMwIdJz3n39BtlPb8JTAozXg8emW1W+t7s0auRm4rJbRy6GDShQP7Yhh5MGE3aorwDAzI3vYNoTEXFhqbbAsV/dZFVyRipCC0Rh2VXokKepiQByB/o5HEgZo9OengHUe6JHMU8ol+t+9ldefLrEh</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -220,12 +220,12 @@
           DTS:ConnectionString="Data Source=PROD-UCUDBS10\POWERBI;User ID=rcalvo;Initial Catalog=ODS_UCU;Provider=SQLNCLI11.1;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="xALqQ5w3S4c="
-            IV="T5mlXeZkXGm20YelY7MoyQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="HSEEqABAJTI="
+            IV="YXGbe68iYFTO03+MLBbuYA==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>T5mlXeZkXGm20YelY7MoyVbIoY6q/4xNqZMDJWeFXuGwhwVEjOfFd2BQuVZ4YVNBHbvwlG6Uz2fXEXJdgxctQWS8OjCHBYb/9FX1ELTlUJyBpb3kJE+jJB8J4NpUdwLh6SLskLYgpUPrRz0mjsB9dtvYZ9LFNle6Qp8AzIDCjcf6RugZxafT2Fo6Yy21+yUi</CipherValue>
+              <CipherValue>YXGbe68iYFTO03+MLBbuYN7qPCq496aw9UU6/L4/G26rbEYne5HNXAue9wjXe52QzTSBbZyzQ0845lJKHLFKP1FiqjpfctEuTk4i5wVtV3GdKQayjo3yQ+gAsO06ZCoT545ZiRNcd5YHDwrmhcFXNHKlmGbqqddwORSbOpnIn6Tiq0ivOImWY3GgI+1vi7q7</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
