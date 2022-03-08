@@ -12,8 +12,8 @@
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="3"
-  DTS:VersionGUID="{E712F33A-294D-4E46-8853-76DE68B94A42}">
+  DTS:VersionBuild="4"
+  DTS:VersionGUID="{54D0C0D5-BCF7-4080-8118-E2C69BB9347A}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,12 +27,12 @@
           DTS:ConnectionString="Data Source=10.245.0.6;User ID=nodum_read;Initial Catalog=Nodum_Prod;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="eF7qdymlDBI="
-            IV="1t/vdF77EtElPIAUk3Plog==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="xmphIE2HFYI="
+            IV="6IulL122fbVZVHuPfQAbwQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>1t/vdF77EtElPIAUk3PlouICQYfSrIE4yL0/1bXjOCQW2eIbOrRdEKfK7Vj7rkOj3MFo9vi1sTGGM3ro/W7vgMjb3ZoYt6nInx3VoTDdJuGf9UrlKeGOFpXViIQtS9XdBsJjmMBfGfRFzhmujhvRGv8N56DWiRbhAyXC2VAPEOuEUWWZ/CgTav/EImw+bXmQ</CipherValue>
+              <CipherValue>6IulL122fbVZVHuPfQAbwV5oDkW4EdCGIwtmb/vol492tk6BCC1mdmh/JCNH0SEazIHoYkVBDiZ5YEri/pqJ0ngMye5EbuBIfy0S1KLLZmjpq9kkzJMIA6lQQhQ9Cw4O4X/m6LJdAHk1Et7r+nUnReFgvA6LF8kQj9Bwi9dGHfaBtQ2NE2Irr4RL6ID2viIh</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -48,12 +48,12 @@
           DTS:ConnectionString="Data Source=PROD-UCUDBS10\POWERBI;User ID=rcalvo;Initial Catalog=ODS_UCU;Provider=SQLNCLI11.1;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="ZB6+aDXsh2A="
-            IV="j/TCP0Td+gYt6UY4f5Tv+Q==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="JA9hXjsrLO8="
+            IV="jAheSADPrJQpr1BAQRW7zQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>j/TCP0Td+gYt6UY4f5Tv+d5+ed+GtleeeiVcofIRfMPbOKO2W+MSYvFXod4I+nzTBV1BvCdQeyjfa5lzFqBTKywiWcj/oOCxS+7RiEfyYjMoAcn05d2mTBG8jyg3AicRnAq5RaX+feHdJQ6RQL1ajF+fnUb2cPx1a7cE+sWnEi0MPpjTznkepFO5cri0Dc0P</CipherValue>
+              <CipherValue>jAheSADPrJQpr1BAQRW7zVNAXL0QehgSX3QGKXZUjLe8+5KGMSoN35QM+NfdKEpUk1H2fNLtDVE8RrW6V5WznkbQ0rHRlkzg2uyveDQGRWPxokNVksc5PBT4EI2hBF8e4Fe9I/aTDw66G4qUAZB70cDzfvFGVtYr97KC0c1FQAI5wVICN+Tl13+4V0qzKC1x</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -10936,7 +10936,7 @@ FULL OUTER JOIN [dbo].[ODS_FIN_NDM_RUBROS] NOD ON NOD.CTA_CONTABLE_ID_ANTERIOR =
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{07748C5B-3F23-4F3A-ABFF-2BD8CABE8305}"
-          SQLTask:SqlStatementSource="TRUNCATE TABLE ODS_FIN_NDM_RUBROS&#xA;TRUNCATE TABLE ODS_FIN_NDM_CCOSTO&#xA;TRUNCATE TABLE ODS_FIN_RUBROS&#xA;TRUNCATE TABLE ODS_FIN_CCOSTOS&#xA;TRUNCATE TABLE ODS_USER_SECURITY_NODUM" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="TRUNCATE TABLE ODS_FIN_NDM_RUBROS&#xA;TRUNCATE TABLE ODS_FIN_NDM_CCOSTO&#xA;TRUNCATE TABLE ODS_FIN_RUBROS&#xA;TRUNCATE TABLE ODS_FIN_CCOSTOS&#xA;TRUNCATE TABLE ODS_FIN_CENTROS_COSTOS&#xA;TRUNCATE TABLE ODS_USER_SECURITY_NODUM" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>
@@ -11035,49 +11035,115 @@ FULL OUTER JOIN [dbo].[ODS_FIN_NDM_RUBROS] NOD ON NOD.CTA_CONTABLE_ID_ANTERIOR =
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="177,42"
+          Id="Package\Cargar Tablas Nodum workaround\Comando de OLE DB 1"
+          TopLeft="586,326" />
+        <NodeLayout
           Size="207,42"
           Id="Package\Cargar Tablas Nodum workaround\Seguridad centro de costos"
           TopLeft="46,433" />
+        <NodeLayout
+          Size="173,42"
+          Id="Package\Cargar Tablas Nodum workaround\Columna derivada 2"
+          TopLeft="828.5,334.5" />
+        <NodeLayout
+          Size="164,42"
+          Id="Package\Cargar Tablas Nodum workaround\Columna derivada"
+          TopLeft="330,136" />
         <NodeLayout
           Size="196,42"
           Id="Package\Cargar Tablas Nodum workaround\Centros de Costo Nodum"
           TopLeft="61,136" />
         <NodeLayout
           Size="177,42"
-          Id="Package\Cargar Tablas Nodum workaround\Comando de OLE DB"
-          TopLeft="335.5,234.5" />
-        <NodeLayout
-          Size="164,42"
-          Id="Package\Cargar Tablas Nodum workaround\Columna derivada"
-          TopLeft="330,136" />
-        <NodeLayout
-          Size="180,42"
-          Id="Package\Cargar Tablas Nodum workaround\Carga Rubros Nodum"
-          TopLeft="329,60" />
+          Id="Package\Cargar Tablas Nodum workaround\Comando de OLE DB 1 1"
+          TopLeft="812,428.5" />
         <NodeLayout
           Size="149,42"
           Id="Package\Cargar Tablas Nodum workaround\Rubros Nodum"
           TopLeft="60,60" />
-        <NodeLayout
-          Size="173,42"
-          Id="Package\Cargar Tablas Nodum workaround\Columna derivada 2"
-          TopLeft="828.5,334.5" />
-        <NodeLayout
-          Size="173,42"
-          Id="Package\Cargar Tablas Nodum workaround\Columna derivada 1"
-          TopLeft="585.5,229.5" />
         <NodeLayout
           Size="228,42"
           Id="Package\Cargar Tablas Nodum workaround\ODS_USER_SECURITY_NODUM"
           TopLeft="315,435" />
         <NodeLayout
           Size="177,42"
-          Id="Package\Cargar Tablas Nodum workaround\Comando de OLE DB 1 1"
-          TopLeft="812,428.5" />
+          Id="Package\Cargar Tablas Nodum workaround\Comando de OLE DB"
+          TopLeft="335.5,234.5" />
         <NodeLayout
-          Size="177,42"
-          Id="Package\Cargar Tablas Nodum workaround\Comando de OLE DB 1"
-          TopLeft="586,326" />
+          Size="173,42"
+          Id="Package\Cargar Tablas Nodum workaround\Columna derivada 1"
+          TopLeft="585.5,229.5" />
+        <NodeLayout
+          Size="180,42"
+          Id="Package\Cargar Tablas Nodum workaround\Carga Rubros Nodum"
+          TopLeft="329,60" />
+        <EdgeLayout
+          Id="Package\Cargar Tablas Nodum workaround.Paths[Salida de origen de OLE DB2]"
+          TopLeft="257,157">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="73,0"
+              Start="0,0"
+              End="65.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="65.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Cargar Tablas Nodum workaround.Paths[Salida de origen de OLE DB1]"
+          TopLeft="209,81">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="120,0"
+              Start="0,0"
+              End="112.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="112.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Cargar Tablas Nodum workaround.Paths[Salida de origen de OLE DB]"
+          TopLeft="253,455">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="62,0"
+              Start="0,0"
+              End="54.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="54.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Cargar Tablas Nodum workaround.Paths[Salida de comando de OLE DB1]"
           TopLeft="512.5,253">
@@ -11224,72 +11290,6 @@ FULL OUTER JOIN [dbo].[ODS_FIN_NDM_RUBROS] NOD ON NOD.CTA_CONTABLE_ID_ANTERIOR =
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Cargar Tablas Nodum workaround.Paths[Salida de origen de OLE DB2]"
-          TopLeft="257,157">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="73,0"
-              Start="0,0"
-              End="65.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="65.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Cargar Tablas Nodum workaround.Paths[Salida de origen de OLE DB1]"
-          TopLeft="209,81">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="120,0"
-              Start="0,0"
-              End="112.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="112.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Cargar Tablas Nodum workaround.Paths[Salida de origen de OLE DB]"
-          TopLeft="253,455">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="62,0"
-              Start="0,0"
-              End="54.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="54.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
@@ -11310,7 +11310,15 @@ FULL OUTER JOIN [dbo].[ODS_FIN_NDM_RUBROS] NOD ON NOD.CTA_CONTABLE_ID_ANTERIOR =
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Cargar Tablas Nodum workaround\Carga Rubros Nodum">
+    design-time-name="Package\Cargar Tablas Nodum workaround\Rubros Nodum">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Cargar Tablas Nodum workaround\ODS_USER_SECURITY_NODUM">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -11323,15 +11331,7 @@ FULL OUTER JOIN [dbo].[ODS_FIN_NDM_RUBROS] NOD ON NOD.CTA_CONTABLE_ID_ANTERIOR =
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Cargar Tablas Nodum workaround\Rubros Nodum">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Cargar Tablas Nodum workaround\ODS_USER_SECURITY_NODUM">
+    design-time-name="Package\Cargar Tablas Nodum workaround\Carga Rubros Nodum">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>

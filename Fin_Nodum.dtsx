@@ -12,8 +12,8 @@
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="46"
-  DTS:VersionGUID="{4B491F47-06AE-492D-8685-84F5AD4FF744}">
+  DTS:VersionBuild="47"
+  DTS:VersionGUID="{1DF80279-A462-46DB-A609-279B409E9070}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,12 +27,12 @@
           DTS:ConnectionString="Data Source=10.245.0.6;User ID=nodum_read;Initial Catalog=Nodum_Prod;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="M22DCOJktg0="
-            IV="pByaxW+C3zBAVvHNexu4dg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="yW3X6B000R8="
+            IV="l1UgWyEPY7zM4U1+0XHlmg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>pByaxW+C3zBAVvHNexu4dlvnYq5QQZ+08jl8bffL47YVlrCeojBRGgoQxBGsfzDb13NACuJRrDRcKKZOO1Nw2oHKcx3cOghjijSvGafLjgeK1CDCzsRZtQ+c7k1fn6sO6DK7NTZrqNMOwuh9kpfU+Vvu0Gqp++bWNn2A1aLoa5KlPE7+LWyyqIY34fFCCLTL</CipherValue>
+              <CipherValue>l1UgWyEPY7zM4U1+0XHlmuD6TArw7FnHa3VlORGp9hFStdiyD8LA7MJP3g5L7fE3ZO88BLFr7lJw83SyIXUxvQR+nCucONaMemH+XZyMzT43JTVypKvVDCqt/+SqCiFsmbcQWw70SfwZ4XUHRlA4rvz3DRXwHQcOJgBz/yDnBkyuwXW3Js+oWg0QHcHLAeJg</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -59,12 +59,12 @@
           DTS:ConnectionString="Data Source=PROD-UCUDBS10\POWERBI;User ID=rcalvo;Initial Catalog=ODS_UCU;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="OMfTF86cRnw="
-            IV="4uRdwrcNYXs2dWG7Z4IkQg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="Bvwjy0sjlUs="
+            IV="gqA5R9zogGajhButFg28EA==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>4uRdwrcNYXs2dWG7Z4IkQrX8OOxXw0yN/9VId0kTqizSNxI3xI0ZwlebkGxpWSTYBbxaEPp19ug2vPIvxIYjuAX6E87rXhquknWVA+NOBOQrU1XMdRaucOjZ+tBGIZVUmoFn7iqrAXwFIb51obU+vplP+Ry2/Tp1T3KceAmNpRR0ZMJ+UbGQq3Bf2LN2qeIt</CipherValue>
+              <CipherValue>gqA5R9zogGajhButFg28EC73iLIvHeFzHihpbDrN47bbA6i6OEUbPtUV9ewMOjx/3CCgYA5N/gWcFiNA4IPTdCfJ0pV83AnbmOuq18/mjB5+8hatx3ai7ERo7SkjrMAnQIBs+2TjdHUo6eVmAInH4QIpjXgjvxyl11JgOJUpUCu/665hgfchL387Ot9N7eDf</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -80,12 +80,12 @@
           DTS:ConnectionString="Data Source=PROD-UCUDBS10\POWERBI;User ID=rcalvo;Initial Catalog=ODS_UCU;Provider=SQLNCLI11.1;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="UJfuUios/B0="
-            IV="iAf3HTvAUobkiUUXyn5zzw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="IGlMXJ+cGtc="
+            IV="myQGIyGthFuIPbSWPs6AfA==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>iAf3HTvAUobkiUUXyn5zz/rsT0Ax/T0VBKBwG+XMVNebIpylDEPP/rMlEXDZxUa6UJoajUnIvYZuhznKS4N2xSLDPag4E2NdVL0prRC4a/vU65fHSeGoESJFGXIr9jpQo3pf/E4lIWGAnHXKW42GQRBxcm/XeRlaUycr9wCP317Y1v2KpfuAPYXKIE2PH/WU</CipherValue>
+              <CipherValue>myQGIyGthFuIPbSWPs6AfGUshwf2lYPEq+y4HyvMA+vDbM7DaGtQv6W1i9nilWfEe4I2zlGYlsfHZhIOy5KDMJ2J1mkSWfyUrXg7Xc4DJU2pVhwpeo324pkqipdglDigBce9/A/wup8a0yY9CBrOPI0EsoIPsNbMobm7LVQ7CgB6jBYV3x5vWI3iHrkQ3BEj</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -15872,7 +15872,7 @@ WHERE PM.MGX_AÑO_FISCAL &lt;= 2019</property>
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{30325244-5E4D-4567-B7F3-1D2113BBEFBF}"
-          SQLTask:SqlStatementSource="TRUNCATE TABLE ODS_FIN_NDM_RUBROS&#xA;TRUNCATE TABLE ODS_FIN_NDM_CCOSTO&#xA;TRUNCATE TABLE ODS_FIN_NDM_PRESUPUESTOS&#xA;TRUNCATE TABLE ODS_FIN_RUBROS&#xA;TRUNCATE TABLE ODS_FIN_CCOSTOS&#xA;TRUNCATE TABLE ODS_FIN_PRESUPUESTOS&#xA;TRUNCATE TABLE ODS_USER_SECURITY_NODUM" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="TRUNCATE TABLE ODS_FIN_NDM_RUBROS&#xA;TRUNCATE TABLE ODS_FIN_NDM_CCOSTO&#xA;TRUNCATE TABLE ODS_FIN_NDM_PRESUPUESTOS&#xA;TRUNCATE TABLE ODS_FIN_RUBROS&#xA;TRUNCATE TABLE ODS_FIN_CCOSTOS&#xA;TRUNCATE TABLE ODS_FIN_CENTROS_COSTOS&#xA;TRUNCATE TABLE ODS_FIN_PRESUPUESTOS&#xA;TRUNCATE TABLE ODS_USER_SECURITY_NODUM" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>
