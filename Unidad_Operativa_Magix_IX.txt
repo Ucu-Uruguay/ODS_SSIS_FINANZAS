@@ -1,0 +1,420 @@
+cod_clasedpto	nom_clasedpto	cod_tipodpto	nom_tipodpto	Unidad_Operativa	Unidad_Operativa_Desc	fuente
+146	CENTRO DE DESARROLLO PROFESIONAL	CDP	Centro De Desarrollo Profesional	CDP	Centro De Desarrollo Profesional	MAGIX
+180	CENTRO DE DESARROLLO PROFESIONAL	CDP	Centro De Desarrollo Profesional	CDP	Centro De Desarrollo Profesional	MAGIX
+214	CENTRO DE DESARROLLO PROFESIONAL	CDP	Centro De Desarrollo Profesional	CDP	Centro De Desarrollo Profesional	MAGIX
+421	CENTRO DE DESARROLLO TÉCNICO PROFESIONAL	CDTP	Centro De Desarrollo Técnico Profesional	CDTP	Centro De Desarrollo Técnico Profesional	MAGIX
+384	CENTRO DE DESARROLLO TÉCNICO PROFESIONAL	CDTP	Centro De Desarrollo Técnico Profesional	CDTP	Centro De Desarrollo Técnico Profesional	MAGIX
+281	CENTRO DE DESARROLLO TÉCNICO PROFESIONAL	CDTP	Centro De Desarrollo Técnico Profesional	CDTP	Centro De Desarrollo Técnico Profesional	MAGIX
+247	CENTRO DE DESARROLLO TÉCNICO PROFESIONAL	CDTP	Centro De Desarrollo Técnico Profesional	CDTP	Centro De Desarrollo Técnico Profesional	MAGIX
+350	CENTRO DE DESARROLLO TÉCNICO PROFESIONAL	CDTP	Centro De Desarrollo Técnico Profesional	CDTP	Centro De Desarrollo Técnico Profesional	MAGIX
+317	CENTRO DE DESARROLLO TÉCNICO PROFESIONAL	CDTP	Centro De Desarrollo Técnico Profesional	CDTP	Centro De Desarrollo Técnico Profesional	MAGIX
+477	CENTRO DE EDUCACIÓN CONTINUA	CEC	Centro De Educación Continua	VPA	Vicerrectoría de Programas Académicos	MAGIX
+402	CENTRO DE EDUCACIÓN CONTINUA	CEC	Centro De Educación Continua	VPA	Vicerrectoría de Programas Académicos	MAGIX
+437	CENTRO DE EDUCACIÓN CONTINUA	CEC	Centro De Educación Continua	VPA	Vicerrectoría de Programas Académicos	MAGIX
+440	ESCUELA DE POSTGRADOS	EPG	Escuela De Postgrados	EPG	Escuela De Postgrados	MAGIX
+480	ESCUELA DE POSTGRADOS	EPG	Escuela De Postgrados	EPG	Escuela De Postgrados	MAGIX
+366	FACULTAD DE CIENCIAS EMPRESARIALES	FCE	Facultad De Ciencias Empresariales	FCE	Facultad De Ciencias Empresariales	MAGIX
+332	FACULTAD DE CIENCIAS EMPRESARIALES	FCE	Facultad De Ciencias Empresariales	FCE	Facultad De Ciencias Empresariales	MAGIX
+263	FACULTAD DE CIENCIAS EMPRESARIALES	FCE	Facultad De Ciencias Empresariales	FCE	Facultad De Ciencias Empresariales	MAGIX
+299	FACULTAD DE CIENCIAS EMPRESARIALES	FCE	Facultad De Ciencias Empresariales	FCE	Facultad De Ciencias Empresariales	MAGIX
+403	FACULTAD DE CIENCIAS EMPRESARIALES	FCE	Facultad De Ciencias Empresariales	FCE	Facultad De Ciencias Empresariales	MAGIX
+443	FACULTAD DE CIENCIAS EMPRESARIALES	FCE	Facultad De Ciencias Empresariales	FCE	Facultad De Ciencias Empresariales	MAGIX
+127	FACULTAD DE CIENCIAS EMPRESARIALES	FCE	Facultad De Ciencias Empresariales	FCE	Facultad De Ciencias Empresariales	MAGIX
+161	FACULTAD DE CIENCIAS EMPRESARIALES	FCE	Facultad De Ciencias Empresariales	FCE	Facultad De Ciencias Empresariales	MAGIX
+195	FACULTAD DE CIENCIAS EMPRESARIALES	FCE	Facultad De Ciencias Empresariales	FCE	Facultad De Ciencias Empresariales	MAGIX
+229	FACULTAD DE CIENCIAS EMPRESARIALES	FCE	Facultad De Ciencias Empresariales	FCE	Facultad De Ciencias Empresariales	MAGIX
+368	FACULTAD DE CIENCIAS HUMANAS	FCH	Facultad De Ciencias Humanas	FCH	Facultad De Ciencias Humanas	MAGIX
+445	FACULTAD DE CIENCIAS HUMANAS	FCH	Facultad De Ciencias Humanas	FCH	Facultad De Ciencias Humanas	MAGIX
+405	FACULTAD DE CIENCIAS HUMANAS	FCH	Facultad De Ciencias Humanas	FCH	Facultad De Ciencias Humanas	MAGIX
+231	FACULTAD DE CIENCIAS HUMANAS	FCH	Facultad De Ciencias Humanas	FCH	Facultad De Ciencias Humanas	MAGIX
+334	FACULTAD DE CIENCIAS HUMANAS	FCH	Facultad De Ciencias Humanas	FCH	Facultad De Ciencias Humanas	MAGIX
+129	FACULTAD DE CIENCIAS HUMANAS	FCH	Facultad De Ciencias Humanas	FCH	Facultad De Ciencias Humanas	MAGIX
+197	FACULTAD DE CIENCIAS HUMANAS	FCH	Facultad De Ciencias Humanas	FCH	Facultad De Ciencias Humanas	MAGIX
+163	FACULTAD DE CIENCIAS HUMANAS	FCH	Facultad De Ciencias Humanas	FCH	Facultad De Ciencias Humanas	MAGIX
+301	FACULTAD DE CIENCIAS HUMANAS	FCH	Facultad De Ciencias Humanas	FCH	Facultad De Ciencias Humanas	MAGIX
+265	FACULTAD DE CIENCIAS HUMANAS	FCH	Facultad De Ciencias Humanas	FCH	Facultad De Ciencias Humanas	MAGIX
+479	FACULTAD DE CIENCIAS DE LA SALUD	FCS	Facultad De Ciencias De La Salud	FCS	Facultad De Ciencias De La Salud	MAGIX
+439	FACULTAD DE CIENCIAS DE LA SALUD	FCS	Facultad De Ciencias De La Salud	FCS	Facultad De Ciencias De La Salud	MAGIX
+367	FACULTAD DE DERECHO	FD	Facultad De Derecho	FD	Facultad De Derecho	MAGIX
+404	FACULTAD DE DERECHO	FD	Facultad De Derecho	FD	Facultad De Derecho	MAGIX
+444	FACULTAD DE DERECHO	FD	Facultad De Derecho	FD	Facultad De Derecho	MAGIX
+196	FACULTAD DE DERECHO	FD	Facultad De Derecho	FD	Facultad De Derecho	MAGIX
+128	FACULTAD DE DERECHO	FD	Facultad De Derecho	FD	Facultad De Derecho	MAGIX
+162	FACULTAD DE DERECHO	FD	Facultad De Derecho	FD	Facultad De Derecho	MAGIX
+264	FACULTAD DE DERECHO	FD	Facultad De Derecho	FD	Facultad De Derecho	MAGIX
+300	FACULTAD DE DERECHO	FD	Facultad De Derecho	FD	Facultad De Derecho	MAGIX
+333	FACULTAD DE DERECHO	FD	Facultad De Derecho	FD	Facultad De Derecho	MAGIX
+230	FACULTAD DE DERECHO	FD	Facultad De Derecho	FD	Facultad De Derecho	MAGIX
+245	FACULTAD DE ENFERMERÍA Y TECNOLOGÍAS DE LA SALUD	FEST	Facultad De Enfermería Y Tecnologías De La Salud	FEST	Facultad De Enfermería Y Tecnologías De La Salud	MAGIX
+212	FACULTAD DE ENFERMERÍA Y TECNOLOGÍAS DE LA SALUD	FEST	Facultad De Enfermería Y Tecnologías De La Salud	FEST	Facultad De Enfermería Y Tecnologías De La Salud	MAGIX
+144	FACULTAD DE ENFERMERÍA Y TECNOLOGÍAS DE LA SALUD	FEST	Facultad De Enfermería Y Tecnologías De La Salud	FEST	Facultad De Enfermería Y Tecnologías De La Salud	MAGIX
+279	FACULTAD DE ENFERMERÍA Y TECNOLOGÍAS DE LA SALUD	FEST	Facultad De Enfermería Y Tecnologías De La Salud	FEST	Facultad De Enfermería Y Tecnologías De La Salud	MAGIX
+315	FACULTAD DE ENFERMERÍA Y TECNOLOGÍAS DE LA SALUD	FEST	Facultad De Enfermería Y Tecnologías De La Salud	FEST	Facultad De Enfermería Y Tecnologías De La Salud	MAGIX
+348	FACULTAD DE ENFERMERÍA Y TECNOLOGÍAS DE LA SALUD	FEST	Facultad De Enfermería Y Tecnologías De La Salud	FEST	Facultad De Enfermería Y Tecnologías De La Salud	MAGIX
+382	FACULTAD DE ENFERMERÍA Y TECNOLOGÍAS DE LA SALUD	FEST	Facultad De Enfermería Y Tecnologías De La Salud	FEST	Facultad De Enfermería Y Tecnologías De La Salud	MAGIX
+178	FACULTAD DE ENFERMERÍA Y TECNOLOGÍAS DE LA SALUD	FEST	Facultad De Enfermería Y Tecnologías De La Salud	FEST	Facultad De Enfermería Y Tecnologías De La Salud	MAGIX
+130	FACULTAD DE INGENIERIA Y TECNOLOGÍAS	FIT	Facultad De Ingenieria Y Tecnologías	FIT	Facultad De Ingenieria Y Tecnologías	MAGIX
+335	FACULTAD DE INGENIERIA Y TECNOLOGÍAS	FIT	Facultad De Ingenieria Y Tecnologías	FIT	Facultad De Ingenieria Y Tecnologías	MAGIX
+369	FACULTAD DE INGENIERIA Y TECNOLOGÍAS	FIT	Facultad De Ingenieria Y Tecnologías	FIT	Facultad De Ingenieria Y Tecnologías	MAGIX
+232	FACULTAD DE INGENIERIA Y TECNOLOGÍAS	FIT	Facultad De Ingenieria Y Tecnologías	FIT	Facultad De Ingenieria Y Tecnologías	MAGIX
+446	FACULTAD DE INGENIERIA Y TECNOLOGÍAS	FIT	Facultad De Ingenieria Y Tecnologías	FIT	Facultad De Ingenieria Y Tecnologías	MAGIX
+302	FACULTAD DE INGENIERIA Y TECNOLOGÍAS	FIT	Facultad De Ingenieria Y Tecnologías	FIT	Facultad De Ingenieria Y Tecnologías	MAGIX
+406	FACULTAD DE INGENIERIA Y TECNOLOGÍAS	FIT	Facultad De Ingenieria Y Tecnologías	FIT	Facultad De Ingenieria Y Tecnologías	MAGIX
+266	FACULTAD DE INGENIERIA Y TECNOLOGÍAS	FIT	Facultad De Ingenieria Y Tecnologías	FIT	Facultad De Ingenieria Y Tecnologías	MAGIX
+198	FACULTAD DE INGENIERIA Y TECNOLOGÍAS	FIT	Facultad De Ingenieria Y Tecnologías	FIT	Facultad De Ingenieria Y Tecnologías	MAGIX
+164	FACULTAD DE INGENIERIA Y TECNOLOGÍAS	FIT	Facultad De Ingenieria Y Tecnologías	FIT	Facultad De Ingenieria Y Tecnologías	MAGIX
+166	FACULTAD DE ODONTOLOGÍA	FOD	Facultad De Odontología	FOD	Facultad De Odontología	MAGIX
+132	FACULTAD DE ODONTOLOGÍA	FOD	Facultad De Odontología	FOD	Facultad De Odontología	MAGIX
+337	FACULTAD DE ODONTOLOGÍA	FOD	Facultad De Odontología	FOD	Facultad De Odontología	MAGIX
+234	FACULTAD DE ODONTOLOGÍA	FOD	Facultad De Odontología	FOD	Facultad De Odontología	MAGIX
+408	FACULTAD DE ODONTOLOGÍA	FOD	Facultad De Odontología	FOD	Facultad De Odontología	MAGIX
+448	FACULTAD DE ODONTOLOGÍA	FOD	Facultad De Odontología	FOD	Facultad De Odontología	MAGIX
+268	FACULTAD DE ODONTOLOGÍA	FOD	Facultad De Odontología	FOD	Facultad De Odontología	MAGIX
+304	FACULTAD DE ODONTOLOGÍA	FOD	Facultad De Odontología	FOD	Facultad De Odontología	MAGIX
+371	FACULTAD DE ODONTOLOGÍA	FOD	Facultad De Odontología	FOD	Facultad De Odontología	MAGIX
+200	FACULTAD DE ODONTOLOGÍA	FOD	Facultad De Odontología	FOD	Facultad De Odontología	MAGIX
+370	FACULTAD DE PSICOLOGÍA	FPSIC	Facultad De Psicología	FPSIC	Facultad De Psicología	MAGIX
+131	FACULTAD DE PSICOLOGÍA	FPSIC	Facultad De Psicología	FPSIC	Facultad De Psicología	MAGIX
+303	FACULTAD DE PSICOLOGÍA	FPSIC	Facultad De Psicología	FPSIC	Facultad De Psicología	MAGIX
+267	FACULTAD DE PSICOLOGÍA	FPSIC	Facultad De Psicología	FPSIC	Facultad De Psicología	MAGIX
+233	FACULTAD DE PSICOLOGÍA	FPSIC	Facultad De Psicología	FPSIC	Facultad De Psicología	MAGIX
+199	FACULTAD DE PSICOLOGÍA	FPSIC	Facultad De Psicología	FPSIC	Facultad De Psicología	MAGIX
+165	FACULTAD DE PSICOLOGÍA	FPSIC	Facultad De Psicología	FPSIC	Facultad De Psicología	MAGIX
+336	FACULTAD DE PSICOLOGÍA	FPSIC	Facultad De Psicología	FPSIC	Facultad De Psicología	MAGIX
+224	ISEDE	ISEDE	Isede	ISEDE	Isede	MAGIX
+290	ESCUELA DE NEGOCIOS	ISEDE	Escuela De Negocios	ISEDE	Escuela De Negocios	MAGIX
+156	ISEDE	ISEDE	Isede	ISEDE	Isede	MAGIX
+392	ESCUELA DE NEGOCIOS	ISEDE	Escuela De Negocios	ISEDE	Escuela De Negocios	MAGIX
+325	ESCUELA DE NEGOCIOS	ISEDE	Escuela De Negocios	ISEDE	Escuela De Negocios	MAGIX
+256	ESCUELA DE NEGOCIOS	ISEDE	Escuela De Negocios	ISEDE	Escuela De Negocios	MAGIX
+190	ISEDE	ISEDE	Isede	ISEDE	Isede	MAGIX
+358	ESCUELA DE NEGOCIOS	ISEDE	Escuela De Negocios	ISEDE	Escuela De Negocios	MAGIX
+183	REGISTRO ACADÉMICO	RECTORADO	Registro Académico	RECTORADO	Registro Académico	MAGIX
+284	REGISTRO ACADÉMICO	RECTORADO	Registro Académico	RECTORADO	Registro Académico	MAGIX
+309	SECRETARÍA DE ASUNTOS JURÍDICOS	RECTORADO	Secretaría De Asuntos Jurídicos	RECTORADO	Secretaría De Asuntos Jurídicos	MAGIX
+205	ASESORÍA LEGAL	RECTORADO	Asesoría Legal	RECTORADO	Asesoría Legal	MAGIX
+216	RECTORADO	RECTORADO	Rectorado	RECTORADO	Rectorado	MAGIX
+353	REGISTRO ACADÉMICO	RECTORADO	Registro Académico	RECTORADO	Registro Académico	MAGIX
+319	RECTORADO	RECTORADO	Rectorado	RECTORADO	Rectorado	MAGIX
+249	RECTORADO	RECTORADO	Rectorado	RECTORADO	Rectorado	MAGIX
+217	REGISTRO ACADÉMICO	RECTORADO	Registro Académico	RECTORADO	Registro Académico	MAGIX
+342	SECRETARÍA DE ASUNTOS JURÍDICOS	RECTORADO	Secretaría De Asuntos Jurídicos	RECTORADO	Secretaría De Asuntos Jurídicos	MAGIX
+464	OFICINA DE TITULACIÓN	RECTORADO	Oficina De Titulación	RECTORADO	Oficina De Titulación	MAGIX
+463	RECTORADO	RECTORADO	Rectorado	RECTORADO	Rectorado	MAGIX
+352	RECTORADO	RECTORADO	Rectorado	RECTORADO	Rectorado	MAGIX
+193	SECRETARIA DE PLANEAMIENTO Y ANÁLISIS INSTITUCIONAL	RECTORADO	Secretaria De Planeamiento Y Análisis Institucional	RECTORADO	Secretaria De Planeamiento Y Análisis Institucional	MAGIX
+171	ASESORÍA LEGAL	RECTORADO	Asesoría Legal	RECTORADO	Asesoría Legal	MAGIX
+320	REGISTRO ACADÉMICO	RECTORADO	Registro Académico	RECTORADO	Registro Académico	MAGIX
+182	RECTORADO	RECTORADO	Rectorado	RECTORADO	Rectorado	MAGIX
+250	REGISTRO ACADÉMICO	RECTORADO	Registro Académico	RECTORADO	Registro Académico	MAGIX
+413	SECRETARÍA DE ASUNTOS JURÍDICOS	RECTORADO	Secretaría De Asuntos Jurídicos	RECTORADO	Secretaría De Asuntos Jurídicos	MAGIX
+137	ASESORÍA LEGAL	RECTORADO	Asesoría Legal	RECTORADO	Asesoría Legal	MAGIX
+239	SECRETARÍA DE ASUNTOS JURÍDICOS	RECTORADO	Secretaría De Asuntos Jurídicos	RECTORADO	Secretaría De Asuntos Jurídicos	MAGIX
+148	RECTORADO	RECTORADO	Rectorado	RECTORADO	Rectorado	MAGIX
+149	REGISTRO ACADÉMICO	RECTORADO	Registro Académico	RECTORADO	Registro Académico	MAGIX
+387	REGISTRO ACADÉMICO	RECTORADO	Registro Académico	RECTORADO	Registro Académico	MAGIX
+386	RECTORADO	RECTORADO	Rectorado	RECTORADO	Rectorado	MAGIX
+159	SECRETARIA DE PLANEAMIENTO Y ANÁLISIS INSTITUCIONAL	RECTORADO	Secretaria De Planeamiento Y Análisis Institucional	RECTORADO	Secretaria De Planeamiento Y Análisis Institucional	MAGIX
+283	RECTORADO	RECTORADO	Rectorado	RECTORADO	Rectorado	MAGIX
+273	SECRETARÍA DE ASUNTOS JURÍDICOS	RECTORADO	Secretaría De Asuntos Jurídicos	RECTORADO	Secretaría De Asuntos Jurídicos	MAGIX
+424	OFICINA DE TITULACIÓN	RECTORADO	Oficina De Titulación	RECTORADO	Oficina De Titulación	MAGIX
+423	RECTORADO	RECTORADO	Rectorado	RECTORADO	Rectorado	MAGIX
+453	SECRETARÍA DE ASUNTOS JURÍDICOS	RECTORADO	Secretaría De Asuntos Jurídicos	RECTORADO	Secretaría De Asuntos Jurídicos	MAGIX
+376	SECRETARÍA DE ASUNTOS JURÍDICOS	RECTORADO	Secretaría De Asuntos Jurídicos	RECTORADO	Secretaría De Asuntos Jurídicos	MAGIX
+327	SECRETARIA DE INFORMACION ESTRATEGICA Y CALIDAD	SIEC	Secretaria De Informacion Estrategica Y Calidad	SIEC	Secretaria De Informacion Estrategica Y Calidad	MAGIX
+259	SECRETARIA DE INFORMACION ESTRATEGICA Y CALIDAD	SIEC	Secretaria De Informacion Estrategica Y Calidad	SIEC	Secretaria De Informacion Estrategica Y Calidad	MAGIX
+360	SECRETARIA DE INFORMACION ESTRATÉGICA Y CALIDAD	SIEC	Secretaria De Informacion Estratégica Y Calidad	SIEC	Secretaria De Informacion Estratégica Y Calidad	MAGIX
+293	SECRETARIA DE INFORMACION ESTRATEGICA Y CALIDAD	SIEC	Secretaria De Informacion Estrategica Y Calidad	SIEC	Secretaria De Informacion Estrategica Y Calidad	MAGIX
+227	SECRETARIA DE INFORMACION ESTRATEGICA Y CALIDAD	SIEC	Secretaria De Informacion Estrategica Y Calidad	SIEC	Secretaria De Informacion Estrategica Y Calidad	MAGIX
+241	SECRETARIA SEDE CENTRO	SMVDYGRAL	Secretaria Sede Centro	SMVDYGRAL	Secretaria Sede Centro	MAGIX
+422	SEDES MONTEVIDEO	SMVDYGRAL	Sedes Montevideo	SMVDYGRAL	Sedes Montevideo	MAGIX
+316	GENERALES	SMVDYGRAL	Generales	SMVDYGRAL	Generales	MAGIX
+215	SEDES MONTEVIDEO	SMVDYGRAL	Sedes Montevideo	SMVDYGRAL	Sedes Montevideo	MAGIX
+213	GENERALES	SMVDYGRAL	Generales	SMVDYGRAL	Generales	MAGIX
+246	GENERALES	SMVDYGRAL	Generales	SMVDYGRAL	Generales	MAGIX
+420	GENERALES	SMVDYGRAL	Generales	SMVDYGRAL	Generales	MAGIX
+318	SEDES MONTEVIDEO	SMVDYGRAL	Sedes Montevideo	SMVDYGRAL	Sedes Montevideo	MAGIX
+207	SECRETARIA SEDE CENTRO	SMVDYGRAL	Secretaria Sede Centro	SMVDYGRAL	Secretaria Sede Centro	MAGIX
+139	SECRETARIA SEDE CENTRO	SMVDYGRAL	Secretaria Sede Centro	SMVDYGRAL	Secretaria Sede Centro	MAGIX
+280	GENERALES	SMVDYGRAL	Generales	SMVDYGRAL	Generales	MAGIX
+179	GENERALES	SMVDYGRAL	Generales	SMVDYGRAL	Generales	MAGIX
+181	SEDES MONTEVIDEO	SMVDYGRAL	Sedes Montevideo	SMVDYGRAL	Sedes Montevideo	MAGIX
+351	SEDES MONTEVIDEO	SMVDYGRAL	Sedes Montevideo	SMVDYGRAL	Sedes Montevideo	MAGIX
+383	GENERALES	SMVDYGRAL	Generales	SMVDYGRAL	Generales	MAGIX
+385	SEDES MONTEVIDEO	SMVDYGRAL	Sedes Montevideo	SMVDYGRAL	Sedes Montevideo	MAGIX
+147	SEDES MONTEVIDEO	SMVDYGRAL	Sedes Montevideo	SMVDYGRAL	Sedes Montevideo	MAGIX
+270	SEDE PUNTA DEL ESTE- MALDONADO	SMVDYGRAL	Sede Punta Del Este- Maldonado	SMVDYGRAL	Sede Punta Del Este- Maldonado	MAGIX
+349	GENERALES	SMVDYGRAL	Generales	SMVDYGRAL	Generales	MAGIX
+460	GENERALES	SMVDYGRAL	Generales	SMVDYGRAL	Generales	MAGIX
+462	CAMPUS MONTEVIDEO	SMVDYGRAL	Campus Montevideo	SMVDYGRAL	Campus Montevideo	MAGIX
+173	SECRETARIA SEDE CENTRO	SMVDYGRAL	Secretaria Sede Centro	SMVDYGRAL	Secretaria Sede Centro	MAGIX
+145	GENERALES	SMVDYGRAL	Generales	SMVDYGRAL	Generales	MAGIX
+282	SEDES MONTEVIDEO	SMVDYGRAL	Sedes Montevideo	SMVDYGRAL	Sedes Montevideo	MAGIX
+468	UCU BUSINESS SCHOOL	UCUBS	Ucu Business School	UCUBS	Ucu Business School	MAGIX
+428	UCU BUSINESS SCHOOL	UCUBS	Ucu Business School	UCUBS	Ucu Business School	MAGIX
+471	DIRECCIÓN DE ASUNTOS INTERNACIONALES Y ALUMNI	VCU	Dirección De Asuntos Internacionales Y Alumni	VCU	Dirección De Asuntos Internacionales Y Alumni	MAGIX
+294	DRIC-SECRETARÍA DE COMUNICACIÓN INSTITUCIONAL	VCU	Dric-Secretaría De Comunicación Institucional	VCU	Dric-Secretaría De Comunicación Institucional	MAGIX
+297	DRIC-DIRECCIÓN DE COMUNICACIÓN INSTITUCIONAL	VCU	Dric-Dirección De Comunicación Institucional	VCU	Dric-Dirección De Comunicación Institucional	MAGIX
+235	DRIC-SECRETARÍA DE ADMISIÓN	VCU	Dric-Secretaría De Admisión	VCU	Dric-Secretaría De Admisión	MAGIX
+296	DRIC-SECRETARÍA DE PROMOCIÓN	VCU	Dric-Secretaría De Promoción	VCU	Dric-Secretaría De Promoción	MAGIX
+260	DRIC-SECRETARÍA DE COMUNICACIÓN INSTITUCIONAL	VCU	Dric-Secretaría De Comunicación Institucional	VCU	Dric-Secretaría De Comunicación Institucional	MAGIX
+261	DRIC-SECRETARÍA DE RELACIONES INSTITUCIONALES	VCU	Dric-Secretaría De Relaciones Institucionales	VCU	Dric-Secretaría De Relaciones Institucionales	MAGIX
+295	DRIC-SECRETARÍA DE RELACIONES INSTITUCIONALES	VCU	Dric-Secretaría De Relaciones Institucionales	VCU	Dric-Secretaría De Relaciones Institucionales	MAGIX
+269	DRIC-SECRETARÍA DE ADMISIÓN	VCU	Dric-Secretaría De Admisión	VCU	Dric-Secretaría De Admisión	MAGIX
+473	VICERRECTORÍA DE LA COMUNIDAD UNIVERSITARIA	VCU	Vicerrectoría De La Comunidad Universitaria	VCU	Vicerrectoría De La Comunidad Universitaria	MAGIX
+338	DCI-SECRETARÍA DE ADMISIÓN	VCU	Dci-Secretaría De Admisión	VCU	Dci-Secretaría De Admisión	MAGIX
+305	DRIC-SECRETARÍA DE ADMISIÓN	VCU	Dric-Secretaría De Admisión	VCU	Dric-Secretaría De Admisión	MAGIX
+364	VICERRECTORÍA DE LA COMUNIDAD UNIVERSITARIA	VCU	Vicerrectoría De La Comunidad Universitaria	VCU	Vicerrectoría De La Comunidad Universitaria	MAGIX
+372	DCI-SECRETARÍA DE ADMISIÓN	VCU	Dci-Secretaría De Admisión	VCU	Dci-Secretaría De Admisión	MAGIX
+374	DCI-SECRETARÍA DE PROMOCIÓN	VCU	Dci-Secretaría De Promoción	VCU	Dci-Secretaría De Promoción	MAGIX
+378	DCI-DIRECCIÓN DE COMUNICACIÓN INSTITUCIONAL	VCU	Dci-Dirección De Comunicación Institucional	VCU	Dci-Dirección De Comunicación Institucional	MAGIX
+388	DIRECCIÓN DE ASUNTOS ESTUDIANTILES	VCU	Dirección De Asuntos Estudiantiles	VCU	Dirección De Asuntos Estudiantiles	MAGIX
+395	DCI-SECRETARÍA DE COMUNICACIÓN	VCU	Dci-Secretaría De Comunicación	VCU	Dci-Secretaría De Comunicación	MAGIX
+396	DIRECCIÓN DE ASUNTOS INTERNACIONALES Y ALUMNI	VCU	Dirección De Asuntos Internacionales Y Alumni	VCU	Dirección De Asuntos Internacionales Y Alumni	MAGIX
+363	SERVICIO DE ATENCIÓN ESTUDIANTIL	VCU	Servicio De Atención Estudiantil	VCU	Servicio De Atención Estudiantil	MAGIX
+397	SERVICIO DE ATENCIÓN ESTUDIANTIL	VCU	Servicio De Atención Estudiantil	VCU	Servicio De Atención Estudiantil	MAGIX
+433	VICERRECTORÍA DE LA COMUNIDAD UNIVERSITARIA	VCU	Vicerrectoría De La Comunidad Universitaria	VCU	Vicerrectoría De La Comunidad Universitaria	MAGIX
+431	DIRECCIÓN DE ASUNTOS INTERNACIONALES Y ALUMNI	VCU	Dirección De Asuntos Internacionales Y Alumni	VCU	Dirección De Asuntos Internacionales Y Alumni	MAGIX
+430	DCI-SECRETARÍA PUBLICIDAD Y PRODUCCIÓN	VCU	Dci-Secretaría Publicidad Y Producción	VCU	Dci-Secretaría Publicidad Y Producción	MAGIX
+409	DCI-SECRETARÍA DE COMUNICACIÓN INTERNA	VCU	Dci-Secretaría De Comunicación Interna	VCU	Dci-Secretaría De Comunicación Interna	MAGIX
+133	DIRECCIÓN DE RELACIONES INSTITUCIONALES Y COMUNICACIONES	VCU	Dirección De Relaciones Institucionales Y Comunicaciones	VCU	Dirección De Relaciones Institucionales Y Comunicaciones	MAGIX
+411	DCI-SECRETARÍA DE PROMOCIÓN	VCU	Dci-Secretaría De Promoción	VCU	Dci-Secretaría De Promoción	MAGIX
+415	DCI-DIRECCIÓN DE COMUNICACIÓN INSTITUCIONAL	VCU	Dci-Dirección De Comunicación Institucional	VCU	Dci-Dirección De Comunicación Institucional	MAGIX
+398	VICERRECTORÍA DE LA COMUNIDAD UNIVERSITARIA	VCU	Vicerrectoría De La Comunidad Universitaria	VCU	Vicerrectoría De La Comunidad Universitaria	MAGIX
+362	DIRECCIÓN DE ASUNTOS INTERNACIONALES Y ALUMNI	VCU	Dirección De Asuntos Internacionales Y Alumni	VCU	Dirección De Asuntos Internacionales Y Alumni	MAGIX
+441	DCI-SECRETARÍA DE CONTENIDOS Y PRENSA	VCU	Dci-Secretaría De Contenidos Y Prensa	VCU	Dci-Secretaría De Contenidos Y Prensa	MAGIX
+167	DIRECCIÓN DE RELACIONES INSTITUCIONALES Y COMUNICACIONES	VCU	Dirección De Relaciones Institucionales Y Comunicaciones	VCU	Dirección De Relaciones Institucionales Y Comunicaciones	MAGIX
+307	DRIC-SECRETARÍA DE PROMOCIÓN	VCU	Dric-Secretaría De Promoción	VCU	Dric-Secretaría De Promoción	MAGIX
+311	DRIC-DIRECCIÓN DE COMUNICACIÓN INSTITUCIONAL	VCU	Dric-Dirección De Comunicación Institucional	VCU	Dric-Dirección De Comunicación Institucional	MAGIX
+201	DIRECCIÓN DE RELACIONES INSTITUCIONALES Y COMUNICACIONES	VCU	Dirección De Relaciones Institucionales Y Comunicaciones	VCU	Dirección De Relaciones Institucionales Y Comunicaciones	MAGIX
+465	DIRECCIÓN DE ASUNTOS ESTUDIANTILES	VCU	Dirección De Asuntos Estudiantiles	VCU	Dirección De Asuntos Estudiantiles	MAGIX
+321	VICERRECTORÍA DEL MEDIO UNIVERSITARIO	VCU	Vicerrectoría Del Medio Universitario	VCU	Vicerrectoría Del Medio Universitario	MAGIX
+328	DRIC-SECRETARÍA DE COMUNICACIÓN	VCU	Dric-Secretaría De Comunicación	VCU	Dric-Secretaría De Comunicación	MAGIX
+329	DRIC-SECRETARÍA DE RELACIONES INSTITUCIONALES	VCU	Dric-Secretaría De Relaciones Institucionales	VCU	Dric-Secretaría De Relaciones Institucionales	MAGIX
+330	SERVICIO DE ATENCIÓN ESTUDIANTIL	VCU	Servicio De Atención Estudiantil	VCU	Servicio De Atención Estudiantil	MAGIX
+361	DCI-SECRETARÍA DE COMUNICACIÓN	VCU	Dci-Secretaría De Comunicación	VCU	Dci-Secretaría De Comunicación	MAGIX
+344	DCI-DIRECCIÓN DE COMUNICACIÓN INSTITUCIONAL	VCU	Dci-Dirección De Comunicación Institucional	VCU	Dci-Dirección De Comunicación Institucional	MAGIX
+340	DCI-SECRETARÍA DE PROMOCIÓN	VCU	Dci-Secretaría De Promoción	VCU	Dci-Secretaría De Promoción	MAGIX
+354	DIRECCIÓN DE ASUNTOS ESTUDIANTILES	VCU	Dirección De Asuntos Estudiantiles	VCU	Dirección De Asuntos Estudiantiles	MAGIX
+455	DIRECCIÓN DE COMUNICACIÓN INSTITUCIONAL	VCU	Dirección De Comunicación Institucional	VCU	Dirección De Comunicación Institucional	MAGIX
+425	DIRECCIÓN DE ASUNTOS ESTUDIANTILES	VCU	Dirección De Asuntos Estudiantiles	VCU	Dirección De Asuntos Estudiantiles	MAGIX
+377	SISTEMAS DE BIBLIOTECA	VII	Sistemas De Biblioteca	VII	Sistemas De Biblioteca	MAGIX
+355	VII Y VPA (EX-VRAC)	VII	Vii Y Vpa (Ex-Vrac)	VII	Vii Y Vpa (Ex-Vrac)	MAGIX
+414	SISTEMAS DE BIBLIOTECA	VII	Sistemas De Biblioteca	VII	Sistemas De Biblioteca	MAGIX
+310	SISTEMAS DE BIBLIOTECA	VII	Sistemas De Biblioteca	VII	Sistemas De Biblioteca	MAGIX
+240	SISTEMAS DE BIBLIOTECA	VII	Sistemas De Biblioteca	VII	Sistemas De Biblioteca	MAGIX
+454	SISTEMAS DE BIBLIOTECA	VII	Sistemas De Biblioteca	VII	Sistemas De Biblioteca	MAGIX
+435	VICERRECTORÍA DE INVESTIGACIÓN E INNOVACIÓN	VII	Vicerrectoría De Investigación E Innovación	VII	Vicerrectoría De Investigación E Innovación	MAGIX
+274	SISTEMAS DE BIBLIOTECA	VII	Sistemas De Biblioteca	VII	Sistemas De Biblioteca	MAGIX
+400	VICERRECTORÍA DE INVESTIGACIÓN E INNOVACIÓN	VII	Vicerrectoría De Investigación E Innovación	VII	Vicerrectoría De Investigación E Innovación	MAGIX
+475	VICERRECTORÍA DE INVESTIGACIÓN E INNOVACIÓN	VII	Vicerrectoría De Investigación E Innovación	VII	Vicerrectoría De Investigación E Innovación	MAGIX
+343	SISTEMAS DE BIBLIOTECA	VII	Sistemas De Biblioteca	VII	Sistemas De Biblioteca	MAGIX
+476	VII-DEPARTAMENTOS, INSTITUTOS Y CENTROS	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	MAGIX
+160	DEPARTAMENTO DE FORMACIÓN HUMANÍSTICA	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	MAGIX
+126	DEPARTAMENTO DE FORMACIÓN HUMANÍSTICA	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	MAGIX
+436	VII-DEPARTAMENTOS, INSTITUTOS Y CENTROS	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	MAGIX
+331	DEPARTAMENTO DE FORMACIÓN HUMANÍSTICA	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	MAGIX
+401	VII-DEPARTAMENTOS, INSTITUTOS Y CENTROS	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	MAGIX
+298	VMU-DEPARTAMENTO DE FORMACIÓN HUMANÍSTICA	VMU	Vmu-Departamento De Formación Humanística	VMU	Vmu-Departamento De Formación Humanística	MAGIX
+228	VMU-DEPARTAMENTO DE FORMACIÓN HUMANÍSTICA	VMU	Vmu-Departamento De Formación Humanística	VMU	Vmu-Departamento De Formación Humanística	MAGIX
+152	VICERRECTORÍA DEL MEDIO UNIVERSITARIO	VMU	Vicerrectoría Del Medio Universitario	VMU	Vicerrectoría Del Medio Universitario	MAGIX
+262	VMU-DEPARTAMENTO DE FORMACIÓN HUMANÍSTICA	VMU	Vmu-Departamento De Formación Humanística	VMU	Vmu-Departamento De Formación Humanística	MAGIX
+220	VICERRECTORÍA DEL MEDIO UNIVERSITARIO	VMU	Vicerrectoría Del Medio Universitario	VMU	Vicerrectoría Del Medio Universitario	MAGIX
+252	VICERRECTORÍA DEL MEDIO UNIVERSITARIO	VMU	Vicerrectoría Del Medio Universitario	VMU	Vicerrectoría Del Medio Universitario	MAGIX
+194	VMU-DEPARTAMENTO DE FORMACIÓN HUMANÍSTICA	VMU	Vmu-Departamento De Formación Humanística	VMU	Vmu-Departamento De Formación Humanística	MAGIX
+186	VICERRECTORÍA DEL MEDIO UNIVERSITARIO	VMU	Vicerrectoría Del Medio Universitario	VMU	Vicerrectoría Del Medio Universitario	MAGIX
+286	VICERRECTORÍA DEL MEDIO UNIVERSITARIO	VMU	Vicerrectoría Del Medio Universitario	VMU	Vicerrectoría Del Medio Universitario	MAGIX
+168	SEDE PUNTA DEL ESTE- MALDONADO	VPA	Sede Punta Del Este- Maldonado	VPA	Sede Punta Del Este- Maldonado	MAGIX
+452	CAMPUS SALTO	VPA	Campus Salto	VPA	Campus Salto	MAGIX
+169	SEDE LITORAL NORTE - PAYSANDÚ	VPA	Sede Litoral Norte - Paysandú	VPA	Sede Litoral Norte - Paysandú	MAGIX
+248	SEDES MONTEVIDEO	VPA	Sedes Montevideo	VPA	Sedes Montevideo	MAGIX
+357	CENTRO DE IDIOMAS	VPA	Centro De Idiomas	VPA	Centro De Idiomas	MAGIX
+172	BIBLIOTECA Y ARCHIVO	VPA	Biblioteca Y Archivo	VPA	Biblioteca Y Archivo	MAGIX
+341	SEDE LITORAL NORTE - SALTO	VPA	Sede Litoral Norte - Salto	VPA	Sede Litoral Norte - Salto	MAGIX
+339	SEDE PUNTA DEL ESTE- MALDONADO	VPA	Sede Punta Del Este- Maldonado	VPA	Sede Punta Del Este- Maldonado	MAGIX
+185	SEDE TACUAREMBÓ	VPA	Sede Tacuarembó	VPA	Sede Tacuarembó	MAGIX
+251	SEDE TACUAREMBÓ	VPA	Sede Tacuarembó	VPA	Sede Tacuarembó	MAGIX
+189	IDIOMAS	VPA	Idiomas	VPA	Idiomas	MAGIX
+191	SERVICIO DE ATENCIÓN AL AULA	VPA	Servicio De Atención Al Aula	VPA	Servicio De Atención Al Aula	MAGIX
+170	SEDE LITORAL NORTE - SALTO	VPA	Sede Litoral Norte - Salto	VPA	Sede Litoral Norte - Salto	MAGIX
+450	CAMPUS PUNTA DEL ESTE	VPA	Campus Punta Del Este	VPA	Campus Punta Del Este	MAGIX
+157	SERVICIO DE ATENCIÓN AL AULA	VPA	Servicio De Atención Al Aula	VPA	Servicio De Atención Al Aula	MAGIX
+373	SEDE PUNTA DEL ESTE- MALDONADO	VPA	Sede Punta Del Este- Maldonado	VPA	Sede Punta Del Este- Maldonado	MAGIX
+427	CENTRO DE IDIOMAS	VPA	Centro De Idiomas	VPA	Centro De Idiomas	MAGIX
+412	CAMPUS SALTO	VPA	Campus Salto	VPA	Campus Salto	MAGIX
+410	CAMPUS PUNTA DEL ESTE	VPA	Campus Punta Del Este	VPA	Campus Punta Del Este	MAGIX
+134	SEDE PUNTA DEL ESTE- MALDONADO	VPA	Sede Punta Del Este- Maldonado	VPA	Sede Punta Del Este- Maldonado	MAGIX
+135	SEDE LITORAL NORTE - PAYSANDÚ	VPA	Sede Litoral Norte - Paysandú	VPA	Sede Litoral Norte - Paysandú	MAGIX
+136	SEDE LITORAL NORTE - SALTO	VPA	Sede Litoral Norte - Salto	VPA	Sede Litoral Norte - Salto	MAGIX
+138	BIBLIOTECA Y ARCHIVO	VPA	Biblioteca Y Archivo	VPA	Biblioteca Y Archivo	MAGIX
+434	VICERRECTORÍA DE PROGRAMAS ACADÉMICOS	VPA	Vicerrectoría De Programas Académicos	VPA	Vicerrectoría De Programas Académicos	MAGIX
+399	VICERRECTORÍA DE PROGRAMAS ACADÉMICOS	VPA	Vicerrectoría De Programas Académicos	VPA	Vicerrectoría De Programas Académicos	MAGIX
+478	BEDELÍA	VPA	Bedelía	VPA	Bedelía	MAGIX
+391	CENTRO DE IDIOMAS	VPA	Centro De Idiomas	VPA	Centro De Idiomas	MAGIX
+151	SEDE TACUAREMBÓ	VPA	Sede Tacuarembó	VPA	Sede Tacuarembó	MAGIX
+153	VICERRECTORÍA ACADÉMICA	VPA	Vicerrectoría Académica	VPA	Vicerrectoría Académica	MAGIX
+155	IDIOMAS	VPA	Idiomas	VPA	Idiomas	MAGIX
+375	SEDE LITORAL NORTE - SALTO	VPA	Sede Litoral Norte - Salto	VPA	Sede Litoral Norte - Salto	MAGIX
+438	BEDELÍA	VPA	Bedelía	VPA	Bedelía	MAGIX
+324	CENTRO DE IDIOMAS	VPA	Centro De Idiomas	VPA	Centro De Idiomas	MAGIX
+187	VICERRECTORÍA ACADÉMICA	VPA	Vicerrectoría Académica	VPA	Vicerrectoría Académica	MAGIX
+289	CENTRO DE IDIOMAS	VPA	Centro De Idiomas	VPA	Centro De Idiomas	MAGIX
+272	SEDE LITORAL NORTE - SALTO	VPA	Sede Litoral Norte - Salto	VPA	Sede Litoral Norte - Salto	MAGIX
+308	SEDE LITORAL NORTE - SALTO	VPA	Sede Litoral Norte - Salto	VPA	Sede Litoral Norte - Salto	MAGIX
+306	SEDE PUNTA DEL ESTE- MALDONADO	VPA	Sede Punta Del Este- Maldonado	VPA	Sede Punta Del Este- Maldonado	MAGIX
+467	CENTRO DE IDIOMAS	VPA	Centro De Idiomas	VPA	Centro De Idiomas	MAGIX
+219	SEDE TACUAREMBÓ	VPA	Sede Tacuarembó	VPA	Sede Tacuarembó	MAGIX
+221	VICERRECTORÍA ACADÉMICA	VPA	Vicerrectoría Académica	VPA	Vicerrectoría Académica	MAGIX
+287	VICERRECTORÍA ACADÉMICA	VPA	Vicerrectoría Académica	VPA	Vicerrectoría Académica	MAGIX
+223	IDIOMAS	VPA	Idiomas	VPA	Idiomas	MAGIX
+322	VICERRECTORÍA ACADÉMICA	VPA	Vicerrectoría Académica	VPA	Vicerrectoría Académica	MAGIX
+236	SEDE PUNTA DEL ESTE- MALDONADO	VPA	Sede Punta Del Este- Maldonado	VPA	Sede Punta Del Este- Maldonado	MAGIX
+255	CENTRO DE IDIOMAS	VPA	Centro De Idiomas	VPA	Centro De Idiomas	MAGIX
+238	SEDE LITORAL NORTE - SALTO	VPA	Sede Litoral Norte - Salto	VPA	Sede Litoral Norte - Salto	MAGIX
+204	SEDE LITORAL NORTE - SALTO	VPA	Sede Litoral Norte - Salto	VPA	Sede Litoral Norte - Salto	MAGIX
+474	VICERRECTORÍA DE PROGRAMAS ACADÉMICOS	VPA	Vicerrectoría De Programas Académicos	VPA	Vicerrectoría De Programas Académicos	MAGIX
+202	SEDE PUNTA DEL ESTE- MALDONADO	VPA	Sede Punta Del Este- Maldonado	VPA	Sede Punta Del Este- Maldonado	MAGIX
+253	VICERRECTORÍA ACADÉMICA	VPA	Vicerrectoría Académica	VPA	Vicerrectoría Académica	MAGIX
+225	SERVICIO DE ATENCIÓN AL AULA	VPA	Servicio De Atención Al Aula	VPA	Servicio De Atención Al Aula	MAGIX
+206	BIBLIOTECA Y ARCHIVO	VPA	Biblioteca Y Archivo	VPA	Biblioteca Y Archivo	MAGIX
+143	DIRECCIÓN DE RECURSOS HUMANOS	VRAD	Dirección De Recursos Humanos	VRAD	Dirección De Recursos Humanos	MAGIX
+288	VICERRECTORIA DE GESTION ECONOMICA Y DESARROLLO	VRAD	Vicerrectoria De Gestion Economica Y Desarrollo	VRAD	Vicerrectoria De Gestion Economica Y Desarrollo	MAGIX
+154	VICERRECTORÍA ADMINISTRATIVA	VRAD	Vicerrectoría Administrativa	VRAD	Vicerrectoría Administrativa	MAGIX
+418	DIRECCIÓN DE GESTIÓN HUMANA	VRAD	Dirección De Gestión Humana	VRAD	Dirección De Gestión Humana	MAGIX
+417	DIRECCIÓN DE PLANTA FÍSICA	VRAD	Dirección De Planta Física	VRAD	Dirección De Planta Física	MAGIX
+258	DIRECCIÓN DE SISTEMAS DE INFORMACIÓN	VRAD	Dirección De Sistemas De Información	VRAD	Dirección De Sistemas De Información	MAGIX
+416	DIRECCIÓN ADMINISTRATIVA Y FINANCIERA	VRAD	Dirección Administrativa Y Financiera	VRAD	Dirección Administrativa Y Financiera	MAGIX
+426	VICERRECTORÍA ADMINISTRATIVA	VRAD	Vicerrectoría Administrativa	VRAD	Vicerrectoría Administrativa	MAGIX
+142	DIRECCIÓN DE PLANTA FÍSICA	VRAD	Dirección De Planta Física	VRAD	Dirección De Planta Física	MAGIX
+277	DIRECCIÓN DE PLANTA FÍSICA	VRAD	Dirección De Planta Física	VRAD	Dirección De Planta Física	MAGIX
+140	DIRECCIÓN ADMINISTRATIVA Y FINANCIERA	VRAD	Dirección Administrativa Y Financiera	VRAD	Dirección Administrativa Y Financiera	MAGIX
+254	VICERRECTORIA DE GESTION ECONOMICA Y DESARROLLO	VRAD	Vicerrectoria De Gestion Economica Y Desarrollo	VRAD	Vicerrectoria De Gestion Economica Y Desarrollo	MAGIX
+244	DIRECCIÓN DE GESTIÓN HUMANA	VRAD	Dirección De Gestión Humana	VRAD	Dirección De Gestión Humana	MAGIX
+276	DIRECCIÓN ADMINISTRATIVA Y FINANCIERA	VRAD	Dirección Administrativa Y Financiera	VRAD	Dirección Administrativa Y Financiera	MAGIX
+393	DIRECCIÓN DE SISTEMAS DE INFORMACIÓN	VRAD	Dirección De Sistemas De Información	VRAD	Dirección De Sistemas De Información	MAGIX
+243	DIRECCIÓN DE PLANTA FÍSICA	VRAD	Dirección De Planta Física	VRAD	Dirección De Planta Física	MAGIX
+242	DIRECCIÓN ADMINISTRATIVA Y FINANCIERA	VRAD	Dirección Administrativa Y Financiera	VRAD	Dirección Administrativa Y Financiera	MAGIX
+226	DIRECCIÓN DE SISTEMAS	VRAD	Dirección De Sistemas	VRAD	Dirección De Sistemas	MAGIX
+390	VICERRECTORÍA ADMINISTRATIVA	VRAD	Vicerrectoría Administrativa	VRAD	Vicerrectoría Administrativa	MAGIX
+429	DIRECCIÓN DE SISTEMAS DE INFORMACIÓN	VRAD	Dirección De Sistemas De Información	VRAD	Dirección De Sistemas De Información	MAGIX
+323	VICERRECTORIA DE GESTION ECONOMICA Y DESARROLLO	VRAD	Vicerrectoria De Gestion Economica Y Desarrollo	VRAD	Vicerrectoria De Gestion Economica Y Desarrollo	MAGIX
+381	DIRECCIÓN DE GESTIÓN HUMANA	VRAD	Dirección De Gestión Humana	VRAD	Dirección De Gestión Humana	MAGIX
+210	DIRECCIÓN DE PLANTA FÍSICA	VRAD	Dirección De Planta Física	VRAD	Dirección De Planta Física	MAGIX
+208	DIRECCIÓN ADMINISTRATIVA Y FINANCIERA	VRAD	Dirección Administrativa Y Financiera	VRAD	Dirección Administrativa Y Financiera	MAGIX
+312	DIRECCIÓN ADMINISTRATIVA Y FINANCIERA	VRAD	Dirección Administrativa Y Financiera	VRAD	Dirección Administrativa Y Financiera	MAGIX
+188	VICERRECTORÍA ADMINISTRATIVA	VRAD	Vicerrectoría Administrativa	VRAD	Vicerrectoría Administrativa	MAGIX
+313	DIRECCIÓN DE PLANTA FÍSICA	VRAD	Dirección De Planta Física	VRAD	Dirección De Planta Física	MAGIX
+457	DIRECCIÓN DE PLANTA FÍSICA	VRAD	Dirección De Planta Física	VRAD	Dirección De Planta Física	MAGIX
+192	ASESORÍA EN SISTEMAS DE INFORMACIÓN	VRAD	Asesoría En Sistemas De Información	VRAD	Asesoría En Sistemas De Información	MAGIX
+458	DIRECCIÓN DE GESTIÓN HUMANA	VRAD	Dirección De Gestión Humana	VRAD	Dirección De Gestión Humana	MAGIX
+314	DIRECCIÓN DE GESTIÓN HUMANA	VRAD	Dirección De Gestión Humana	VRAD	Dirección De Gestión Humana	MAGIX
+326	DIRECCIÓN DE SISTEMAS DE INFORMACIÓN	VRAD	Dirección De Sistemas De Información	VRAD	Dirección De Sistemas De Información	MAGIX
+466	VICERRECTORÍA ADMINISTRATIVA	VRAD	Vicerrectoría Administrativa	VRAD	Vicerrectoría Administrativa	MAGIX
+211	DIRECCIÓN DE RECURSOS HUMANOS	VRAD	Dirección De Recursos Humanos	VRAD	Dirección De Recursos Humanos	MAGIX
+158	ASESORÍA EN SISTEMAS DE INFORMACIÓN	VRAD	Asesoría En Sistemas De Información	VRAD	Asesoría En Sistemas De Información	MAGIX
+345	DIRECCIÓN ADMINISTRATIVA Y FINANCIERA	VRAD	Dirección Administrativa Y Financiera	VRAD	Dirección Administrativa Y Financiera	MAGIX
+347	DIRECCIÓN DE GESTIÓN HUMANA	VRAD	Dirección De Gestión Humana	VRAD	Dirección De Gestión Humana	MAGIX
+380	DIRECCIÓN DE PLANTA FÍSICA	VRAD	Dirección De Planta Física	VRAD	Dirección De Planta Física	MAGIX
+379	DIRECCIÓN ADMINISTRATIVA Y FINANCIERA	VRAD	Dirección Administrativa Y Financiera	VRAD	Dirección Administrativa Y Financiera	MAGIX
+222	VICERRECTORIA DE GESTION ECONOMICA Y DESARROLLO	VRAD	Vicerrectoria De Gestion Economica Y Desarrollo	VRAD	Vicerrectoria De Gestion Economica Y Desarrollo	MAGIX
+359	DIRECCIÓN DE SISTEMAS DE INFORMACIÓN	VRAD	Dirección De Sistemas De Información	VRAD	Dirección De Sistemas De Información	MAGIX
+292	DIRECCIÓN DE SISTEMAS DE INFORMACIÓN	VRAD	Dirección De Sistemas De Información	VRAD	Dirección De Sistemas De Información	MAGIX
+469	DIRECCIÓN DE SISTEMAS DE INFORMACIÓN	VRAD	Dirección De Sistemas De Información	VRAD	Dirección De Sistemas De Información	MAGIX
+356	VICERRECTORÍA DE GESTIÓN ECONÓMICA Y DESARROLLO	VRAD	Vicerrectoría De Gestión Económica Y Desarrollo	VRAD	Vicerrectoría De Gestión Económica Y Desarrollo	MAGIX
+174	DIRECCIÓN ADMINISTRATIVA Y FINANCIERA	VRAD	Dirección Administrativa Y Financiera	VRAD	Dirección Administrativa Y Financiera	MAGIX
+176	DIRECCIÓN DE PLANTA FÍSICA	VRAD	Dirección De Planta Física	VRAD	Dirección De Planta Física	MAGIX
+177	DIRECCIÓN DE RECURSOS HUMANOS	VRAD	Dirección De Recursos Humanos	VRAD	Dirección De Recursos Humanos	MAGIX
+456	DIRECCIÓN ADMINISTRATIVA Y FINANCIERA	VRAD	Dirección Administrativa Y Financiera	VRAD	Dirección Administrativa Y Financiera	MAGIX
+346	DIRECCIÓN DE PLANTA FÍSICA	VRAD	Dirección De Planta Física	VRAD	Dirección De Planta Física	MAGIX
+278	DIRECCIÓN DE GESTIÓN HUMANA	VRAD	Dirección De Gestión Humana	VRAD	Dirección De Gestión Humana	MAGIX
+100	DEPARTAMENTO DE EDUCACION	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	MAGIX
+1001	ITHAKA	VII	Vicerrectoría Investigación E Innovación	VII	Vicerrectoría Investigación E Innovación	MAGIX
+1002	LUDUS	VPA	Vicerrectoría de Programas Académicos	VPA	Vicerrectoría de Programas Académicos	MAGIX
+1003	VICERRECTORIA DE PROGRAMAS ACADEMICOS	VPA	Vicerrectoría de Programas Académicos	VPA	Vicerrectoría de Programas Académicos	MAGIX
+1014	DEPARTAMENTO EN DERECHO	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	MAGIX
+1015	DEPARTAMENTO EN DERECHO PRIVADO	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	MAGIX
+1018	INSITUTO DE HISTORIA (N)	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	MAGIX
+1019	INSTITUTO DE FILOSOFIA	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	MAGIX
+1020	DEPARTAMENTO DE HUMANIDADES Y COMUNICACION	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	MAGIX
+1021	INSTITUTO DE SOCIEDAD Y RELIGION	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	MAGIX
+1030	VICERRECTORIA INVESTIGACION E INNOVACION	VII	Vicerrectoría Investigación E Innovación	VII	Vicerrectoría Investigación E Innovación	MAGIX
+1034	DEPARTAMENTO DE HUMANIDADES	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	MAGIX
+1038	DEPARTAMENTO DE PSICOLOGIA SOCIAL Y TRABAJO	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	MAGIX
+1039	DEPARTAMENTO DE ADMINISTRACION Y NEGOCIOS	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	MAGIX
+1045	UNIDAD DE APOYO A LOS DEPARTAMENTOS	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	MAGIX
+1046	MAESTRIA PSICOTERAPIA ADULTOS	ESP	Escuela De Postgrados	EPG	Escuela De Postgrados	MAGIX
+1052	CENTRO DE EDUCACION CONTINUA	CEC	Centro De Educación Continua	VPA	Vicerrectoría de Programas Académicos	MAGIX
+1053	DEPARTAMENTO DE ODONTOLOGIA	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	MAGIX
+1074	MEDICINA	FCS	Facultad De Ciencias De La Salud	FCS	Facultad De Ciencias De La Salud	MAGIX
+1079	DEPARTAMENTO DE CIENCIAS SOCIALES	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	MAGIX
+1080	DEPARTAMENTO DE CIENCIAS EXACTAS Y NATURALES	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	MAGIX
+1081	DEPARTAMENTO DE INGENIERIA	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	MAGIX
+11	LIC. EN DIRECCION DE EMPRESAS	FCE	Facultad De Ciencias Empresariales	FCE	Facultad De Ciencias Empresariales	MAGIX
+111	MAESTRIA EN ESTUDIOS ORGANIZA	UCUBS	Ucu Business School	UCUBS	Ucu Business School	MAGIX
+1112	MAESTRIA EN FISIOTERAPIA	UCUBS	Ucu Business School	UCUBS	Ucu Business School	MAGIX
+1113	MAESTRIA Y PG DESARROLLO Y APRENDIZAJE	UCUBS	Ucu Business School	UCUBS	Ucu Business School	MAGIX
+1115	DIRECCION DE GESTION DE GRADO	VPA	Vicerrectoría de Programas Académicos	VPA	Vicerrectoría de Programas Académicos	MAGIX
+1121	MAESTRIA - PG EN GESTION DE CONFLICTOS	UCUBS	Ucu Business School	UCUBS	Ucu Business School	MAGIX
+1122	MAESTRIA EN METODOLOGIAS	UCUBS	Ucu Business School	UCUBS	Ucu Business School	MAGIX
+1132	MAESTRIA EN LIDERAZGO Y GESTION EDUCATIVA	UCUBS	Ucu Business School	UCUBS	Ucu Business School	MAGIX
+1133	MAESTRIA EN PSICOLOGIA DE LA SALUD Y DEPORTE	UCUBS	Ucu Business School	UCUBS	Ucu Business School	MAGIX
+1134	ACOMPAÑAMIENTO TERAPUETICO SALTO	FCS	Facultad De Ciencias De La Salud	FCS	Facultad De Ciencias De La Salud	MAGIX
+1146	INGENIERIA AMBIENTAL	FIT	Facultad De Ingenieria Y Tecnologías	FIT	Facultad De Ingenieria Y Tecnologías	MAGIX
+12	LIC. EN NEGOCIOS INTERNACIONAL	FCE	Facultad De Ciencias Empresariales	FCE	Facultad De Ciencias Empresariales	MAGIX
+124	POST GRADOS Y MAESTRIAS DE DCSP	ESP	Escuela De Postgrados	EPG	Escuela De Postgrados	MAGIX
+13	LIC. EN RELACIONES LABORALES	FCE	Facultad De Ciencias Empresariales	FCE	Facultad De Ciencias Empresariales	MAGIX
+14	LIC. EN ECONOMIA	FCE	Facultad De Ciencias Empresariales	FCE	Facultad De Ciencias Empresariales	MAGIX
+15	MBA	UCUBS	Ucu Business School	UCUBS	Ucu Business School	MAGIX
+16	PG EN MARKETING	EPG	Escuela De Postgrados	EPG	Escuela De Postgrados	MAGIX
+218	LICENCIATURA EN NUTRICIÓN	FCS	Facultad De Ciencias De La Salud	FCS	Facultad De Ciencias De La Salud	MAGIX
+28	CONTADOR PUBLICO	FCE	Facultad De Ciencias Empresariales	FCE	Facultad De Ciencias Empresariales	MAGIX
+29	PG.EN FINANZAS	EPG	Escuela De Postgrados	EPG	Escuela De Postgrados	MAGIX
+32	LIC.EN DIREC.EMPR.TURÍSTICAS	FCE	Facultad De Ciencias Empresariales	FCE	Facultad De Ciencias Empresariales	MAGIX
+33	PG.EN TRIBUTARIA	EPG	Escuela De Postgrados	EPG	Escuela De Postgrados	MAGIX
+40	COMPETITIVIDAD Y CLUSTERS	FCE	Facultad De Ciencias Empresariales	FCE	Facultad De Ciencias Empresariales	MAGIX
+41	DERECHO	FD	Facultad de Derecho y Ciencias Humanas	FDyCH	Facultad de Derecho y Ciencias Humanas	MAGIX
+51	NOTARIADO	FD	Facultad de Derecho y Ciencias Humanas	FDyCH	Facultad de Derecho y Ciencias Humanas	MAGIX
+522	DIRECCIÓN ADMINISTRATIVA Y FINANCIERA	DAF	Vicerrectoría Administrativa	VRAD	Vicerrectoría Administrativa	MAGIX
+59	DEPARTAMENTO DE ESTUDIOS ORGANIZACIONALES	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	MAGIX
+60	LIC. EN CIENCIAS SOCIALES	FCH	Facultad de Derecho y Ciencias Humanas	FDyCH	Facultad de Derecho y Ciencias Humanas	MAGIX
+600	MAESTRIA EN DERECHO CIVIL	UCUBS	Ucu Business School	UCUBS	Ucu Business School	MAGIX
+61	LIC. EN COMUNICACION SOCIAL	FCH	Facultad de Derecho y Ciencias Humanas	FDyCH	Facultad de Derecho y Ciencias Humanas	MAGIX
+722	DEPTO. NEGOCIOS INTERNACIONALES E INTEGRACION	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	MAGIX
+765	DPTO.INFORMATICA Y CC DE LA COMPUTACION	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	MAGIX
+795	LICENCIATURA EN PRODUCCION Y GESTION AGRICOLA GANADERA (SALTO)	FCE	Facultad De Ciencias Empresariales	FCE	Facultad De Ciencias Empresariales	MAGIX
+806	LIC. EN FONOAUDIOLOGIA	FCS	Facultad De Ciencias De La Salud	FCS	Facultad De Ciencias De La Salud	MAGIX
+811	INGENIERIA DE LOS ALIMENTOS	FIT	Facultad De Ingenieria Y Tecnologías	FIT	Facultad De Ingenieria Y Tecnologías	MAGIX
+816	MAESTRIA EN ATENCION TEMPRANA	UCUBS	Ucu Business School	UCUBS	Ucu Business School	MAGIX
+821	PG COMUNICACION ORGANIZACIONAL	EPG	Escuela De Postgrados	EPG	Escuela De Postgrados	MAGIX
+856	POST GRADO Y MAESTRIAS EN EDUCACION	ESP	Escuela De Postgrados	EPG	Escuela De Postgrados	MAGIX
+863	MAESTRIA EN GERENCIA DE TECNOLOGIA DE LA INFORMACION	UCUBS	Ucu Business School	UCUBS	Ucu Business School	MAGIX
+878	LICENCIATURA EN INFORMATICA (SALTO)	FIT	Facultad De Ingenieria Y Tecnologías	FIT	Facultad De Ingenieria Y Tecnologías	MAGIX
+903	LICENCIATURA EN SEGURIDAD Y SALUD OCUPACIONAL	FIT	Facultad De Ingenieria Y Tecnologías	FIT	Facultad De Ingenieria Y Tecnologías	MAGIX
+904	LICENCIATURA EN ARTES VISUALES	FCH	Facultad de Derecho y Ciencias Humanas	FDyCH	Facultad de Derecho y Ciencias Humanas	MAGIX
+909	DEPARTAMENTO DE NEUROCIENCIA Y APRENDIZAJE	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	MAGIX
+912	DEPARTAMENTO DE PSICOLOGIA	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	MAGIX
+913	DEPTO. PSICOLOGIA DEL DESARROLLO Y EDUCACION	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	MAGIX
+920	DEPARTAMENTO DE BIENESTAR Y SALUD	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	MAGIX
+928	LIC. EN LOGISTICA	FCE	Facultad De Ciencias Empresariales	FCE	Facultad De Ciencias Empresariales	MAGIX
+936	MAESTRIA EN DERECHO PROCESAL PENAL	UCUBS	Ucu Business School	UCUBS	Ucu Business School	MAGIX
+938	DPTO CIENCIAS DE LA ENFERMERIA	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	MAGIX
+939	DEPARTAMENTO NUTRICION	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	MAGIX
+940	DPTO CIENCIAS DEL MOVIMIENTO HUMANO	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	MAGIX
+941	DECANATO FACULTAD DE CIENCIAS DE LA SALUD	VPA	Vicerrectoría de Programas Académicos	VPA	Vicerrectoría de Programas Académicos	MAGIX
+942	LICENCIATURA EN FISIOTERAPIA	FCS	Facultad De Ciencias De La Salud	FCS	Facultad De Ciencias De La Salud	MAGIX
+943	LICENCIATURA EN PSICOMOTRICIDAD	FCS	Facultad De Ciencias De La Salud	FCS	Facultad De Ciencias De La Salud	MAGIX
+946	LIC. EN ENFERMERÍA	FCS	Facultad De Ciencias De La Salud	FCS	Facultad De Ciencias De La Salud	MAGIX
+95	CARRERA DE GRADO EN EDUCACION	FCH	Facultad de Derecho y Ciencias Humanas	FDyCH	Facultad de Derecho y Ciencias Humanas	MAGIX
+950	MAESTRIA EN CUIDADOS PALIATIVOS	UCUBS	Ucu Business School	UCUBS	Ucu Business School	MAGIX
+956	PG. ESP. GESTION SERVICIOS DE SALUD	EPG	Escuela De Postgrados	EPG	Escuela De Postgrados	MAGIX
+1071	MAESTRIA EN TECNOLOG Y GESTION AMBIENTAL DE ALIMENTOS	UCUBS	Ucu Business School	UCUBS	Ucu Business School	MAGIX
+782	DOCTORADO EN PSICOLOGIA	FPSIC	Facultad De Psicología	FPSIC	Facultad De Psicología	MAGIX
+1059	ESCUELA DE POSTGRADO - DIRECCION	VPA	Vicerrectoría de Programas Académicos	VPA	Vicerrectoría de Programas Académicos	MAGIX
+1060	DIRECCIÓN DE ASUNTOS ESTUDIANTILES	VCU	Dirección De Asuntos Estudiantiles	VCU	Dirección De Asuntos Estudiantiles	MAGIX
+1067	MAESTRIA EN MARKETING	UCUBS	Ucu Business School	UCUBS	Ucu Business School	MAGIX
+1075	CLINICA UNIVERSITARIA	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	MAGIX
+45	DECANATO (FDER)	FD	Facultad de Derecho y Ciencias Humanas	FDyCH	Facultad de Derecho y Ciencias Humanas	MAGIX
+66	CENTRO IGNIS	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	VII-DEPTOS	Vii-Departamentos, Institutos Y Centros	MAGIX
+70	DECANATO FCCHH	FCH	Facultad de Derecho y Ciencias Humanas	FDyCH	Facultad de Derecho y Ciencias Humanas	MAGIX
+741	INGENIERÍA EN INFORMÁTICA (SALTO)	FIT	Facultad De Ingenieria Y Tecnologías	FIT	Facultad De Ingenieria Y Tecnologías	MAGIX
+857	FPS - MAESTRIA EN NUTRICION	FCS	Facultad De Ciencias De La Salud	FCS	Facultad De Ciencias De La Salud	MAGIX
