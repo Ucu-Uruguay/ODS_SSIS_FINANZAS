@@ -9,11 +9,11 @@
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="15.0.2000.132"
   DTS:LocaleID="3082"
-  DTS:ObjectName="Package"
+  DTS:ObjectName="Legacy"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="51"
-  DTS:VersionGUID="{D0C3D1F6-7E23-41C5-A912-BC6E6B56E4A2}">
+  DTS:VersionBuild="52"
+  DTS:VersionGUID="{DBEE94A8-D7CA-402C-BA4F-A96AE025CCC8}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,12 +27,12 @@
           DTS:ConnectionString="Data Source=10.245.0.6;User ID=nodum_read;Initial Catalog=Nodum_Prod;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="H5AATKuh3wQ="
-            IV="Y4TLw+oR5ssrcjWs5L+3nw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="jurKoLpduQ4="
+            IV="aSU7acCCLs3vVAgB4d99SQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>Y4TLw+oR5ssrcjWs5L+3n3HkKVSDMs5mfgQHqXv41J0lgBwrMslzTg9wtUGciE26wxxnWTH4s+7TNUcxP2A5uh7W0m0ehP1PTvw4y3WIJOLdlXHPnJl7zZozTIMdeBi2X4rxfuBfMdxI23Wh7x4+Y1Qy83CMrYF1ElKRaDdEJQIetVl671PNrvwaPZ4VZBEs</CipherValue>
+              <CipherValue>aSU7acCCLs3vVAgB4d99SclEtbOS+pf079Q6YhalMH8L0K4sGEbk/ddEo8fZpGuWb3RzFDeHfpU9sO58LmIk/QxysEQ+HKLik6j4FPObXnz9lLTQEgT/ztIPCSFX3WyWpYYNdrtD6BNfnZZFOAZ7E3NeQX4DZ2V7tWqd8YVzV9VU4UPkBsVsc8f9MNvJr7kh</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -48,12 +48,12 @@
           DTS:ConnectionString="Server=172.16.5.45;User ID=MGXCONS;Database=RRHH;DBName=RRHH;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="sIqUXVOvYto="
-            IV="2fBooZ7TmnWufCN4XwnvIg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="9KXbmTld0WE="
+            IV="ey3RQ+D/tTauo9js4S6uGA==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>2fBooZ7TmnWufCN4XwnvIg6cg/+T6UiRQXZBl0Wloh8FgY/e7XuPdZjKIddS0plGEsoyhGCP/kElJSDRJ1BgOOLkI/H4/gHSJEcCfpX21TyXjktrZIVfQeeE2G+ArJCb1FSFz2llKWa8ohvju+SkQqwNLnXrCbFqxd5ft6bEOYIg2zujzyIGfEJIEmjNnfSg</CipherValue>
+              <CipherValue>ey3RQ+D/tTauo9js4S6uGP8k1C624LVujoX1VXbANp4vYd9+pRQUztHT82gQIaCHTMBNjnPgIURHDTYzizsUaZkBWCJdqpGxkpn9h9eLUR6qbYplerpdqZWm3w27DbQat8MAf2FMAae+7FIfqIt4NtHf80I1N+HgymDqF7pzpHnivTVR6lIStv2qUibd2WDh</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -199,12 +199,12 @@
           DTS:ConnectionString="DATA SOURCE=FINPROD;USER ID=UCU_GP;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="ZA+MV5S5jzg="
-            IV="poSECTe4NM+bQMCrb5I4TQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="AfAu/Sj8Exw="
+            IV="BlBDCAtFIMWqppD0oCxDxA==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>poSECTe4NM+bQMCrb5I4TURT0JATbQ7Nol1u1F8V2lhoXapIw/DF7m7OXMzlDOMrgSzw7GZ3uT2dKZ5DEVHcpF6JNfqeHIop0jrgVE44IGrIAdM7AdZf0mWszyw54vDGWvPVFlJZM96tQ/ZXBziwDuGVmz3v/EnEX6ZRRFUfdA+cCH/bCOUT75NIWGQGv88/</CipherValue>
+              <CipherValue>BlBDCAtFIMWqppD0oCxDxFbfJONjeh1Fpjgk3YN0Sh+7fc561VvQQhqwZW8j68ceXKZIRG8JeHasoHiLeH8Sox/lOCX1ONVJLBVUwNfBNkcKi82T7VacHhWLsil4+7h+8q6+WCYF1Zsbqoxn79bEblsCxsmIAsDAZ6ZodhA3+X0VpuXeHrmAoPZx9w6WkzjY</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -220,12 +220,12 @@
           DTS:ConnectionString="Data Source=PROD-UCUDBS10\POWERBI;User ID=rcalvo;Initial Catalog=ODS_UCU;Provider=SQLNCLI11.1;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="NhHsW0nVR7A="
-            IV="qPYFkJmHiYuoherePL8W3w==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="4SBFA3cIJQw="
+            IV="yi318SwZyiSsUL1HTfoaNw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>qPYFkJmHiYuoherePL8W3/C/KgOAWl2b6nJ9pS0aG1xBUzbQX86aW/z/YIkMs7wk1WkyAtOXy7dU30Va9NJPT66sNOdlQtan2B1MnZ9uALTi50JQIghl1vp9GaYIZv+YtZK39HimU642k5Ev3IVsfyzqIWq4Nreio7yTjrvUe98gj5+nS8++PW4qDxrAB6t2</CipherValue>
+              <CipherValue>yi318SwZyiSsUL1HTfoaN2g5VO0C8u1owDPVgesxpwOBlPLBRVy3jMY7klYCPHgAXHJ4MMM3Q+4lLEKHpm0HwfaykclkI4/TDw+3MuDcS4e8X5TskLdjAU7tNCubvj1CEwTYyDUTyeOcpIIREYskPdPcBu3lmIdlUmaDGBM8viW28Kitw6ubOIsek8nxq6bH</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>

@@ -9,11 +9,11 @@
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="15.0.2000.132"
   DTS:LocaleID="3082"
-  DTS:ObjectName="Package1"
+  DTS:ObjectName="Fin_Nodum"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="47"
-  DTS:VersionGUID="{1DF80279-A462-46DB-A609-279B409E9070}">
+  DTS:VersionBuild="48"
+  DTS:VersionGUID="{E175D01F-0E20-4A06-8BB1-D287E2D6ACC1}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,12 +27,12 @@
           DTS:ConnectionString="Data Source=10.245.0.6;User ID=nodum_read;Initial Catalog=Nodum_Prod;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="yW3X6B000R8="
-            IV="l1UgWyEPY7zM4U1+0XHlmg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="4o6cEZ85ekY="
+            IV="yw7sfpE/dbUi3iaGcLCrKw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>l1UgWyEPY7zM4U1+0XHlmuD6TArw7FnHa3VlORGp9hFStdiyD8LA7MJP3g5L7fE3ZO88BLFr7lJw83SyIXUxvQR+nCucONaMemH+XZyMzT43JTVypKvVDCqt/+SqCiFsmbcQWw70SfwZ4XUHRlA4rvz3DRXwHQcOJgBz/yDnBkyuwXW3Js+oWg0QHcHLAeJg</CipherValue>
+              <CipherValue>yw7sfpE/dbUi3iaGcLCrK9f4k0X3CJo23htq6Riv+HRPZ29y5ZwPG5VUwv/ZimmCcurE11p15PaPnAozJQ0xiOpovj335cg/xFl08Qy4JMLIlbmPBaUywCdmr88GYXNfcWrAaz+n/LI/ZycygT2IZe6JkSzqm2bJ5i265qk8qvKpqoDEfm6gW6LqJ2Qmr0MD</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -59,12 +59,12 @@
           DTS:ConnectionString="Data Source=PROD-UCUDBS10\POWERBI;User ID=rcalvo;Initial Catalog=ODS_UCU;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="Bvwjy0sjlUs="
-            IV="gqA5R9zogGajhButFg28EA==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="6SL28TYtJb0="
+            IV="eK+WJoCmRMvjHWVUWjSHbQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>gqA5R9zogGajhButFg28EC73iLIvHeFzHihpbDrN47bbA6i6OEUbPtUV9ewMOjx/3CCgYA5N/gWcFiNA4IPTdCfJ0pV83AnbmOuq18/mjB5+8hatx3ai7ERo7SkjrMAnQIBs+2TjdHUo6eVmAInH4QIpjXgjvxyl11JgOJUpUCu/665hgfchL387Ot9N7eDf</CipherValue>
+              <CipherValue>eK+WJoCmRMvjHWVUWjSHbc29iSGxiM8jZmgw3a7VFDSH8+Psn039Z5BhMwJmlWD0X+XR+VNaYTnkqdlP47AVi4du6QS8tIb+1Wn9H1PsBCU4Wy7emG5pFGYhPBsRj0DkNdpbtz6M8dMxFYDMAk4kEAoH7ULXcN5pycmdjhcIvvCLCaoKVc8FM90kmfxbvDoh</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -80,12 +80,12 @@
           DTS:ConnectionString="Data Source=PROD-UCUDBS10\POWERBI;User ID=rcalvo;Initial Catalog=ODS_UCU;Provider=SQLNCLI11.1;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="IGlMXJ+cGtc="
-            IV="myQGIyGthFuIPbSWPs6AfA==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="mdmECE4J18w="
+            IV="R7VQr3HrfgAWYSyzDWaH5A==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>myQGIyGthFuIPbSWPs6AfGUshwf2lYPEq+y4HyvMA+vDbM7DaGtQv6W1i9nilWfEe4I2zlGYlsfHZhIOy5KDMJ2J1mkSWfyUrXg7Xc4DJU2pVhwpeo324pkqipdglDigBce9/A/wup8a0yY9CBrOPI0EsoIPsNbMobm7LVQ7CgB6jBYV3x5vWI3iHrkQ3BEj</CipherValue>
+              <CipherValue>R7VQr3HrfgAWYSyzDWaH5MoWSRdV4Ob4sg+HY8OapV2lRiDastaqPMgkWSWBwKGXkOedR5bqhxN0Ygc411SOY4g5wPoFHSFUpTeCAqiUANnE3aUs1zoDIF38n1ayG2R0jC443rpYvMuJ4lwHOtjt3enj+U/H77IccCfQUwe1hJ2tA6wlbdctWZJXXlKfimAw</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
