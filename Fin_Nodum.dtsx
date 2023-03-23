@@ -12,8 +12,8 @@
   DTS:ObjectName="Fin_Nodum"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="48"
-  DTS:VersionGUID="{E175D01F-0E20-4A06-8BB1-D287E2D6ACC1}">
+  DTS:VersionBuild="52"
+  DTS:VersionGUID="{39110B1F-7CF1-432A-BD2A-9281E3C3905F}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,12 +27,12 @@
           DTS:ConnectionString="Data Source=10.245.0.6;User ID=nodum_read;Initial Catalog=Nodum_Prod;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="4o6cEZ85ekY="
-            IV="yw7sfpE/dbUi3iaGcLCrKw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="O+ecFd4IVts="
+            IV="QLY4pFWp91Bo2H1qOAtraQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>yw7sfpE/dbUi3iaGcLCrK9f4k0X3CJo23htq6Riv+HRPZ29y5ZwPG5VUwv/ZimmCcurE11p15PaPnAozJQ0xiOpovj335cg/xFl08Qy4JMLIlbmPBaUywCdmr88GYXNfcWrAaz+n/LI/ZycygT2IZe6JkSzqm2bJ5i265qk8qvKpqoDEfm6gW6LqJ2Qmr0MD</CipherValue>
+              <CipherValue>QLY4pFWp91Bo2H1qOAtraQdmjNr+QBOAYUvGa09X/R6M1OsuOvNgEL/Vho+7AIGPTxialMLzpddirfR8qIzr29F5mfZTFqebqsRRxGdCDZV4pvA8EjTkd3d1C05+dIf5SWLysNZwh77TX9+V/IoanBtgysf1KGK8jvMiAMgZRIIPT8vu76ElyvdOAWqnU1aC</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -59,33 +59,12 @@
           DTS:ConnectionString="Data Source=PROD-UCUDBS10\POWERBI;User ID=rcalvo;Initial Catalog=ODS_UCU;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="6SL28TYtJb0="
-            IV="eK+WJoCmRMvjHWVUWjSHbQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="z4G9pqcQYVg="
+            IV="6PpIsVGVtl/isEytlZ+fQQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>eK+WJoCmRMvjHWVUWjSHbc29iSGxiM8jZmgw3a7VFDSH8+Psn039Z5BhMwJmlWD0X+XR+VNaYTnkqdlP47AVi4du6QS8tIb+1Wn9H1PsBCU4Wy7emG5pFGYhPBsRj0DkNdpbtz6M8dMxFYDMAk4kEAoH7ULXcN5pycmdjhcIvvCLCaoKVc8FM90kmfxbvDoh</CipherValue>
-            </CipherData>
-          </EncryptedData>
-        </DTS:ConnectionManager>
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[PROD-UCUDBS10\POWERBI.ODS_UCU.rcalvo 1]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{FC9A9714-FDA3-4684-814D-988D2BC809EA}"
-      DTS:ObjectName="PROD-UCUDBS10\POWERBI.ODS_UCU.rcalvo 1">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=PROD-UCUDBS10\POWERBI;User ID=rcalvo;Initial Catalog=ODS_UCU;Provider=SQLNCLI11.1;Auto Translate=False;">
-          <EncryptedData
-            Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="mdmECE4J18w="
-            IV="R7VQr3HrfgAWYSyzDWaH5A==" xmlns="http://www.w3.org/2001/04/xmlenc#">
-            <EncryptionMethod
-              Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
-            <CipherData>
-              <CipherValue>R7VQr3HrfgAWYSyzDWaH5MoWSRdV4Ob4sg+HY8OapV2lRiDastaqPMgkWSWBwKGXkOedR5bqhxN0Ygc411SOY4g5wPoFHSFUpTeCAqiUANnE3aUs1zoDIF38n1ayG2R0jC443rpYvMuJ4lwHOtjt3enj+U/H77IccCfQUwe1hJ2tA6wlbdctWZJXXlKfimAw</CipherValue>
+              <CipherValue>6PpIsVGVtl/isEytlZ+fQU20phKimQT5Bk3C/6GOeY1cPMs01Exx6H+z8LVrAZMEZPBIu4fHK7V3VxkwZbUmE3LwyGQaiWQeBitwn7dgwbMOFurqGGnF+vrzpP5yWIPREaJJF0JEP3U8lfECzWOZKCbj5ajqAVGHROjtrXvUpQ+Z21/KmYxS/Xt18MptFb7k</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -5823,8 +5802,8 @@ left join cpf_presuplogcc c on c.cod_dpto_des = a.cod_dpto</property>
               <connections>
                 <connection
                   refId="Package\Cargar Tablas Nodum workaround\Comando de OLE DB.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[PROD-UCUDBS10\POWERBI.ODS_UCU.rcalvo 1]"
-                  connectionManagerRefId="Package.ConnectionManagers[PROD-UCUDBS10\POWERBI.ODS_UCU.rcalvo 1]"
+                  connectionManagerID="Package.ConnectionManagers[PROD-UCUDBS10\POWERBI.ODS_UCU.rcalvo]"
+                  connectionManagerRefId="Package.ConnectionManagers[PROD-UCUDBS10\POWERBI.ODS_UCU.rcalvo]"
                   description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
                   name="OleDbConnection" />
               </connections>
@@ -6368,8 +6347,8 @@ left join cpf_presuplogcc c on c.cod_dpto_des = a.cod_dpto</property>
               <connections>
                 <connection
                   refId="Package\Cargar Tablas Nodum workaround\Comando de OLE DB 1.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[PROD-UCUDBS10\POWERBI.ODS_UCU.rcalvo 1]"
-                  connectionManagerRefId="Package.ConnectionManagers[PROD-UCUDBS10\POWERBI.ODS_UCU.rcalvo 1]"
+                  connectionManagerID="Package.ConnectionManagers[PROD-UCUDBS10\POWERBI.ODS_UCU.rcalvo]"
+                  connectionManagerRefId="Package.ConnectionManagers[PROD-UCUDBS10\POWERBI.ODS_UCU.rcalvo]"
                   description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
                   name="OleDbConnection" />
               </connections>
@@ -6913,8 +6892,8 @@ left join cpf_presuplogcc c on c.cod_dpto_des = a.cod_dpto</property>
               <connections>
                 <connection
                   refId="Package\Cargar Tablas Nodum workaround\Comando de OLE DB 1 1.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[PROD-UCUDBS10\POWERBI.ODS_UCU.rcalvo 1]"
-                  connectionManagerRefId="Package.ConnectionManagers[PROD-UCUDBS10\POWERBI.ODS_UCU.rcalvo 1]"
+                  connectionManagerID="Package.ConnectionManagers[PROD-UCUDBS10\POWERBI.ODS_UCU.rcalvo]"
+                  connectionManagerRefId="Package.ConnectionManagers[PROD-UCUDBS10\POWERBI.ODS_UCU.rcalvo]"
                   description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
                   name="OleDbConnection" />
               </connections>
@@ -7424,6 +7403,440 @@ left join cpf_presuplogcc c on c.cod_dpto_des = a.cod_dpto</property>
                       refId="Package\Cargar Tablas Nodum workaround\Comando de OLE DB 1 1.Outputs[Salida de error de comando de OLE DB].Columns[ErrorColumn]"
                       dataType="i4"
                       lineageId="Package\Cargar Tablas Nodum workaround\Comando de OLE DB 1 1.Outputs[Salida de error de comando de OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Cargar Tablas Nodum workaround\Conversión de datos"
+              componentClassID="Microsoft.DataConvert"
+              contactInfo="Conversión de datos;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;0"
+              description="Conversión de datos"
+              name="Conversión de datos"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Cargar Tablas Nodum workaround\Conversión de datos.Inputs[Entrada de conversión de datos]"
+                  name="Entrada de conversión de datos">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\Conversión de datos.Inputs[Entrada de conversión de datos].Columns[cod_clasedpto]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="10"
+                      cachedName="cod_clasedpto"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[cod_clasedpto]" />
+                    <inputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\Conversión de datos.Inputs[Entrada de conversión de datos].Columns[nom_clasedpto]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="40"
+                      cachedName="nom_clasedpto"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[nom_clasedpto]" />
+                    <inputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\Conversión de datos.Inputs[Entrada de conversión de datos].Columns[cod_tipodpto]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="cod_tipodpto"
+                      cachedSortKeyPosition="1"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[cod_tipodpto]" />
+                    <inputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\Conversión de datos.Inputs[Entrada de conversión de datos].Columns[nom_tipodpto]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="40"
+                      cachedName="nom_tipodpto"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[nom_tipodpto]" />
+                    <inputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\Conversión de datos.Inputs[Entrada de conversión de datos].Columns[Unidad_Operativa]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="10"
+                      cachedName="Unidad_Operativa"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[Unidad_Operativa]" />
+                    <inputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\Conversión de datos.Inputs[Entrada de conversión de datos].Columns[Unidad_Operativa_Desc]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="40"
+                      cachedName="Unidad_Operativa_Desc"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[Unidad_Operativa_Desc]" />
+                    <inputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\Conversión de datos.Inputs[Entrada de conversión de datos].Columns[fuente]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="5"
+                      cachedName="fuente"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[fuente]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Cargar Tablas Nodum workaround\Conversión de datos.Outputs[Salida de conversión de datos]"
+                  exclusionGroup="1"
+                  name="Salida de conversión de datos"
+                  synchronousInputId="Package\Cargar Tablas Nodum workaround\Conversión de datos.Inputs[Entrada de conversión de datos]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de cod_clasedpto]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de cod_clasedpto]"
+                      name="Copia de cod_clasedpto"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica la columna de entrada usada como origen de datos para la conversión."
+                          name="SourceInputColumnLineageID">#{Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[cod_clasedpto]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de nom_clasedpto]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      length="100"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de nom_clasedpto]"
+                      name="Copia de nom_clasedpto"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica la columna de entrada usada como origen de datos para la conversión."
+                          name="SourceInputColumnLineageID">#{Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[nom_clasedpto]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de cod_tipodpto]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de cod_tipodpto]"
+                      name="Copia de cod_tipodpto"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica la columna de entrada usada como origen de datos para la conversión."
+                          name="SourceInputColumnLineageID">#{Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[cod_tipodpto]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de nom_tipodpto]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      length="100"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de nom_tipodpto]"
+                      name="Copia de nom_tipodpto"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica la columna de entrada usada como origen de datos para la conversión."
+                          name="SourceInputColumnLineageID">#{Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[nom_tipodpto]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de Unidad_Operativa]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de Unidad_Operativa]"
+                      name="Copia de Unidad_Operativa"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica la columna de entrada usada como origen de datos para la conversión."
+                          name="SourceInputColumnLineageID">#{Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[Unidad_Operativa]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de Unidad_Operativa_Desc]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      length="100"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de Unidad_Operativa_Desc]"
+                      name="Copia de Unidad_Operativa_Desc"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica la columna de entrada usada como origen de datos para la conversión."
+                          name="SourceInputColumnLineageID">#{Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[Unidad_Operativa_Desc]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de fuente]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de fuente]"
+                      name="Copia de fuente"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica la columna de entrada usada como origen de datos para la conversión."
+                          name="SourceInputColumnLineageID">#{Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[fuente]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Cargar Tablas Nodum workaround\Conversión de datos.Outputs[Salida de error de conversión de datos]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de conversión de datos"
+                  synchronousInputId="Package\Cargar Tablas Nodum workaround\Conversión de datos.Inputs[Entrada de conversión de datos]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\Conversión de datos.Outputs[Salida de error de conversión de datos].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Conversión de datos.Outputs[Salida de error de conversión de datos].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\Conversión de datos.Outputs[Salida de error de conversión de datos].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Conversión de datos.Outputs[Salida de error de conversión de datos].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Cargar Tablas Nodum workaround\ODS_UNIDADES_OPERATIVAS"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="Destino de OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;4"
+              description="Destino de OLE DB"
+              name="ODS_UNIDADES_OPERATIVAS"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowset">[dbo].[ODS_UNIDADES_OPERATIVAS]</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica la variable que contiene el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Comando SQL para ejecutar."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Fuerza el uso del valor de la propiedad DefaultCodePage al describir datos de caracteres."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica el modo utilizado para obtener acceso a la base de datos."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si los valores proporcionados para columnas de identidad se van a copiar al destino. Si es False, los valores de las columnas de identidad se generan automáticamente en el destino. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si las columnas que contienen NULL tendrán NULL insertado en el destino. Si es False, las columnas que contienen NULL tendrán sus valores predeterminados insertados en el destino. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica opciones para usar con la carga rápida. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica cuándo se emiten confirmaciones durante la inserción de datos. El valor 0 especifica que se emitirá una confirmación al final de la inserción de datos. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Cargar Tablas Nodum workaround\ODS_UNIDADES_OPERATIVAS.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[PROD-UCUDBS10\POWERBI.ODS_UCU.rcalvo]"
+                  connectionManagerRefId="Package.ConnectionManagers[PROD-UCUDBS10\POWERBI.ODS_UCU.rcalvo]"
+                  description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Cargar Tablas Nodum workaround\ODS_UNIDADES_OPERATIVAS.Inputs[Entrada de destino de OLE DB]"
+                  errorOrTruncationOperation="Insertar"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Entrada de destino de OLE DB">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\ODS_UNIDADES_OPERATIVAS.Inputs[Entrada de destino de OLE DB].Columns[Copia de cod_clasedpto]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Copia de cod_clasedpto"
+                      externalMetadataColumnId="Package\Cargar Tablas Nodum workaround\ODS_UNIDADES_OPERATIVAS.Inputs[Entrada de destino de OLE DB].ExternalColumns[cod_clasedpto]"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de cod_clasedpto]" />
+                    <inputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\ODS_UNIDADES_OPERATIVAS.Inputs[Entrada de destino de OLE DB].Columns[Copia de nom_clasedpto]"
+                      cachedDataType="wstr"
+                      cachedLength="100"
+                      cachedName="Copia de nom_clasedpto"
+                      externalMetadataColumnId="Package\Cargar Tablas Nodum workaround\ODS_UNIDADES_OPERATIVAS.Inputs[Entrada de destino de OLE DB].ExternalColumns[nom_clasedpto]"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de nom_clasedpto]" />
+                    <inputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\ODS_UNIDADES_OPERATIVAS.Inputs[Entrada de destino de OLE DB].Columns[Copia de cod_tipodpto]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Copia de cod_tipodpto"
+                      externalMetadataColumnId="Package\Cargar Tablas Nodum workaround\ODS_UNIDADES_OPERATIVAS.Inputs[Entrada de destino de OLE DB].ExternalColumns[cod_tipodpto]"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de cod_tipodpto]" />
+                    <inputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\ODS_UNIDADES_OPERATIVAS.Inputs[Entrada de destino de OLE DB].Columns[Copia de nom_tipodpto]"
+                      cachedDataType="wstr"
+                      cachedLength="100"
+                      cachedName="Copia de nom_tipodpto"
+                      externalMetadataColumnId="Package\Cargar Tablas Nodum workaround\ODS_UNIDADES_OPERATIVAS.Inputs[Entrada de destino de OLE DB].ExternalColumns[nom_tipodpto]"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de nom_tipodpto]" />
+                    <inputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\ODS_UNIDADES_OPERATIVAS.Inputs[Entrada de destino de OLE DB].Columns[Copia de Unidad_Operativa]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Copia de Unidad_Operativa"
+                      externalMetadataColumnId="Package\Cargar Tablas Nodum workaround\ODS_UNIDADES_OPERATIVAS.Inputs[Entrada de destino de OLE DB].ExternalColumns[Unidad_Operativa]"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de Unidad_Operativa]" />
+                    <inputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\ODS_UNIDADES_OPERATIVAS.Inputs[Entrada de destino de OLE DB].Columns[Copia de Unidad_Operativa_Desc]"
+                      cachedDataType="wstr"
+                      cachedLength="100"
+                      cachedName="Copia de Unidad_Operativa_Desc"
+                      externalMetadataColumnId="Package\Cargar Tablas Nodum workaround\ODS_UNIDADES_OPERATIVAS.Inputs[Entrada de destino de OLE DB].ExternalColumns[Unidad_Operativa_Desc]"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de Unidad_Operativa_Desc]" />
+                    <inputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\ODS_UNIDADES_OPERATIVAS.Inputs[Entrada de destino de OLE DB].Columns[Copia de fuente]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Copia de fuente"
+                      externalMetadataColumnId="Package\Cargar Tablas Nodum workaround\ODS_UNIDADES_OPERATIVAS.Inputs[Entrada de destino de OLE DB].ExternalColumns[fuente]"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copia de fuente]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Cargar Tablas Nodum workaround\ODS_UNIDADES_OPERATIVAS.Inputs[Entrada de destino de OLE DB].ExternalColumns[cod_clasedpto]"
+                      dataType="wstr"
+                      length="50"
+                      name="cod_clasedpto" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar Tablas Nodum workaround\ODS_UNIDADES_OPERATIVAS.Inputs[Entrada de destino de OLE DB].ExternalColumns[nom_clasedpto]"
+                      dataType="wstr"
+                      length="100"
+                      name="nom_clasedpto" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar Tablas Nodum workaround\ODS_UNIDADES_OPERATIVAS.Inputs[Entrada de destino de OLE DB].ExternalColumns[cod_tipodpto]"
+                      dataType="wstr"
+                      length="100"
+                      name="cod_tipodpto" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar Tablas Nodum workaround\ODS_UNIDADES_OPERATIVAS.Inputs[Entrada de destino de OLE DB].ExternalColumns[nom_tipodpto]"
+                      dataType="wstr"
+                      length="100"
+                      name="nom_tipodpto" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar Tablas Nodum workaround\ODS_UNIDADES_OPERATIVAS.Inputs[Entrada de destino de OLE DB].ExternalColumns[Unidad_Operativa]"
+                      dataType="wstr"
+                      length="50"
+                      name="Unidad_Operativa" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar Tablas Nodum workaround\ODS_UNIDADES_OPERATIVAS.Inputs[Entrada de destino de OLE DB].ExternalColumns[Unidad_Operativa_Desc]"
+                      dataType="wstr"
+                      length="100"
+                      name="Unidad_Operativa_Desc" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar Tablas Nodum workaround\ODS_UNIDADES_OPERATIVAS.Inputs[Entrada de destino de OLE DB].ExternalColumns[fuente]"
+                      dataType="wstr"
+                      length="50"
+                      name="fuente" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Cargar Tablas Nodum workaround\ODS_UNIDADES_OPERATIVAS.Outputs[Salida de error de destino de OLE DB]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de destino de OLE DB"
+                  synchronousInputId="Package\Cargar Tablas Nodum workaround\ODS_UNIDADES_OPERATIVAS.Inputs[Entrada de destino de OLE DB]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\ODS_UNIDADES_OPERATIVAS.Outputs[Salida de error de destino de OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Cargar Tablas Nodum workaround\ODS_UNIDADES_OPERATIVAS.Outputs[Salida de error de destino de OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\ODS_UNIDADES_OPERATIVAS.Outputs[Salida de error de destino de OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Cargar Tablas Nodum workaround\ODS_UNIDADES_OPERATIVAS.Outputs[Salida de error de destino de OLE DB].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -9197,6 +9610,502 @@ from ct_usuariosxdpto;</property>
                 </output>
               </outputs>
             </component>
+            <component
+              refId="Package\Cargar Tablas Nodum workaround\TRIM de las columnas"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Columna derivada;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;0"
+              description="Crea nuevos valores de columna aplicando expresiones a las columnas de entrada de la transformación. Crea nuevas columnas o sobrescribe las columnas existentes. Por ejemplo, se concatenan los valores de las columnas 'nombre' y 'apellidos' para crear una columna 'nombre completo'."
+              name="TRIM de las columnas"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Cargar Tablas Nodum workaround\TRIM de las columnas.Inputs[Entrada de columna derivada]"
+                  description="Entrada en la transformación Columna derivada"
+                  name="Entrada de columna derivada">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\TRIM de las columnas.Inputs[Entrada de columna derivada].Columns[cod_clasedpto]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="10"
+                      cachedName="cod_clasedpto"
+                      errorOrTruncationOperation="Cálculo"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[cod_clasedpto]"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión de columna derivada"
+                          name="Expression">[TRIM](#{Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[cod_clasedpto]})</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión descriptiva de columna derivada"
+                          expressionType="Notify"
+                          name="FriendlyExpression">TRIM(cod_clasedpto)</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\TRIM de las columnas.Inputs[Entrada de columna derivada].Columns[nom_clasedpto]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="40"
+                      cachedName="nom_clasedpto"
+                      errorOrTruncationOperation="Cálculo"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[nom_clasedpto]"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión de columna derivada"
+                          name="Expression">[TRIM](#{Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[nom_clasedpto]})</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión descriptiva de columna derivada"
+                          expressionType="Notify"
+                          name="FriendlyExpression">TRIM(nom_clasedpto)</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\TRIM de las columnas.Inputs[Entrada de columna derivada].Columns[cod_tipodpto]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="cod_tipodpto"
+                      cachedSortKeyPosition="1"
+                      errorOrTruncationOperation="Cálculo"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[cod_tipodpto]"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión de columna derivada"
+                          name="Expression">[TRIM](#{Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[cod_tipodpto]})</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión descriptiva de columna derivada"
+                          expressionType="Notify"
+                          name="FriendlyExpression">TRIM(cod_tipodpto)</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\TRIM de las columnas.Inputs[Entrada de columna derivada].Columns[nom_tipodpto]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="40"
+                      cachedName="nom_tipodpto"
+                      errorOrTruncationOperation="Cálculo"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[nom_tipodpto]"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión de columna derivada"
+                          name="Expression">[TRIM](#{Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[nom_tipodpto]})</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión descriptiva de columna derivada"
+                          expressionType="Notify"
+                          name="FriendlyExpression">TRIM(nom_tipodpto)</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\TRIM de las columnas.Inputs[Entrada de columna derivada].Columns[Unidad_Operativa]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="10"
+                      cachedName="Unidad_Operativa"
+                      errorOrTruncationOperation="Cálculo"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[Unidad_Operativa]"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión de columna derivada"
+                          name="Expression">[TRIM](#{Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[Unidad_Operativa]})</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión descriptiva de columna derivada"
+                          expressionType="Notify"
+                          name="FriendlyExpression">TRIM(Unidad_Operativa)</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\TRIM de las columnas.Inputs[Entrada de columna derivada].Columns[Unidad_Operativa_Desc]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="40"
+                      cachedName="Unidad_Operativa_Desc"
+                      errorOrTruncationOperation="Cálculo"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[Unidad_Operativa_Desc]"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión de columna derivada"
+                          name="Expression">[TRIM](#{Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[Unidad_Operativa_Desc]})</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión descriptiva de columna derivada"
+                          expressionType="Notify"
+                          name="FriendlyExpression">TRIM(Unidad_Operativa_Desc)</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\TRIM de las columnas.Inputs[Entrada de columna derivada].Columns[fuente]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="5"
+                      cachedName="fuente"
+                      errorOrTruncationOperation="Cálculo"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[fuente]"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión de columna derivada"
+                          name="Expression">[TRIM](#{Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[fuente]})</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión descriptiva de columna derivada"
+                          expressionType="Notify"
+                          name="FriendlyExpression">TRIM(fuente)</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Cargar Tablas Nodum workaround\TRIM de las columnas.Outputs[Salida de columna derivada]"
+                  description="Salida predeterminada de la transformación Columna derivada"
+                  exclusionGroup="1"
+                  name="Salida de columna derivada"
+                  synchronousInputId="Package\Cargar Tablas Nodum workaround\TRIM de las columnas.Inputs[Entrada de columna derivada]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Cargar Tablas Nodum workaround\TRIM de las columnas.Outputs[Salida de error de columna derivada]"
+                  description="Salida de error de la transformación Columna derivada"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de columna derivada"
+                  synchronousInputId="Package\Cargar Tablas Nodum workaround\TRIM de las columnas.Inputs[Entrada de columna derivada]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\TRIM de las columnas.Outputs[Salida de error de columna derivada].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Cargar Tablas Nodum workaround\TRIM de las columnas.Outputs[Salida de error de columna derivada].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\TRIM de las columnas.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Cargar Tablas Nodum workaround\TRIM de las columnas.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="Origen de OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;7"
+              description="Origen de OLE DB"
+              name="Unidades Operativas NDM"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowset"></property>
+                <property
+                  dataType="System.String"
+                  description="Especifica la variable que contiene el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Comando SQL para ejecutar."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select distinct cd.cod_clasedpto, cc.nom_clasedpto, cd.cod_tipodpto, ct.nom_tipodpto
+,CASE WHEN cd.cod_clasedpto in ('FCE', 'FCH','FCS','FDyCH', 'FIT', 'FOD', 'UCUBS','PESTE', 'SALTO','EPG', 'CEC' ) then cd.cod_clasedpto 
+ELSE UPPER(cd.cod_tipodpto)
+END AS 'Unidad_Operativa'
+,CASE WHEN cd.cod_clasedpto in ('FCE', 'FCH','FCS','FDyCH', 'FIT', 'FOD', 'UCUBS','PESTE', 'SALTO','EPG', 'CEC' ) then  cc.nom_clasedpto
+ELSE ct.nom_tipodpto
+END AS 'Unidad_Operativa_Desc'
+, 'NODUM' as fuente
+from ct_dptos cd
+inner join ct_clasesdpto cc on cd.cod_clasedpto = cc.cod_clasedpto and cd.cod_tipodpto = cc.cod_tipodpto
+inner join ct_tiposdpto ct on ct.cod_tipodpto = cc.cod_tipodpto
+order by cd.cod_tipodpto</property>
+                <property
+                  dataType="System.String"
+                  description="Variable que contiene el comando SQL para ejecutar."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Fuerza el uso del valor de la propiedad DefaultCodePage al describir datos de caracteres."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica el modo utilizado para obtener acceso a la base de datos."
+                  name="AccessMode"
+                  typeConverter="AccessMode">2</property>
+                <property
+                  dataType="System.String"
+                  description="Asignaciones entre los parámetros del comando SQL y las variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[10.245.0.6.Nodum_Prod.nodum_read]"
+                  connectionManagerRefId="Package.ConnectionManagers[10.245.0.6.Nodum_Prod.nodum_read]"
+                  description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB]"
+                  isSorted="true"
+                  name="Salida de origen de OLE DB">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[cod_clasedpto]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].ExternalColumns[cod_clasedpto]"
+                      length="10"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[cod_clasedpto]"
+                      name="cod_clasedpto"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[nom_clasedpto]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].ExternalColumns[nom_clasedpto]"
+                      length="40"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[nom_clasedpto]"
+                      name="nom_clasedpto"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[cod_tipodpto]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].ExternalColumns[cod_tipodpto]"
+                      length="50"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[cod_tipodpto]"
+                      name="cod_tipodpto"
+                      sortKeyPosition="1"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[nom_tipodpto]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].ExternalColumns[nom_tipodpto]"
+                      length="40"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[nom_tipodpto]"
+                      name="nom_tipodpto"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[Unidad_Operativa]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].ExternalColumns[Unidad_Operativa]"
+                      length="10"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[Unidad_Operativa]"
+                      name="Unidad_Operativa"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[Unidad_Operativa_Desc]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].ExternalColumns[Unidad_Operativa_Desc]"
+                      length="40"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[Unidad_Operativa_Desc]"
+                      name="Unidad_Operativa_Desc"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[fuente]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].ExternalColumns[fuente]"
+                      length="5"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].Columns[fuente]"
+                      name="fuente"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].ExternalColumns[cod_clasedpto]"
+                      codePage="1252"
+                      dataType="str"
+                      length="10"
+                      name="cod_clasedpto" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].ExternalColumns[nom_clasedpto]"
+                      codePage="1252"
+                      dataType="str"
+                      length="40"
+                      name="nom_clasedpto" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].ExternalColumns[cod_tipodpto]"
+                      codePage="1252"
+                      dataType="str"
+                      length="10"
+                      name="cod_tipodpto" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].ExternalColumns[nom_tipodpto]"
+                      codePage="1252"
+                      dataType="str"
+                      length="40"
+                      name="nom_tipodpto" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].ExternalColumns[Unidad_Operativa]"
+                      codePage="1252"
+                      dataType="str"
+                      length="10"
+                      name="Unidad_Operativa" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].ExternalColumns[Unidad_Operativa_Desc]"
+                      codePage="1252"
+                      dataType="str"
+                      length="40"
+                      name="Unidad_Operativa_Desc" />
+                    <externalMetadataColumn
+                      refId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB].ExternalColumns[fuente]"
+                      codePage="1252"
+                      dataType="str"
+                      length="5"
+                      name="fuente" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de error de origen de OLE DB]"
+                  isErrorOut="true"
+                  name="Salida de error de origen de OLE DB">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de error de origen de OLE DB].Columns[cod_clasedpto]"
+                      codePage="1252"
+                      dataType="str"
+                      length="10"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de error de origen de OLE DB].Columns[cod_clasedpto]"
+                      name="cod_clasedpto" />
+                    <outputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de error de origen de OLE DB].Columns[nom_clasedpto]"
+                      codePage="1252"
+                      dataType="str"
+                      length="40"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de error de origen de OLE DB].Columns[nom_clasedpto]"
+                      name="nom_clasedpto" />
+                    <outputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de error de origen de OLE DB].Columns[cod_tipodpto]"
+                      codePage="1252"
+                      dataType="str"
+                      length="10"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de error de origen de OLE DB].Columns[cod_tipodpto]"
+                      name="cod_tipodpto" />
+                    <outputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de error de origen de OLE DB].Columns[nom_tipodpto]"
+                      codePage="1252"
+                      dataType="str"
+                      length="40"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de error de origen de OLE DB].Columns[nom_tipodpto]"
+                      name="nom_tipodpto" />
+                    <outputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de error de origen de OLE DB].Columns[Unidad_Operativa]"
+                      codePage="1252"
+                      dataType="str"
+                      length="10"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de error de origen de OLE DB].Columns[Unidad_Operativa]"
+                      name="Unidad_Operativa" />
+                    <outputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de error de origen de OLE DB].Columns[Unidad_Operativa_Desc]"
+                      codePage="1252"
+                      dataType="str"
+                      length="40"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de error de origen de OLE DB].Columns[Unidad_Operativa_Desc]"
+                      name="Unidad_Operativa_Desc" />
+                    <outputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de error de origen de OLE DB].Columns[fuente]"
+                      codePage="1252"
+                      dataType="str"
+                      length="5"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de error de origen de OLE DB].Columns[fuente]"
+                      name="fuente" />
+                    <outputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de error de origen de OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de error de origen de OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de error de origen de OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de error de origen de OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
           </components>
           <paths>
             <path
@@ -9215,6 +10124,11 @@ from ct_usuariosxdpto;</property>
               name="Salida de columna derivada"
               startId="Package\Cargar Tablas Nodum workaround\Columna derivada.Outputs[Salida de columna derivada]" />
             <path
+              refId="Package\Cargar Tablas Nodum workaround.Paths[Salida de columna derivada3]"
+              endId="Package\Cargar Tablas Nodum workaround\Conversión de datos.Inputs[Entrada de conversión de datos]"
+              name="Salida de columna derivada"
+              startId="Package\Cargar Tablas Nodum workaround\TRIM de las columnas.Outputs[Salida de columna derivada]" />
+            <path
               refId="Package\Cargar Tablas Nodum workaround.Paths[Salida de comando de OLE DB]"
               endId="Package\Cargar Tablas Nodum workaround\Columna derivada 2.Inputs[Entrada de columna derivada]"
               name="Salida de comando de OLE DB"
@@ -9224,6 +10138,11 @@ from ct_usuariosxdpto;</property>
               endId="Package\Cargar Tablas Nodum workaround\Columna derivada 1.Inputs[Entrada de columna derivada]"
               name="Salida de comando de OLE DB"
               startId="Package\Cargar Tablas Nodum workaround\Comando de OLE DB.Outputs[Salida de comando de OLE DB]" />
+            <path
+              refId="Package\Cargar Tablas Nodum workaround.Paths[Salida de conversión de datos]"
+              endId="Package\Cargar Tablas Nodum workaround\ODS_UNIDADES_OPERATIVAS.Inputs[Entrada de destino de OLE DB]"
+              name="Salida de conversión de datos"
+              startId="Package\Cargar Tablas Nodum workaround\Conversión de datos.Outputs[Salida de conversión de datos]" />
             <path
               refId="Package\Cargar Tablas Nodum workaround.Paths[Salida de origen de OLE DB]"
               endId="Package\Cargar Tablas Nodum workaround\ODS_USER_SECURITY_NODUM.Inputs[Entrada de destino de OLE DB]"
@@ -9244,6 +10163,11 @@ from ct_usuariosxdpto;</property>
               endId="Package\Cargar Tablas Nodum workaround\Columna derivada.Inputs[Entrada de columna derivada]"
               name="Salida de origen de OLE DB"
               startId="Package\Cargar Tablas Nodum workaround\Centros de Costo Nodum.Outputs[Salida de origen de OLE DB]" />
+            <path
+              refId="Package\Cargar Tablas Nodum workaround.Paths[Salida de origen de OLE DB4]"
+              endId="Package\Cargar Tablas Nodum workaround\TRIM de las columnas.Inputs[Entrada de columna derivada]"
+              name="Salida de origen de OLE DB"
+              startId="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM.Outputs[Salida de origen de OLE DB]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -15872,7 +16796,7 @@ WHERE PM.MGX_AÑO_FISCAL &lt;= 2019</property>
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{30325244-5E4D-4567-B7F3-1D2113BBEFBF}"
-          SQLTask:SqlStatementSource="TRUNCATE TABLE ODS_FIN_NDM_RUBROS&#xA;TRUNCATE TABLE ODS_FIN_NDM_CCOSTO&#xA;TRUNCATE TABLE ODS_FIN_NDM_PRESUPUESTOS&#xA;TRUNCATE TABLE ODS_FIN_RUBROS&#xA;TRUNCATE TABLE ODS_FIN_CCOSTOS&#xA;TRUNCATE TABLE ODS_FIN_CENTROS_COSTOS&#xA;TRUNCATE TABLE ODS_FIN_PRESUPUESTOS&#xA;TRUNCATE TABLE ODS_USER_SECURITY_NODUM" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="TRUNCATE TABLE ODS_FIN_NDM_RUBROS&#xA;TRUNCATE TABLE ODS_FIN_NDM_CCOSTO&#xA;TRUNCATE TABLE ODS_FIN_NDM_PRESUPUESTOS&#xA;TRUNCATE TABLE ODS_FIN_RUBROS&#xA;TRUNCATE TABLE ODS_FIN_CCOSTOS&#xA;TRUNCATE TABLE ODS_FIN_CENTROS_COSTOS&#xA;TRUNCATE TABLE ODS_FIN_PRESUPUESTOS&#xA;TRUNCATE TABLE ODS_USER_SECURITY_NODUM&#xA;DELETE ODS_UNIDADES_OPERATIVAS WHERE fuente = 'NODUM'" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>
@@ -16261,7 +17185,7 @@ WHERE PM.MGX_AÑO_FISCAL &lt;= 2019</property>
         <NodeLayout
           Size="178,42"
           Id="Package\Cargar Tablas Nodum workaround\Presupuestos Nodum"
-          TopLeft="60,485" />
+          TopLeft="50,570" />
         <NodeLayout
           Size="164,42"
           Id="Package\Cargar Tablas Nodum workaround\Columna derivada"
@@ -16293,7 +17217,7 @@ WHERE PM.MGX_AÑO_FISCAL &lt;= 2019</property>
         <NodeLayout
           Size="209,42"
           Id="Package\Cargar Tablas Nodum workaround\Carga Presupuestos Nodum"
-          TopLeft="329,485" />
+          TopLeft="319,570" />
         <NodeLayout
           Size="177,42"
           Id="Package\Cargar Tablas Nodum workaround\Comando de OLE DB 1"
@@ -16490,7 +17414,7 @@ WHERE PM.MGX_AÑO_FISCAL &lt;= 2019</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Cargar Tablas Nodum workaround.Paths[Salida de origen de OLE DB1]"
-          TopLeft="238,506">
+          TopLeft="228,591">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -16524,6 +17448,88 @@ WHERE PM.MGX_AÑO_FISCAL &lt;= 2019</property>
                   Capacity="5">
                   <mssgle:LineSegment
                     End="54.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="183,42"
+          Id="Package\Cargar Tablas Nodum workaround\TRIM de las columnas"
+          TopLeft="307.5,498" />
+        <NodeLayout
+          Size="202,42"
+          Id="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM"
+          TopLeft="48,494" />
+        <EdgeLayout
+          Id="Package\Cargar Tablas Nodum workaround.Paths[Salida de origen de OLE DB4]"
+          TopLeft="250,517">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="57.5,0"
+              Start="0,0"
+              End="50,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="50,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="225,42"
+          Id="Package\Cargar Tablas Nodum workaround\ODS_UNIDADES_OPERATIVAS"
+          TopLeft="790.5,493.5" />
+        <NodeLayout
+          Size="175,42"
+          Id="Package\Cargar Tablas Nodum workaround\Conversión de datos"
+          TopLeft="538,495" />
+        <EdgeLayout
+          Id="Package\Cargar Tablas Nodum workaround.Paths[Salida de columna derivada3]"
+          TopLeft="490.5,517.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="47.5,0"
+              Start="0,0"
+              End="40,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="40,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Cargar Tablas Nodum workaround.Paths[Salida de conversión de datos]"
+          TopLeft="713,515.25">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="77.5,0"
+              Start="0,0"
+              End="70,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="70,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -16896,6 +17902,27 @@ WHERE PM.MGX_AÑO_FISCAL &lt;= 2019</property>
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Cargar Tablas Nodum workaround\Unidades Operativas NDM">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Cargar Tablas Nodum workaround\ODS_UNIDADES_OPERATIVAS">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
